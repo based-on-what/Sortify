@@ -56,16 +56,16 @@ function App() {
   }, [location]);
 
 
-    // Este useEffect maneja el cambio de tema
-  useEffect(() => {
-    // Agrega la clase del tema actual al body
-    document.body.classList.add(`${theme}-theme`);
+  // Este useEffect maneja el cambio de tema
+useEffect(() => {
+  // Agrega la clase del tema actual al body
+  document.body.classList.add(`${theme}-theme`);
 
-    // Función de limpieza para eliminar la clase del tema anterior
-    return () => {
-      document.body.classList.remove(`${theme}-theme`);
-    };
-  }, [theme]); // Dependencias solo relacionadas con el cambio de tema
+  // Función de limpieza para eliminar la clase del tema anterior
+  return () => {
+    document.body.classList.remove(`${theme}-theme`);
+  };
+}, [theme]); // Dependencias solo relacionadas con el cambio de tema
   return (
     <div className="App">
       <header className="App-header">
@@ -90,9 +90,10 @@ function App() {
           )}
         </header>
         <Routes>
-          <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
-          <Route path="/ver-playlists" element={<PlaylistView playlists={playlists} />} />
-        </Routes>
+  <Route path="/" element={<PlaylistView playlists={playlists} />} />
+  <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
+</Routes>
+
     </div>
   );
 }
