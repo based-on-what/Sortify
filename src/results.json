@@ -7,7 +7,7 @@
             "seconds": 57
         },
         "url": "https://open.spotify.com/playlist/3kXGbbl8t6GvYB0Fqco0dW",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84185b2cc209fc2d1069ce8875"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84185b2cc209fc2d1069ce8875"
     },
     "canción del día": {
         "duration": {
@@ -27,7 +27,7 @@
             "seconds": 40
         },
         "url": "https://open.spotify.com/playlist/0ds4J6MMXf4mRLhT1x7hM0",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8406f809cb718fcbb63d2fb0ee"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8406f809cb718fcbb63d2fb0ee"
     },
     "scott pilgrim ruined a whole generation of women": {
         "duration": {
@@ -179,6 +179,16 @@
         "url": "https://open.spotify.com/playlist/5U7NXZV3v5ZURgKhxKJc1a",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0213100e783556b8f0e4c705b1ab67616d00001e0277082ab756e642224c16b532ab67616d00001e029b10c24af671dfae3c7bf4b0ab67616d00001e02dc904db6be82081c8c9ab7d0"
     },
+    "Wind Rose Full Discography": {
+        "duration": {
+            "days": 0,
+            "hours": 4,
+            "minutes": 28,
+            "seconds": 50
+        },
+        "url": "https://open.spotify.com/playlist/03CLMvgyKn8JGXSJgHJetC",
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843935d7da752735c5120ade98"
+    },
     "PatioSolar": {
         "duration": {
             "days": 0,
@@ -308,16 +318,6 @@
         },
         "url": "https://open.spotify.com/playlist/4dAXCYRctwQFi5vXE1WEN5",
         "image": "https://i.scdn.co/image/ab67616d00001e025dfc31b52cfb9aad4f97a613"
-    },
-    "Discharge+Havok+Midnight": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 22,
-            "seconds": 45
-        },
-        "url": "https://open.spotify.com/playlist/0otGyBsoiA6E0P3SxZEygT",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e0213100e783556b8f0e4c705b1ab67616d00001e029b10c24af671dfae3c7bf4b0ab67616d00001e02b5e534f43c0e4986dc44b3aaab67616d00001e02bc463026e114636519b6a28a"
     },
     "Kingfish": {
         "duration": {
