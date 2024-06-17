@@ -1,9 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import OrdenarPlaylists from './components/OrdenarPlaylists';
-import PlaylistView from './components/PlaylistView/PlaylistView'; // Asegúrate de que el componente esté en la ruta correcta
-import resultsData from './results.json'; // Asegúrate de que la ruta al archivo es correcta
+import PlaylistView from './components/PlaylistView/PlaylistView'; 
+import resultsData from './results.json';
+import './theme.css';
+import { ThemeContext, ThemeProvider } from './context/ThemeContext'; 
+
 
 function App() {
   // URL de autenticación de Spotify
@@ -13,6 +16,8 @@ function App() {
   const location = useLocation();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [playlists, setPlaylists] = useState([]);
+  const { theme, toggleTheme } = useContext(ThemeContext);
+  
 
   // Imaginemos que esta función se llama cuando el usuario inicia sesión correctamente
   function handleLogin() {
@@ -46,35 +51,54 @@ function App() {
         console.error('Error al obtener el token:', error);
       });
     }
+
+    
   }, [location]);
 
+
+    // Este useEffect maneja el cambio de tema
+  useEffect(() => {
+    // Agrega la clase del tema actual al body
+    document.body.classList.add(`${theme}-theme`);
+
+    // Función de limpieza para eliminar la clase del tema anterior
+    return () => {
+      document.body.classList.remove(`${theme}-theme`);
+    };
+  }, [theme]); // Dependencias solo relacionadas con el cambio de tema
   return (
     <div className="App">
       <header className="App-header">
-              <h1>Bienvenido a Sortify</h1>
-              <p>
-                Sortify es una aplicación que te permite gestionar tus playlists de Spotify de manera eficiente.
-              </p>
-              <a
-                className="App-link"
-                href={AUTH_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Iniciar sesión con Spotify
-              </a>
-              {isLoggedIn && (
-          <Link to="/ordenar-playlists">
-            <button>Ordenar Playlists</button>
-          </Link>
-        )}
-      </header>
-      <Routes>
-        <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
-        <Route path="/ver-playlists" element={<PlaylistView playlists={playlists} />} />
-      </Routes>
+      <div className={`App ${theme}-theme`} />
+        <button onClick={toggleTheme}>Toggle Theme</button>
+                <h1>Bienvenido a Sortify</h1>
+                <p>
+                  Sortify es una aplicación que te permite gestionar tus playlists de Spotify de manera eficiente.
+                </p>
+                <a
+                  className="App-link"
+                  href={AUTH_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Iniciar sesión con Spotify
+                </a>
+                {isLoggedIn && (
+            <Link to="/ordenar-playlists">
+              <button>Ordenar Playlists</button>
+            </Link>
+          )}
+        </header>
+        <Routes>
+          <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
+          <Route path="/ver-playlists" element={<PlaylistView playlists={playlists} />} />
+        </Routes>
     </div>
   );
 }
 
-export default App;
+export default () => (
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>
+);

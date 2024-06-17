@@ -17,16 +17,16 @@ auth_manager = SpotifyOAuth(client_id=os.getenv('REACT_APP_CLIENT_ID'),
                             redirect_uri=os.getenv('REACT_APP_REDIRECT_URI'),
                             scope=os.getenv('REACT_APP_SCOPE'))
 sp = spotipy.Spotify(auth_manager=auth_manager)
-def convertir_milisegundos(milisegundos):
-    segundos = milisegundos / 1000
-    minutos, segundos = divmod(segundos, 60)
-    horas, minutos = divmod(minutos, 60)
-    dias, horas = divmod(horas, 24)
+def convertir_miliseconds(miliseconds):
+    seconds = miliseconds / 1000
+    minutes, seconds = divmod(seconds, 60)
+    hours, minutes = divmod(minutes, 60)
+    days, hours = divmod(hours, 24)
     return {
-        "days": int(dias),
-        "hours": int(horas),
-        "minutes": int(minutos),
-        "seconds": int(segundos)
+        "days": int(days),
+        "hours": int(hours),
+        "minutes": int(minutes),
+        "seconds": int(seconds)
     }
 
 def get_playlist_tracks(playlist):
@@ -44,7 +44,7 @@ def get_playlist_tracks(playlist):
     playlist_image = playlist['images'][0]['url'] if playlist['images'] else None
 
     total_duration_ms = sum(track['track']['duration_ms'] for track in tracks if track['track'] is not None)
-    total_duration_formatted = convertir_milisegundos(total_duration_ms)
+    total_duration_formatted = convertir_miliseconds(total_duration_ms)
 
     # Modifica el return para incluir la URL y la foto
     final_return = playlist['name'], total_duration_formatted, playlist_url, playlist_image
@@ -69,11 +69,11 @@ def get_playlists():
     # Crea un diccionario con los nombres de las playlists como claves e incluye la URL y la foto
     playlist_durations_dict = {name: {'duration': duration, 'url': url, 'image': image} for name, duration, url, image in playlist_durations}
 
-    # Ordena el diccionario por la duración total en milisegundos
+    # Ordena el diccionario por la duración total en miliseconds
     if orden == 0:
-        playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['duration']['dias']*86400000 + x[1]['duration']['horas']*3600000 + x[1]['duration']['minutos']*60000 + x[1]['duration']['segundos']*1000)
+        playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['duration']['days']*86400000 + x[1]['duration']['hours']*3600000 + x[1]['duration']['minutes']*60000 + x[1]['duration']['seconds']*1000)
     else:
-        playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['duration']['dias']*86400000 + x[1]['duration']['horas']*3600000 + x[1]['duration']['minutos']*60000 + x[1]['duration']['segundos']*1000, reverse=True)
+        playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['duration']['days']*86400000 + x[1]['duration']['hours']*3600000 + x[1]['duration']['minutes']*60000 + x[1]['duration']['seconds']*1000, reverse=True)
     playlist_durations_dict_sorted = {name: duration for name, duration in playlist_durations_sorted}
 
     ruta_completa = '/src/results.json'
