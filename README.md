@@ -1,29 +1,30 @@
 # Sortify
 
-## Descripción
-**Sortify** es una aplicación web que permite a los usuarios de Spotify ordenar sus playlists de la más larga a la más corta. Utilizando la API de Spotify para autenticación y datos de playlists, Sortify ofrece una experiencia personalizada y eficiente.
+## Description
+**Sortify** is a web application that allows Spotify users to sort their playlists from longest to shortest. Using the Spotify API for authentication and playlist data, Sortify offers a personalized and efficient experience.
 
-## Tecnologías
-- **Backend**: Python con Flask
+## Technologies
+- **Backend**: Python with Flask
 - **Frontend**: ReactJS
 
-## Características
-- Autenticación segura con la API de Spotify.
-- Visualización y ordenamiento de playlists de usuario.
-- Interfaz de usuario intuitiva y responsiva.
+## Features
+- Secure authentication with the Spotify API.
+- Visualization and sorting of user playlists.
+- Intuitive and responsive user interface.
 
-## Instalación
-Para instalar y ejecutar Sortify localmente, sigue estos pasos:
+## Installation
+To install and run Sortify locally, follow these steps:
 
 ```bash
-# Clona el repositorio
+# Clone the repository
 git clone https://github.com/based-on-what/Sortify.git
 
-# Navega al directorio del proyecto
+# Navigate to the project directory
 cd Sortify
 
-# Instala las dependencias
+# Install the dependencies
 pnpm install
 
-# Ejecuta la aplicación
+# Run the application
 pnpm start
+```
