@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import OrdenarPlaylists from './components/OrdenarPlaylists';
-import PlaylistView from './components/PlaylistView'; // Asegúrate de que el componente esté en la ruta correcta
+import PlaylistView from './components/PlaylistView/PlaylistView'; // Asegúrate de que el componente esté en la ruta correcta
 import resultsData from './results.json'; // Asegúrate de que la ruta al archivo es correcta
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
   const [accessToken, setAccessToken] = useState(null);
   const location = useLocation();
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [playlists, setPlaylists] = useState([]);
 
   // Imaginemos que esta función se llama cuando el usuario inicia sesión correctamente
   function handleLogin() {
@@ -19,6 +20,15 @@ function App() {
   }
 
   useEffect(() => {
+    // Convierte el objeto importado 'resultsData' en un arreglo de objetos de playlists
+    const playlistsArray = Object.keys(resultsData).map((key) => ({
+      name: key,
+      ...resultsData[key],
+    }));
+
+    setPlaylists(playlistsArray);
+
+    // Autenticación con Spotify
     const code = new URLSearchParams(location.search).get('code');
     if (code) {
       axios.post('http://localhost:3000/api/token', {
@@ -61,7 +71,7 @@ function App() {
       </header>
       <Routes>
         <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
-        <Route path="/ver-playlists" element={<PlaylistView playlists={resultsData} />} />
+        <Route path="/ver-playlists" element={<PlaylistView playlists={playlists} />} />
       </Routes>
     </div>
   );

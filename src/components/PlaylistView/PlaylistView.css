@@ -1,0 +1,26 @@
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .playlist-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .playlist-name {
+    margin-bottom: 10px;
+  }
+  
+  .playlist-image {
+    width: 100%;
+    border-radius: 10px; /* Opcional para bordes redondeados */
+  }
+  
+  .playlist-duration {
+    margin-top: 10px;
+  }
+  

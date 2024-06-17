@@ -23,10 +23,10 @@ def convertir_milisegundos(milisegundos):
     horas, minutos = divmod(minutos, 60)
     dias, horas = divmod(horas, 24)
     return {
-        "dias": int(dias),
-        "horas": int(horas),
-        "minutos": int(minutos),
-        "segundos": int(segundos)
+        "days": int(dias),
+        "hours": int(horas),
+        "minutes": int(minutos),
+        "seconds": int(segundos)
     }
 
 def get_playlist_tracks(playlist):
@@ -52,7 +52,7 @@ def get_playlist_tracks(playlist):
     return final_return
 
 
-#@app.route('/playlists', methods=['GET'])
+@app.route('/playlists', methods=['GET'])
 def get_playlists():
     # Agrega una entrada de usuario para determinar el orden de las playlists
     orden = input("Ingrese '0' para ordenar de la más corta a la más larga, o '1' para ordenar de la más larga a la más corta: ")
@@ -76,11 +76,12 @@ def get_playlists():
         playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['duration']['dias']*86400000 + x[1]['duration']['horas']*3600000 + x[1]['duration']['minutos']*60000 + x[1]['duration']['segundos']*1000, reverse=True)
     playlist_durations_dict_sorted = {name: duration for name, duration in playlist_durations_sorted}
 
+    ruta_completa = '/src/results.json'
+
+
     # Guarda el resultado en 'results.json'
-    with open('results.json', 'w', encoding='utf-8') as f:
+    with open(ruta_completa, 'w', encoding='utf-8') as f:
         json.dump(playlist_durations_dict_sorted, f, ensure_ascii=False, indent=4)
 
-# Luego, fuera del contexto de Flask, simplemente llama a la función
 if __name__ == '__main__':
-#    app.run(debug=True, port=8000)
-    get_playlists()
+    app.run(debug=True)
