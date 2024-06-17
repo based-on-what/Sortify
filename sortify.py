@@ -31,7 +31,7 @@ def convertir_milisegundos(milisegundos):
 
 def get_playlist_tracks(playlist):
     # Reutiliza la instancia de spotipy.Spotify existente
-    print(f'Obteniendo canciones de la playlist: {playlist["name"]}...')
+    #print(f'Obteniendo canciones de la playlist: {playlist["name"]}...')
     tracks = []
     track_results = sp.playlist_items(playlist['id'], fields='items.track.duration_ms, next')
     tracks.extend(track_results['items'])
@@ -39,13 +39,25 @@ def get_playlist_tracks(playlist):
         track_results = sp.next(track_results)
         tracks.extend(track_results['items'])
 
+   # Agrega la recuperación de la URL y la foto de la playlist
+    playlist_url = playlist['external_urls']['spotify']
+    playlist_image = playlist['images'][0]['url'] if playlist['images'] else None
+
     total_duration_ms = sum(track['track']['duration_ms'] for track in tracks if track['track'] is not None)
     total_duration_formatted = convertir_milisegundos(total_duration_ms)
-    #print(f'Playlist procesada: {playlist["name"]}, Duración: {total_duration_formatted}')
-    return playlist['name'], total_duration_formatted
 
-@app.route('/playlists', methods=['GET'])
+    # Modifica el return para incluir la URL y la foto
+    final_return = playlist['name'], total_duration_formatted, playlist_url, playlist_image
+    print(final_return)
+    return final_return
+
+
+#@app.route('/playlists', methods=['GET'])
 def get_playlists():
+    # Agrega una entrada de usuario para determinar el orden de las playlists
+    orden = input("Ingrese '0' para ordenar de la más corta a la más larga, o '1' para ordenar de la más larga a la más corta: ")
+    orden = int(orden)  # Convierte la entrada a un entero
+
     username = 'wenam8'
     results = sp.user_playlists(username)
     playlists = results['items'] if results else []
@@ -54,11 +66,14 @@ def get_playlists():
     with ThreadPoolExecutor(max_workers=10) as executor:
         playlist_durations = list(executor.map(get_playlist_tracks, playlists))
 
-    # Crea un diccionario con los nombres de las playlists como claves
-    playlist_durations_dict = {name: duration for name, duration in playlist_durations}
+    # Crea un diccionario con los nombres de las playlists como claves e incluye la URL y la foto
+    playlist_durations_dict = {name: {'duration': duration, 'url': url, 'image': image} for name, duration, url, image in playlist_durations}
 
-    # Ordena el diccionario por la duración total en milisegundos (opcional)
-    playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['dias']*86400000 + x[1]['horas']*3600000 + x[1]['minutos']*60000 + x[1]['segundos']*1000, reverse=True)
+    # Ordena el diccionario por la duración total en milisegundos
+    if orden == 0:
+        playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['duration']['dias']*86400000 + x[1]['duration']['horas']*3600000 + x[1]['duration']['minutos']*60000 + x[1]['duration']['segundos']*1000)
+    else:
+        playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['duration']['dias']*86400000 + x[1]['duration']['horas']*3600000 + x[1]['duration']['minutos']*60000 + x[1]['duration']['segundos']*1000, reverse=True)
     playlist_durations_dict_sorted = {name: duration for name, duration in playlist_durations_sorted}
 
     # Guarda el resultado en 'results.json'
@@ -67,4 +82,5 @@ def get_playlists():
 
 # Luego, fuera del contexto de Flask, simplemente llama a la función
 if __name__ == '__main__':
-    app.run(debug=True, port=8000)
+#    app.run(debug=True, port=8000)
+    get_playlists()

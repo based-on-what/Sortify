@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
-import OrdenarPlaylists from './components/OrdenarPlaylists'; 
+import OrdenarPlaylists from './components/OrdenarPlaylists';
+import PlaylistView from './components/PlaylistView'; // Asegúrate de que el componente esté en la ruta correcta
+import resultsData from './results.json'; // Asegúrate de que la ruta al archivo es correcta
 
 function App() {
   // URL de autenticación de Spotify
@@ -59,6 +61,7 @@ function App() {
       </header>
       <Routes>
         <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
+        <Route path="/ver-playlists" element={<PlaylistView playlists={resultsData} />} />
       </Routes>
     </div>
   );
