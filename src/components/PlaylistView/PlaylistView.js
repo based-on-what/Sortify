@@ -1,11 +1,11 @@
 import React from 'react';
 import './PlaylistView.css'; 
 
-const PlaylistView = ({ playlists }) => {
+const PlaylistView = ({ playlists, isDarkMode }) => {
   return (
     <div className="playlist-grid">
       {playlists.map((playlist) => (
-        <div key={playlist.id} className="playlist-item">
+        <div key={playlist.id} className={`playlist-item border`}>
           {/* Envuelve el nombre de la playlist en un elemento <a> */}
           <a href={playlist.url} target="_blank" rel="noopener noreferrer" className="playlist-name">
             {playlist.name}

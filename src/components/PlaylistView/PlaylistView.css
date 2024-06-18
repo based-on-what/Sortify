@@ -1,26 +1,30 @@
 .playlist-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .playlist-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .playlist-name {
-    margin-bottom: 10px;
-  }
-  
-  .playlist-image {
-    width: 100%;
-    border-radius: 10px; /* Opcional para bordes redondeados */
-  }
-  
-  .playlist-duration {
-    margin-top: 10px;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Ajusta el valor mínimo según el ancho deseado */
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.playlist-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dee2e6; /* Contorno de Bootstrap */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.playlist-name {
+  text-align: center;
+  margin-top: 8px; /* Ajusta este valor según sea necesario */
+}
+
+.playlist-image {
+  width: 100%; /* Asegúrate de que las imágenes sean responsivas */
+}
+
+.playlist-duration {
+  text-align: center;
+}
+
+

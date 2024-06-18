@@ -6,8 +6,7 @@ import PlaylistView from './components/PlaylistView/PlaylistView';
 import resultsData from './results.json';
 import './theme.css';
 import { ThemeContext, ThemeProvider } from './context/ThemeContext'; 
-
-
+import ThemeSwitch from './components/ThemeSwitch/ThemeSwitch';
 
 function App() {
   // URL de autenticación de Spotify
@@ -67,14 +66,19 @@ useEffect(() => {
     document.body.classList.remove(`${theme}-theme`);
   };
 }, [theme]); // Dependencias solo relacionadas con el cambio de tema
-  return (
-    <div className="App">
-      <header className="App-header">
+return (
+  <div className="App">
+    <ThemeSwitch
+  key={theme} 
+  id="theme-switch"
+  switchClass="custom-switch-class"
+  sliderClass="custom-slider-class"
+/>
+    <header className="App-header">
       <div className={`App ${theme}-theme`} />
-        <button onClick={toggleTheme}>Toggle Theme</button>
-                <h1>Bienvenido a Sortify</h1>
+      <h1>Welcome to Sortify</h1>
                 <p>
-                  Sortify es una aplicación que te permite gestionar tus playlists de Spotify de manera eficiente.
+                  Sortify is an app that allows you to sort your Spotify playlists.
                 </p>
                 <a
                   className="App-link"
@@ -82,11 +86,11 @@ useEffect(() => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Iniciar sesión con Spotify
+                  Spotify Login
                 </a>
                 {isLoggedIn && (
             <Link to="/ordenar-playlists">
-              <button>Ordenar Playlists</button>
+              <button>Sort Playlists</button>
             </Link>
           )}
         </header>
