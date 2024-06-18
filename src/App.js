@@ -96,6 +96,7 @@ return (
         </header>
         <Routes>
   <Route path="/" element={<PlaylistView playlists={playlists} />} />
+  <Route path="/Sortify" element={<PlaylistView playlists={playlists} />} />
   <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
 </Routes>
 
