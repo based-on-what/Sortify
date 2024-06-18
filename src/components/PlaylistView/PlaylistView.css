@@ -16,7 +16,7 @@
 
 .playlist-name {
   text-align: center;
-  margin-top: 8px; /* Ajusta este valor según sea necesario */
+  margin-top: 0px; /* Ajusta este valor según sea necesario */
 }
 
 .playlist-image {
@@ -25,6 +25,20 @@
 
 .playlist-duration {
   text-align: center;
+  font-size: 18px;
 }
 
+
+/* Tema claro */
+body.light-theme .playlist-item {
+  background-color: #ffffff; /* Fondo blanco */
+  border: 1px solid #343a40; /* Borde gris oscuro (puedes ajustar este color según prefieras) */
+}
+
+/* Tema oscuro */
+body.dark-theme .playlist-item {
+  background-color: #ffffff; /* Fondo blanco */
+  border: 1px solid #ffffff; /* Borde blanco */
+  color: #000000; /* Texto negro */
+}
 

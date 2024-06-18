@@ -11,7 +11,7 @@ const PlaylistView = ({ playlists, isDarkMode }) => {
             {playlist.name}
           </a>
           <img src={playlist.image} alt={playlist.name} className="playlist-image" />
-          <div className="playlist-duration">{`Length: ${playlist.duration.days} days, ${playlist.duration.hours} hours, ${playlist.duration.minutes} minutes, ${playlist.duration.seconds} seconds`}</div>
+          <div className="playlist-duration">{`${playlist.duration.days} days, ${playlist.duration.hours} hours, ${playlist.duration.minutes} minutes, ${playlist.duration.seconds} seconds`}</div>
         </div>
       ))}
     </div>

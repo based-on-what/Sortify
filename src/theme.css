@@ -1,33 +1,33 @@
 :root {
-    --background-color-light: #ffffff;
-    --text-color-light: #000000;
-    --background-color-dark: #000000;
-    --text-color-dark: #ffffff;
-  }
-  
-  body.light-theme {
-    background-color: var(--background-color-light);
-    color: var(--text-color-light);
-  }
-  
-  body.dark-theme {
-    background-color: var(--background-color-dark);
-    color: var(--text-color-dark);
-  }
-  
-  header {
-    text-align: center; /* Centra el texto del encabezado */
-    font-size: 24px; /* Aumenta el tamaño del texto */
-  }
-  
-  .playlist-name {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 150px; 
-  }
+  --background-color-light: #f0f0f0; /* Un gris claro en lugar de blanco puro */
+  --text-color-light: #000000;
+  --background-color-dark: #000000;
+  --text-color-dark: #ffffff;
+}
 
-  body, code {
-    font: 'Consolas';
-  }
-  
+body.light-theme {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
+}
+
+body.dark-theme {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+header {
+  text-align: center;
+  font-size: 24px;
+}
+
+.playlist-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px; 
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+}
+
+body, code {
+  font-family: 'Consolas'; /* Asegúrate de usar 'font-family' en lugar de 'font' */
+}
