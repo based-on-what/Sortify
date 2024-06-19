@@ -1,29 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+// OrdenarPlaylists.js
+import React, { useState } from 'react';
 
-function OrdenarPlaylists() {
-  const [playlists, setPlaylists] = useState([]);
+function OrdenarPlaylists({ playlists }) {
+  const [reversedPlaylists, setReversedPlaylists] = useState([]);
 
-  useEffect(() => {
-    // Realiza la solicitud GET al backend para obtener los datos de las playlists
-    axios.get('http://localhost:8000/playlists')
-      .then(response => {
-        // Actualiza el estado con los datos recibidos
-        setPlaylists(response.data);
-      })
-      .catch(error => {
-        console.error('Error al obtener las playlists:', error);
-      });
-  }, []);
+  // Función para invertir el orden de las playlists
+  const invertPlaylists = () => {
+    // Crea una copia de las playlists y reviértela
+    const reversed = [...playlists].reverse();
+    setReversedPlaylists(reversed);
+  };
 
   return (
     <div>
-      <h1>Ordenar Playlists</h1>
-      <ul>
-        {Object.entries(playlists).map(([name, duration]) => (
-          <li key={name}>{name}: {JSON.stringify(duration)}</li>
-        ))}
-      </ul>
+      {/* Botón para invertir las playlists */}
+      <button onClick={invertPlaylists}>Invertir Playlists</button>
+      {/* Resto de tu lógica para mostrar las playlists */}
     </div>
   );
 }

@@ -5,19 +5,30 @@
   padding: 20px;
 }
 
-
 .playlist-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #dee2e6; /* Contorno de Bootstrap */
-  border-radius: 8px; /* Bordes redondeados */
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  transition: background-color 0.3s; /* Agrega una transición suave */
+}
+
+.playlist-item:hover {
+  background-color: #333; /* Cambia el color de fondo al poner el cursor sobre la playlist */
+  color: #fff; /* Cambia el color del texto para mayor contraste */
 }
 
 .playlist-name {
   text-align: center;
-  margin-top: 0px; /* Ajusta este valor según sea necesario */
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  white-space: normal; /* Permite que el texto se divida en líneas */
 }
+
+
 
 .playlist-image {
   width: 100%; /* Asegúrate de que las imágenes sean responsivas */
@@ -31,14 +42,25 @@
 
 /* Tema claro */
 body.light-theme .playlist-item {
-  background-color: #ffffff; /* Fondo blanco */
-  border: 1px solid #343a40; /* Borde gris oscuro (puedes ajustar este color según prefieras) */
+  background-color: #f9f9f9; /* Fondo gris claro */
+  color: #333; /* Texto oscuro para mayor legibilidad */
+  transition: background-color 0.3s; /* Agrega una transición suave */
+}
+
+/* Al poner el cursor sobre la playlist, cambia el fondo a negro y el texto a blanco */
+body.light-theme .playlist-item:hover {
+  background-color: #000; /* Fondo negro al pasar el cursor */
+  color: #fff; /* Texto blanco para mayor contraste */
 }
 
 /* Tema oscuro */
 body.dark-theme .playlist-item {
-  background-color: #ffffff; /* Fondo blanco */
-  border: 1px solid #ffffff; /* Borde blanco */
-  color: #000000; /* Texto negro */
+  background-color: #333; /* Fondo gris oscuro */
+  color: #fff; /* Texto blanco */
 }
 
+/* Tema oscuro */
+body.dark-theme .playlist-item:hover {
+  background-color: #fff; /* Fondo gris oscuro */
+  color: #000000; /* Texto negro */
+}

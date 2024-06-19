@@ -24,6 +24,13 @@ function App() {
     setIsLoggedIn(true);
   }
 
+  // Función para invertir el orden de las playlists
+  const invertPlaylists = () => {
+    // Crea una copia del array de playlists y reviértelo
+    const reversed = [...playlists].reverse();
+    setPlaylists(reversed);
+  };
+
   useEffect(() => {
     // Convierte el objeto importado 'resultsData' en un arreglo de objetos de playlists
     const playlistsArray = Object.keys(resultsData).map((key) => ({
@@ -32,6 +39,7 @@ function App() {
     }));
 
     setPlaylists(playlistsArray);
+
 
     // Autenticación con Spotify
     const code = new URLSearchParams(location.search).get('code');
@@ -51,7 +59,6 @@ function App() {
         console.error('Error al obtener el token:', error);
       });
     }
-
     
   }, [location]);
 
@@ -74,34 +81,30 @@ return (
   switchClass="custom-switch-class"
   sliderClass="custom-slider-class"
 />
-    <header className="App-header">
+<header className="App-header">
       <div className={`App ${theme}-theme`} />
       <h1>Welcome to Sortify</h1>
-                <p>
-                  Sortify is an app that allows you to sort your Spotify playlists.
-                </p>
-                <a
-                  className="App-link"
-                  href={AUTH_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Spotify Login
-                </a>
-                {isLoggedIn && (
-            <Link to="/ordenar-playlists">
-              <button>Sort Playlists</button>
-            </Link>
-          )}
-        </header>
-        <Routes>
-  <Route path="/" element={<PlaylistView playlists={playlists} />} />
-  <Route path="/Sortify" element={<PlaylistView playlists={playlists} />} />
-  <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
-</Routes>
-
-    </div>
-  );
+      <p>Sortify is an app that allows you to sort your Spotify playlists.</p>
+      <a className="App-link" href={AUTH_URL} target="_blank" rel="noopener noreferrer">
+        Spotify Login
+      </a>
+      <br />
+      <a >
+      <button onClick={invertPlaylists}>Reverse Playlists</button> {/* Aquí está el botón */}
+      </a>
+      {isLoggedIn && (
+        <Link to="/ordenar-playlists">
+          <button>Sort Playlists</button>
+        </Link>
+      )}
+    </header>
+    <Routes>
+      <Route path="/" element={<PlaylistView playlists={playlists} />} />
+      <Route path="/Sortify" element={<PlaylistView playlists={playlists} />} />
+      <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
+    </Routes>
+  </div>
+);
 }
 
 export default () => (
