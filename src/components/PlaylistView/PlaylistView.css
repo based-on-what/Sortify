@@ -59,6 +59,7 @@ body.light-theme .playlist-item:hover {
 body.dark-theme .playlist-item {
   background-color: #333;
   color: #fff;
+  transition: background-color 0.3s;
 }
 
 body.dark-theme .playlist-item:hover {
