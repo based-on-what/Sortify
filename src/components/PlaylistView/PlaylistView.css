@@ -1,3 +1,4 @@
+/* PlaylistView.css */
 .playlist-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Ajusta el valor mínimo según el ancho deseado */
@@ -28,8 +29,6 @@
   white-space: normal; /* Permite que el texto se divida en líneas */
 }
 
-
-
 .playlist-image {
   width: 100%; /* Asegúrate de que las imágenes sean responsivas */
 }
@@ -38,7 +37,6 @@
   text-align: center;
   font-size: 18px;
 }
-
 
 /* Tema claro */
 body.light-theme .playlist-item {
@@ -59,8 +57,13 @@ body.dark-theme .playlist-item {
   color: #fff; /* Texto blanco */
 }
 
-/* Tema oscuro */
 body.dark-theme .playlist-item:hover {
   background-color: #fff; /* Fondo gris oscuro */
-  color: #000000; /* Texto negro */
+  color: #000; /* Texto negro */
+}
+
+/* Añadir clase para la animación */
+.animate-reverse .playlist-item {
+  animation: fadeOutIn 0.5s ease-in-out;
+  pointer-events: none; /* Desactiva interacciones durante la animación */
 }

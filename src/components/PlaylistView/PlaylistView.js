@@ -5,9 +5,9 @@ const handlePlaylistClick = (url) => {
   window.open(url, '_blank'); // Abre la URL en una nueva pestaña
 };
 
-const PlaylistView = ({ playlists, isDarkMode }) => {
+const PlaylistView = ({ playlists, isAnimating }) => {
   return (
-    <div className="playlist-grid">
+    <div className={`playlist-grid ${isAnimating ? 'animate-reverse' : ''}`}>
       {playlists.map((playlist) => (
         <div key={playlist.id} className={`playlist-item border`} style={{ cursor: 'pointer' }} onClick={() => handlePlaylistClick(playlist.url)}>
           <div className="playlist-name">
