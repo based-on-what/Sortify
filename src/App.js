@@ -9,6 +9,7 @@ import './animations.css'; // Importa tu archivo de animaciones
 import { ThemeContext, ThemeProvider } from './context/ThemeContext'; 
 import ThemeSwitch from './components/ThemeSwitch/ThemeSwitch';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${process.env.REACT_APP_CLIENT_ID}&response_type=code&redirect_uri=${process.env.REACT_APP_REDIRECT_URI}&scope=${process.env.REACT_APP_SCOPE}&show_dialog=true`;
@@ -19,6 +20,7 @@ function App() {
   const [playlists, setPlaylists] = useState([]);
   const [isAnimating, setIsAnimating] = useState(false); // Estado de animación
   const { theme, toggleTheme } = useContext(ThemeContext);
+  const [showScrollButton, setShowScrollButton] = useState(false); // Estado para mostrar/ocultar el botón
 
   function handleLogin() {
     setIsLoggedIn(true);
@@ -71,6 +73,30 @@ function App() {
     };
   }, [theme]);
 
+  // Función para manejar el scroll y mostrar/ocultar el botón
+  const handleScroll = () => {
+    if (window.scrollY > 200) {  // Puedes ajustar este valor según cuándo quieres que aparezca el botón
+      setShowScrollButton(true);
+    } else {
+      setShowScrollButton(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  // Función para llevar al usuario al inicio de la página
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'  // Animación de scroll suave
+    });
+  };
+
   return (
     <div className="App">
       <ThemeSwitch
@@ -99,6 +125,13 @@ function App() {
         <Route path="/Sortify" element={<PlaylistView playlists={playlists} isAnimating={isAnimating} />} />
         <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
       </Routes>
+
+      {/* Botón para volver al inicio de la página con Bootstrap Icons */}
+      {showScrollButton && (
+        <button className="btn btn-primary scroll-top-button" onClick={scrollToTop}>
+          <i className="bi bi-arrow-up-short">  </i>
+        </button>
+      )}
     </div>
   );
 }

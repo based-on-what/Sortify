@@ -31,3 +31,16 @@ header {
 body, code {
   font-family: 'Consolas'; /* Asegúrate de usar 'font-family' en lugar de 'font' */
 }
+
+.scroll-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  font-size: 2.5rem; /* Tamaño del icono */
+}
+
+.scroll-top-button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+}
+
