@@ -21,11 +21,11 @@ header {
 }
 
 .playlist-name {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 150px; 
-  font-size: 18px; /* Aumenta el tamaño de la fuente */
+  white-space: normal; /* Permitir que el texto se ajuste */
+  overflow: visible; /* Mostrar todo el texto */
+  text-overflow: clip; /* No recortar el texto */
+  width: 100%; /* Asegurarse de que el texto ocupe todo el ancho disponible */
+  font-size: 18px; /* Mantener el tamaño de la fuente */
 }
 
 body, code {
