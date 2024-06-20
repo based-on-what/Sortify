@@ -3,8 +3,8 @@
         "duration": {
             "days": 8,
             "hours": 2,
-            "minutes": 12,
-            "seconds": 48
+            "minutes": 16,
+            "seconds": 58
         },
         "url": "https://open.spotify.com/playlist/5pBYRLOe0lPYfOcwGaRogK",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8435f27a401bb7df783d8f7e26"
@@ -167,7 +167,7 @@
             "seconds": 50
         },
         "url": "https://open.spotify.com/playlist/5JKcuzQsXxKBFW4SW4KC5g",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ca1656b1666417b422ae88af"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84ca1656b1666417b422ae88af"
     },
     "Buckethead's Discography": {
         "duration": {
@@ -209,7 +209,7 @@
         "url": "https://open.spotify.com/playlist/0WDWHzgO57IJmSnYaTjg6T",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02063bf99751bf224b17d5e9abab67616d00001e02277eeda94eb2882ef1c42371ab67616d00001e0232d649ced0b45d8ad86a728bab67616d00001e0271c13f2cb3b0f04ee05dc6de"
     },
-    "deadmau5": {
+    "deadmau5 | Discography": {
         "duration": {
             "days": 2,
             "hours": 17,
@@ -227,7 +227,7 @@
             "seconds": 17
         },
         "url": "https://open.spotify.com/playlist/6drKONuO2cS5B1R5BtZVN0",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c578d468797ffc80cf9a8d6b0"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84578d468797ffc80cf9a8d6b0"
     },
     "Caetano Veloso Discografia Completa": {
         "duration": {
@@ -277,7 +277,7 @@
             "seconds": 12
         },
         "url": "https://open.spotify.com/playlist/4Q5lFgytfuf9DImp9bUPTg",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f60146c151b5737d1ad6bcf0"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84f60146c151b5737d1ad6bcf0"
     },
     "BABY BATS": {
         "duration": {
@@ -367,7 +367,7 @@
             "seconds": 5
         },
         "url": "https://open.spotify.com/playlist/2PJg3gFmdu4CbdnqFMk4eB",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84601f2c3fe9955857a1c58c04"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84601f2c3fe9955857a1c58c04"
     },
     "Atrax morgue": {
         "duration": {
@@ -378,16 +378,6 @@
         },
         "url": "https://open.spotify.com/playlist/1ajEB5ACPRTyO9153ai6TW",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845960f364d98bc1347916e7f8"
-    },
-    "Compartidas x Nacho": {
-        "duration": {
-            "days": 1,
-            "hours": 23,
-            "minutes": 26,
-            "seconds": 44
-        },
-        "url": "https://open.spotify.com/playlist/7wPlkVomgoUG2SeWJ08G3V",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e02059c7b8d07b902ddd2a97932ab67616d00001e0234ed4cd1a4a9658d94eab9e6ab67616d00001e023b9211139eb247b12f6ba6c5ab67616d00001e02b04c58890b3c559602ebbfe8"
     },
     "ANDRES CALAMARO Complete": {
         "duration": {
@@ -407,7 +397,7 @@
             "seconds": 37
         },
         "url": "https://open.spotify.com/playlist/2cvAsT7YEFNKKEfCSA0byU",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848b09e443e049bdc3c5ddc4c5"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c8b09e443e049bdc3c5ddc4c5"
     },
     "Guitar Hero 1-6": {
         "duration": {
@@ -437,7 +427,7 @@
             "seconds": 14
         },
         "url": "https://open.spotify.com/playlist/44ksutWZp1FpWPkefWYmiB",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c2c240d306ba336b2bb33d5fd"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842c240d306ba336b2bb33d5fd"
     },
     "Carlos Gardel (completo)": {
         "duration": {
@@ -487,7 +477,7 @@
             "seconds": 49
         },
         "url": "https://open.spotify.com/playlist/4Kk0kHfBnCNNmqQmOjwU2J",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84da7608da68a80c3a6bee9943"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84da7608da68a80c3a6bee9943"
     },
     "Insane Clown Posse Full Discography": {
         "duration": {
@@ -507,7 +497,7 @@
             "seconds": 20
         },
         "url": "https://open.spotify.com/playlist/5GAHZbCRGu6NtqM2JhlaCH",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa39e1e96192e75a9240fb4b69c"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849e1e96192e75a9240fb4b69c"
     },
     "War Metal": {
         "duration": {
@@ -547,7 +537,7 @@
             "seconds": 2
         },
         "url": "https://open.spotify.com/playlist/5wsnp6tQUHxW4ubqCVNenU",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849e17eee15672f298dc2a23bf"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da849e17eee15672f298dc2a23bf"
     },
     "PRODUCED BY KANYE WEST": {
         "duration": {
@@ -577,7 +567,7 @@
             "seconds": 51
         },
         "url": "https://open.spotify.com/playlist/6M0b33E2L6lPddrhXgSi1b",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846b5719d429a24adc4ea3d32b"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da846b5719d429a24adc4ea3d32b"
     },
     "Gong": {
         "duration": {
@@ -597,7 +587,7 @@
             "seconds": 43
         },
         "url": "https://open.spotify.com/playlist/4wfnQJ1wWd2bF7ZY5paHV4",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c4d697e0ba1213ce1871b5757"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844d697e0ba1213ce1871b5757"
     },
     "Duran Duran: The Complete Collection": {
         "duration": {
@@ -617,7 +607,7 @@
             "seconds": 21
         },
         "url": "https://open.spotify.com/playlist/5PxYONUohyjRoCAqAh05hE",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84848b2597cd7e8c25c27a77a1"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84848b2597cd7e8c25c27a77a1"
     },
     "Ningen Isu - Discography": {
         "duration": {
@@ -707,7 +697,7 @@
             "seconds": 29
         },
         "url": "https://open.spotify.com/playlist/2QfHLunRkphRpYuYF4CcC0",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b6496c7a4f210e5c6e252694"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b6496c7a4f210e5c6e252694"
     },
     "JRPG Battle Music": {
         "duration": {
@@ -733,11 +723,21 @@
         "duration": {
             "days": 1,
             "hours": 6,
-            "minutes": 3,
-            "seconds": 45
+            "minutes": 5,
+            "seconds": 49
         },
         "url": "https://open.spotify.com/playlist/23AxB3h8KsqoDoFhIXgF4L",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844b8a6de78d4ed80890423919"
+    },
+    "☣ DARK ELETRO | EBM | INDUSTRIAL | CYBER GOTH | CYBERPUNK": {
+        "duration": {
+            "days": 1,
+            "hours": 5,
+            "minutes": 52,
+            "seconds": 52
+        },
+        "url": "https://open.spotify.com/playlist/2OKhUBmE8BYY7Uxi4INIOC",
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c772bb1045d23441b1cd4f76b"
     },
     "Gamma Ray | Spotify discography": {
         "duration": {
@@ -748,6 +748,16 @@
         },
         "url": "https://open.spotify.com/playlist/6zkh7FkZ19GW10NWnOGa3R",
         "image": "https://i.scdn.co/image/ab67616d00001e02b5ea4d46a996591662c88216"
+    },
+    "Música Clásica Que Sí Es Clásica": {
+        "duration": {
+            "days": 1,
+            "hours": 5,
+            "minutes": 35,
+            "seconds": 45
+        },
+        "url": "https://open.spotify.com/playlist/09yz2h86ElsO8dwbxyplwt",
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ec4be1b0f0a91f344ec662e2"
     },
     "Serj Tankian Complete Discography": {
         "duration": {
@@ -769,16 +779,6 @@
         "url": "https://open.spotify.com/playlist/5YAMNBh7apnVYo0XMMdapb",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843260f4b21628282825f30ad7"
     },
-    "Música Clásica Que Sí Es Clásica": {
-        "duration": {
-            "days": 1,
-            "hours": 5,
-            "minutes": 29,
-            "seconds": 5
-        },
-        "url": "https://open.spotify.com/playlist/09yz2h86ElsO8dwbxyplwt",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cec4be1b0f0a91f344ec662e2"
-    },
     "DORO - Complete Discography": {
         "duration": {
             "days": 1,
@@ -787,7 +787,7 @@
             "seconds": 3
         },
         "url": "https://open.spotify.com/playlist/2YWZtU33JXRhKhZSgRohBZ",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849cb1cc9a32b2112c61282b0e"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da849cb1cc9a32b2112c61282b0e"
     },
     "U.D.O. - Discography": {
         "duration": {
@@ -798,16 +798,6 @@
         },
         "url": "https://open.spotify.com/playlist/3BQVJtGuBBMgS9FaaRVxpm",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d53dd1c1682130335a3650b2"
-    },
-    "☣ DARK ELETRO | EBM | INDUSTRIAL | CYBER GOTH | CYBERPUNK": {
-        "duration": {
-            "days": 1,
-            "hours": 5,
-            "minutes": 8,
-            "seconds": 9
-        },
-        "url": "https://open.spotify.com/playlist/2OKhUBmE8BYY7Uxi4INIOC",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c772bb1045d23441b1cd4f76b"
     },
     "TechN9ne": {
         "duration": {
@@ -847,7 +837,7 @@
             "seconds": 7
         },
         "url": "https://open.spotify.com/playlist/5UHdlrJKtFWxUI35elmZOY",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa3a335573300fcce465d5132fd"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a335573300fcce465d5132fd"
     },
     "Ariel Pink discography": {
         "duration": {
@@ -857,7 +847,7 @@
             "seconds": 4
         },
         "url": "https://open.spotify.com/playlist/2cz6hIRrWcjsnB25xeuCVw",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84088f4c5323325463ed0e8ded"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84088f4c5323325463ed0e8ded"
     },
     "The Santana Discography": {
         "duration": {
@@ -877,7 +867,17 @@
             "seconds": 56
         },
         "url": "https://open.spotify.com/playlist/3c3A0ZD9ieEOdm8MD55Cuj",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa3b499ef5f215f7fb173f66baf"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b499ef5f215f7fb173f66baf"
+    },
+    "ULTIMATE GYM RAP HITS (2000-2024)": {
+        "duration": {
+            "days": 1,
+            "hours": 3,
+            "minutes": 53,
+            "seconds": 46
+        },
+        "url": "https://open.spotify.com/playlist/5fK8IyOP8r8qWlDKJ7RAt5",
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845e7f6aef765ca1abf3fe65dd"
     },
     "Take That/Gary Bralow/Robbie Williams 1992 - 2022 Discography": {
         "duration": {
@@ -887,7 +887,7 @@
             "seconds": 27
         },
         "url": "https://open.spotify.com/playlist/4m3r63wYF438gRMKdeVLA5",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84dcf13c7ac1bd1b71f059e164"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84dcf13c7ac1bd1b71f059e164"
     },
     "SoporAeternus": {
         "duration": {
@@ -937,7 +937,7 @@
             "seconds": 13
         },
         "url": "https://open.spotify.com/playlist/0dcpcvwcAJEDbD0VdXoEOs",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa3daac586a7b6f2883e82aec21"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84daac586a7b6f2883e82aec21"
     },
     "Drive Soundtrack - OST": {
         "duration": {
@@ -947,7 +947,7 @@
             "seconds": 19
         },
         "url": "https://open.spotify.com/playlist/1CnAtW2mIejhmERcoQN9Yx",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c13e6bd622fdc7eca59c134fe"
+        "image": "https://i2o.scdn.co/image/ab67706c0000cfa313e6bd622fdc7eca59c134fe"
     },
     "Nick Cave Discography": {
         "duration": {
@@ -979,16 +979,6 @@
         "url": "https://open.spotify.com/playlist/2LPolYW1rQn0zDbEpdJPAr",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0217f71ec8fddb2041594f355aab67616d00001e024cd56a71c3302c9afc4709a7ab67616d00001e02b16c3ca77a5567f45f7e2cf7ab67616d00001e02fca6a26d626b192b9ffe4ae5"
     },
-    "ULTIMATE GYM RAP HITS (2000-2024)": {
-        "duration": {
-            "days": 1,
-            "hours": 1,
-            "minutes": 48,
-            "seconds": 13
-        },
-        "url": "https://open.spotify.com/playlist/5fK8IyOP8r8qWlDKJ7RAt5",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845e7f6aef765ca1abf3fe65dd"
-    },
     "black metal": {
         "duration": {
             "days": 1,
@@ -997,7 +987,7 @@
             "seconds": 34
         },
         "url": "https://open.spotify.com/playlist/39vWBT0UsTXxBNgjQO2U3M",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847b1885295c3b848d3a898ae6"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da847b1885295c3b848d3a898ae6"
     },
     "Sia Discography": {
         "duration": {
@@ -1047,7 +1037,7 @@
             "seconds": 5
         },
         "url": "https://open.spotify.com/playlist/2BwAj8oCuNbzb5Y2K6yZqn",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d4d9fe414d8ab02caba51ba4"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d4d9fe414d8ab02caba51ba4"
     },
     "Spinetta": {
         "duration": {
@@ -1067,7 +1057,7 @@
             "seconds": 18
         },
         "url": "https://open.spotify.com/playlist/4U6CmzIB0eQBHBUe0aCrF2",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c71a514418d87ef5e94f53894"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8471a514418d87ef5e94f53894"
     },
     "Andrés Ciro Martínez (Los Piojos/Ciro y los Persas)": {
         "duration": {
@@ -1199,6 +1189,16 @@
         "url": "https://open.spotify.com/playlist/4SsuflbcJvjNegwpO2OeV0",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8402e643b6b327a1bfdd0790fe"
     },
+    "Tarja": {
+        "duration": {
+            "days": 0,
+            "hours": 23,
+            "minutes": 43,
+            "seconds": 39
+        },
+        "url": "https://open.spotify.com/playlist/6ajCIFUQfjE2s5bl9ZEDTP",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e02769ed09d082c85fc4d1e95f0ab67616d00001e0292214fb2c53eb8cad5ac433bab67616d00001e02bf89f8d8ee9df8a688c6e554ab67616d00001e02e3496e5e5f1277b911846e57"
+    },
     "DanielJohnston": {
         "duration": {
             "days": 0,
@@ -1237,7 +1237,7 @@
             "seconds": 8
         },
         "url": "https://open.spotify.com/playlist/2nEQ2jgGhcfZu3lgAFe65K",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84ec3d6b507a965886358b57c2"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ec3d6b507a965886358b57c2"
     },
     "complete buck-tick discography": {
         "duration": {
@@ -1259,6 +1259,16 @@
         "url": "https://open.spotify.com/playlist/433ffkpxIv0mcfg01hTFBC",
         "image": null
     },
+    "canción del día": {
+        "duration": {
+            "days": 0,
+            "hours": 22,
+            "minutes": 48,
+            "seconds": 16
+        },
+        "url": "https://open.spotify.com/playlist/2DHWHiONtXhyfnAAakzJZB",
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f5b3d2fcc976a2473f9827f6"
+    },
     "Bowie": {
         "duration": {
             "days": 0,
@@ -1269,16 +1279,6 @@
         "url": "https://open.spotify.com/playlist/2xnoHj1OFxsXRefgekouTf",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e022edbfd781fec3f8ea478d5e5ab67616d00001e023395f3e809dfbc2b1101d464ab67616d00001e0246926e777bd6665f03128d29ab67616d00001e02e464904cc3fed2b40fc55120"
     },
-    "canción del día": {
-        "duration": {
-            "days": 0,
-            "hours": 22,
-            "minutes": 44,
-            "seconds": 11
-        },
-        "url": "https://open.spotify.com/playlist/2DHWHiONtXhyfnAAakzJZB",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f5b3d2fcc976a2473f9827f6"
-    },
     "OVERKILL - The Complete Discography": {
         "duration": {
             "days": 0,
@@ -1287,7 +1287,7 @@
             "seconds": 9
         },
         "url": "https://open.spotify.com/playlist/1utH63JZXb8AWPoWga7xjO",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b4f86d05491026d03c4343da"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b4f86d05491026d03c4343da"
     },
     "Pet Shop Boys: Complete Discography": {
         "duration": {
@@ -1309,7 +1309,7 @@
         "url": "https://open.spotify.com/playlist/699SUvnveqjpvlKqf9s0Pl",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842527ec990da9c65c529be81a"
     },
-    "Discografía de los piojos y Ciro y los persas": {
+    "Discografía de los Piojos y Ciro y los persas": {
         "duration": {
             "days": 0,
             "hours": 22,
@@ -1453,11 +1453,11 @@
         "duration": {
             "days": 0,
             "hours": 21,
-            "minutes": 10,
-            "seconds": 32
+            "minutes": 13,
+            "seconds": 45
         },
         "url": "https://open.spotify.com/playlist/67MCKsuLdBvaJXIibF3f0s",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c44159228fadfacad5fa9d528"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8444159228fadfacad5fa9d528"
     },
     "The Weeknd Discography": {
         "duration": {
@@ -1557,7 +1557,7 @@
             "seconds": 8
         },
         "url": "https://open.spotify.com/playlist/6n78QRzA0ZqXFI5AGDn2YR",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e93d2dcdc3ec80c5cf31566c"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e93d2dcdc3ec80c5cf31566c"
     },
     "宇多田ヒカル Hikaru Utada 宇多田光 Discography 全曲": {
         "duration": {
@@ -1567,7 +1567,7 @@
             "seconds": 54
         },
         "url": "https://open.spotify.com/playlist/3Cp3P0zUHpi9iPWBKY18Ga",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841337389903e61ba054fdf0a0"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da841337389903e61ba054fdf0a0"
     },
     "Jethro Tull Discography": {
         "duration": {
@@ -1587,7 +1587,7 @@
             "seconds": 43
         },
         "url": "https://open.spotify.com/playlist/1Uil7e2zQ6FUNhmMkTxd4I",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84f0379bf542a0f4a640a0d960"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f0379bf542a0f4a640a0d960"
     },
     "Charly": {
         "duration": {
@@ -1707,7 +1707,7 @@
             "seconds": 38
         },
         "url": "https://open.spotify.com/playlist/43bcCCQTdzIPokcRcMpAGz",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846618898173c1b036ffe9f85f"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da846618898173c1b036ffe9f85f"
     },
     "Dark Tranquillity & Insomnium": {
         "duration": {
@@ -1797,7 +1797,7 @@
             "seconds": 24
         },
         "url": "https://open.spotify.com/playlist/1L4xzoJHchVKag0nvZWlFt",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a87fb8305fcba8470f49b478"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a87fb8305fcba8470f49b478"
     },
     "Robbie Williams Discografia completa": {
         "duration": {
@@ -1857,7 +1857,7 @@
             "seconds": 11
         },
         "url": "https://open.spotify.com/playlist/763hAbMpfPcF1ni6Hndmzc",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a688decfa67c5f42ef629ee3"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a688decfa67c5f42ef629ee3"
     },
     "Bad Bunny's discography": {
         "duration": {
@@ -1913,8 +1913,8 @@
         "duration": {
             "days": 0,
             "hours": 17,
-            "minutes": 26,
-            "seconds": 36
+            "minutes": 30,
+            "seconds": 11
         },
         "url": "https://open.spotify.com/playlist/71IsfR8TGnphvPMekOBWAC",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c9b93247b4550036dcfc5a0d"
@@ -2087,7 +2087,7 @@
             "seconds": 58
         },
         "url": "https://open.spotify.com/playlist/4ll9wJYUdSBpRSiUbILRKj",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da846886357c6d30f8c01df017b5"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846886357c6d30f8c01df017b5"
     },
     "$uicideboy$ Discography ": {
         "duration": {
@@ -2187,7 +2187,7 @@
             "seconds": 47
         },
         "url": "https://open.spotify.com/playlist/7gaNQ5pHBAlEPmKtXK1HjT",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84dffb74cdd6eedfc2727a9849"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84dffb74cdd6eedfc2727a9849"
     },
     "Vader - The Complete Discography": {
         "duration": {
@@ -2217,7 +2217,7 @@
             "seconds": 23
         },
         "url": "https://open.spotify.com/playlist/2OTmHC9yMuQziSokymZ0Pk",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f4b96d520ac3b4625bf761cd"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cf4b96d520ac3b4625bf761cd"
     },
     "Divididos Discografía": {
         "duration": {
@@ -2377,7 +2377,7 @@
             "seconds": 38
         },
         "url": "https://open.spotify.com/playlist/6g9sE4P7T6yA9WK0xhD3U0",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c35347dd4624c1d6d856a3dc4"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8435347dd4624c1d6d856a3dc4"
     },
     "AugustBurnsRed": {
         "duration": {
@@ -2427,7 +2427,7 @@
             "seconds": 7
         },
         "url": "https://open.spotify.com/playlist/4H8YNJPNZWSdulfIx3kE4Z",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846ea447eef8a430cf94161acd"
+        "image": "https://i2o.scdn.co/image/ab67706c0000cfa36ea447eef8a430cf94161acd"
     },
     "WHITE METAL FOREVER": {
         "duration": {
@@ -2657,7 +2657,7 @@
             "seconds": 1
         },
         "url": "https://open.spotify.com/playlist/4tdVdyZkFOInp6W5muyuqM",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841770cfaca5fbf7dd7b716178"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da841770cfaca5fbf7dd7b716178"
     },
     "Old yugoslavia 🤍": {
         "duration": {
@@ -2677,7 +2677,7 @@
             "seconds": 39
         },
         "url": "https://open.spotify.com/playlist/0mQUYvvu1NH1yvr9eKau1X",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d37444b90d2dfd0a7a98cef7"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d37444b90d2dfd0a7a98cef7"
     },
     "LORDI discography": {
         "duration": {
@@ -2717,7 +2717,7 @@
             "seconds": 3
         },
         "url": "https://open.spotify.com/playlist/7G3NZz0On0FizR0NfJD38s",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa3da14d0b696623c6fed22c4cd"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cda14d0b696623c6fed22c4cd"
     },
     "Real 311 Discography": {
         "duration": {
@@ -2747,7 +2747,7 @@
             "seconds": 29
         },
         "url": "https://open.spotify.com/playlist/6BHNPkbzoKcMVwLOQj5wmc",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84de1b1b2f7aec40a869cd6d87"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84de1b1b2f7aec40a869cd6d87"
     },
     "Kiss": {
         "duration": {
@@ -3217,7 +3217,7 @@
             "seconds": 26
         },
         "url": "https://open.spotify.com/playlist/7HjUsWqLMBWl35dCcqpIjA",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e028c7b498ce5521a18fdb35396ab67616d00001e02a99b2a1173eb7bab7a4b2eefab67616d00001e02bf9fb7e3829dad54379799f7ab67616d00001e02e9a178a1f0ddcdb1bfc314e3"
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e024d84ca0cd3079a0e6236e348ab67616d00001e028c7b498ce5521a18fdb35396ab67616d00001e02a99b2a1173eb7bab7a4b2eefab67616d00001e02e9a178a1f0ddcdb1bfc314e3"
     },
     "Skrillex (all songs) Full Discography": {
         "duration": {
@@ -3307,7 +3307,7 @@
             "seconds": 3
         },
         "url": "https://open.spotify.com/playlist/1mVMHvofiG5m85irDY6rDX",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f01471ba90e86741638fe37b"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84f01471ba90e86741638fe37b"
     },
     "Kreator": {
         "duration": {
@@ -3347,7 +3347,17 @@
             "seconds": 56
         },
         "url": "https://open.spotify.com/playlist/6OQtevEXnBX8wZYfhtWlad",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8442c2d1d9d005992bcdaf85ee"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8442c2d1d9d005992bcdaf85ee"
+    },
+    "Musica de Blondie": {
+        "duration": {
+            "days": 0,
+            "hours": 11,
+            "minutes": 56,
+            "seconds": 27
+        },
+        "url": "https://open.spotify.com/playlist/2yEY0E1j1QS1CwZwMiQXWU",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e0215ebbedaacef61af244262a8ab67616d00001e02b3994c94dfb241923664bb4dab67616d00001e02c7d7cdad0c2ffa5620129ee8ab67616d00001e02e8dd4db47e7177c63b0b7d53"
     },
     "Obus - Discografía": {
         "duration": {
@@ -3368,6 +3378,16 @@
         },
         "url": "https://open.spotify.com/playlist/0qPwSqrZEQv5qun6qqnFCc",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0297c130610847bd132c3e99b5ab67616d00001e02a030f928344f3492674517f8ab67616d00001e02c17dba28ce5183be2364ea2aab67616d00001e02ddf29bb63f8feec20dd53b7b"
+    },
+    "MalevolentCreation": {
+        "duration": {
+            "days": 0,
+            "hours": 11,
+            "minutes": 54,
+            "seconds": 54
+        },
+        "url": "https://open.spotify.com/playlist/43u1abvZs7IPAN6jVGwu96",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e025f4fb84302411076643f2a60ab67616d00001e02648d6686d698993e412c8656ab67616d00001e02d8c713ded439e60d033d825fab67616d00001e02f6df3532ea04672559d34a4f"
     },
     "Megadeth": {
         "duration": {
@@ -3577,7 +3597,7 @@
             "seconds": 52
         },
         "url": "https://open.spotify.com/playlist/0qljkfXXcCcYMleXrabnAp",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa315bf7cc0ab28eb3048a222d7"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8415bf7cc0ab28eb3048a222d7"
     },
     "AlienVampires": {
         "duration": {
@@ -3797,7 +3817,7 @@
             "seconds": 22
         },
         "url": "https://open.spotify.com/playlist/3EyjvDlv9RfiVAbZihVEJf",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e133ac0fff84e1b74b693936"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e133ac0fff84e1b74b693936"
     },
     "The Dear Hunter Complete Discog": {
         "duration": {
@@ -3827,7 +3847,7 @@
             "seconds": 44
         },
         "url": "https://open.spotify.com/playlist/53qCOPiDP4vLKRfRCAABTD",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da842a5cfde7383e7363a7fcd434"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842a5cfde7383e7363a7fcd434"
     },
     "Six Feet Under (discography)": {
         "duration": {
@@ -3837,7 +3857,7 @@
             "seconds": 39
         },
         "url": "https://open.spotify.com/playlist/6kTF8FjlmZeQbjTcSopai2",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b2647686268163be4849ec94"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b2647686268163be4849ec94"
     },
     "sematary FULL DISCOG.": {
         "duration": {
@@ -3977,7 +3997,7 @@
             "seconds": 21
         },
         "url": "https://open.spotify.com/playlist/1w4vOsgcTlQWJzpm98k2sy",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84724c4da340f40bc4ee019a56"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84724c4da340f40bc4ee019a56"
     },
     "Saratoga discografia": {
         "duration": {
@@ -4097,7 +4117,7 @@
             "seconds": 26
         },
         "url": "https://open.spotify.com/playlist/1Pxon7U943sRAhLgbIQ0yh",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84cc29166412c6b3aafa024765"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84cc29166412c6b3aafa024765"
     },
     "Discografía La Ley": {
         "duration": {
@@ -4477,7 +4497,7 @@
             "seconds": 36
         },
         "url": "https://open.spotify.com/playlist/40TWyKngQPFdci1g4RSfrY",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d6fd4871749eb9a1da563c97"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d6fd4871749eb9a1da563c97"
     },
     "Ikimonogakari": {
         "duration": {
@@ -4607,7 +4627,7 @@
             "seconds": 7
         },
         "url": "https://open.spotify.com/playlist/1wXBDZMAdacOPKbQHQP6w6",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84145da62cac8e20bdd8ba6199"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84145da62cac8e20bdd8ba6199"
     },
     "Asking Alexandria Complete Discography": {
         "duration": {
@@ -4647,7 +4667,7 @@
             "seconds": 39
         },
         "url": "https://open.spotify.com/playlist/7qM1kNUCTyva9NksKGlk0j",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8468608e9ca871fa702d7ad7bd"
+        "image": "https://i2o.scdn.co/image/ab67706c0000cfa368608e9ca871fa702d7ad7bd"
     },
     "Soundgarden": {
         "duration": {
@@ -4827,7 +4847,7 @@
             "seconds": 44
         },
         "url": "https://open.spotify.com/playlist/44AWF2qL5mu5jFppg7sTyE",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845cede49d4abb3e2de0a38451"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845cede49d4abb3e2de0a38451"
     },
     "MorbidAngel": {
         "duration": {
@@ -5227,7 +5247,7 @@
             "seconds": 9
         },
         "url": "https://open.spotify.com/playlist/3xJqmD6XNef2rd3V43jQid",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8497ffde93a4c5fb084ea4de8e"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8497ffde93a4c5fb084ea4de8e"
     },
     "NILE - The Complete Discography": {
         "duration": {
@@ -5457,7 +5477,7 @@
             "seconds": 53
         },
         "url": "https://open.spotify.com/playlist/2MbzZskyFAZ3gDDTWyActs",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa36d3c650d9d8772b07369ad24"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c6d3c650d9d8772b07369ad24"
     },
     "Rie fu": {
         "duration": {
@@ -5597,17 +5617,7 @@
             "seconds": 3
         },
         "url": "https://open.spotify.com/playlist/1Mlu2hpjWT3pZViT0k4hn0",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ffdda303594f2869036b4cce"
-    },
-    "This Is Nurse With Wound": {
-        "duration": {
-            "days": 0,
-            "hours": 8,
-            "minutes": 9,
-            "seconds": 9
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4vc0bH",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4vc0bH-default.jpg"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84ffdda303594f2869036b4cce"
     },
     "DIO": {
         "duration": {
@@ -5638,6 +5648,16 @@
         },
         "url": "https://open.spotify.com/playlist/5Yt5eyVWsQ5HUstifGBE7f",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e026d23211741238ed227699c9dab67616d00001e0296b08b539ccfd028baffd66dab67616d00001e02d377fa9b12ba09ee525b60a8ab67616d00001e02fe3f12dccf7a927630d33d08"
+    },
+    "This Is Nurse With Wound": {
+        "duration": {
+            "days": 0,
+            "hours": 8,
+            "minutes": 6,
+            "seconds": 27
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4vc0bH",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4vc0bH-default.jpg"
     },
     "Dismember - Complete Discography": {
         "duration": {
@@ -5797,7 +5817,7 @@
             "seconds": 48
         },
         "url": "https://open.spotify.com/playlist/2dXNYlkqPl746zYOC2ZOxn",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c531d26ba9d1f1db66317192f"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84531d26ba9d1f1db66317192f"
     },
     "PARKWAY DRIVE Discography": {
         "duration": {
@@ -5917,7 +5937,7 @@
             "seconds": 4
         },
         "url": "https://open.spotify.com/playlist/7Fgo0yCGIkuDYJ0v3LRN4l",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a9d1e932efe88a0391fc37a8"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a9d1e932efe88a0391fc37a8"
     },
     "DeathAngel": {
         "duration": {
@@ -5937,7 +5957,7 @@
             "seconds": 26
         },
         "url": "https://open.spotify.com/playlist/5V0q8Z8O2lF9QWqKzvcObW",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8409a9930947b5e293a4863cec"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8409a9930947b5e293a4863cec"
     },
     "BADBADNOTGOOD": {
         "duration": {
@@ -6207,7 +6227,7 @@
             "seconds": 46
         },
         "url": "https://open.spotify.com/playlist/23iKFGK79suuqOMZZg10DN",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bc8229c25aa10fa1d2be1c19"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bc8229c25aa10fa1d2be1c19"
     },
     "Sabaton": {
         "duration": {
@@ -6279,6 +6299,16 @@
         "url": "https://open.spotify.com/playlist/4gqZ4SsTfjWiKDorqMbkoN",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e023f559af3f93fca31f78d0b38ab67616d00001e027cf3bccf77141092f3275cb2ab67616d00001e029faf93a66fe1d418e74f3cf4ab67616d00001e02bc129a67ddc05fe5f901fa75"
     },
+    "Una monea pa ver a los esploite": {
+        "duration": {
+            "days": 0,
+            "hours": 7,
+            "minutes": 29,
+            "seconds": 10
+        },
+        "url": "https://open.spotify.com/playlist/67KD39vYe4z1bhrom5UlL6",
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842fdf47e1a8f6768df20a3ccc"
+    },
     "Soul for your Soul 🐈‍⬛": {
         "duration": {
             "days": 0,
@@ -6287,7 +6317,7 @@
             "seconds": 6
         },
         "url": "https://open.spotify.com/playlist/4nBs5uwZn8J7TBy7hHE6r1",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cdeef1ff55ca7ee5358c1b071"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84deef1ff55ca7ee5358c1b071"
     },
     "John Mayer - Studio Discography": {
         "duration": {
@@ -6329,15 +6359,15 @@
         "url": "https://open.spotify.com/playlist/4SjNi6rESsgzBqw25fullx",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0233c52ca8309741c6999ca742ab67616d00001e0291b3adb195fd4017fd3d6400ab67616d00001e02c34064a3c5e4a25892a091f3ab67616d00001e02fd1f9d8bb6c1c9c2cb229837"
     },
-    "Una monea pa ver a los esploite": {
+    "LosPrisioneros": {
         "duration": {
             "days": 0,
             "hours": 7,
             "minutes": 25,
-            "seconds": 52
+            "seconds": 5
         },
-        "url": "https://open.spotify.com/playlist/67KD39vYe4z1bhrom5UlL6",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842fdf47e1a8f6768df20a3ccc"
+        "url": "https://open.spotify.com/playlist/2PQbtae5nK3XLDX9pXnTv9",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e02932b9d0126db59a32e561cbdab67616d00001e0298daeb6fc14ffafc7abaa4c6ab67616d00001e02a8ff3f9fe5b57f2e0bfd9e05ab67616d00001e02e3c716aaec57ac6b73cdd68f"
     },
     "Nightmare": {
         "duration": {
@@ -6357,7 +6387,7 @@
             "seconds": 53
         },
         "url": "https://open.spotify.com/playlist/61EX6Yq7OZCtZ6ce2AowWD",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbaa6c603492a23f49f0acf37"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84baa6c603492a23f49f0acf37"
     },
     "Oingo Boingo Discography": {
         "duration": {
@@ -6447,7 +6477,7 @@
             "seconds": 46
         },
         "url": "https://open.spotify.com/playlist/26AfodPauU09WZ9X5WyCnp",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c2a241363ede22f6053e38f89"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c2a241363ede22f6053e38f89"
     },
     "BoardsofCanada": {
         "duration": {
@@ -6547,7 +6577,7 @@
             "seconds": 50
         },
         "url": "https://open.spotify.com/playlist/1hOzc9GLICCPVMq5xcCRxV",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa3b074f720fd5ec998b2a4e953"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b074f720fd5ec998b2a4e953"
     },
     "Entire Sidewalks and Skeletons discog": {
         "duration": {
@@ -6697,7 +6727,7 @@
             "seconds": 53
         },
         "url": "https://open.spotify.com/playlist/5XlKmjMcwvuqGWPec0z2xw",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84947dc1826df4cb5f92d8584b"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c947dc1826df4cb5f92d8584b"
     },
     "DE LA SOUL DISCOGRAPHY": {
         "duration": {
@@ -6879,16 +6909,6 @@
         "url": "https://open.spotify.com/playlist/43TeBdd2JOShJZd5jBgJls",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0227a82eca4ebf8573f2f3d252ab67616d00001e0231c1a88705a301d7b7b17238ab67616d00001e029c24cf219d98b1f47473cbe0ab67616d00001e02ca9d6fa9f34b30607a7ffdba"
     },
-    "This Is Bob Ostertag": {
-        "duration": {
-            "days": 0,
-            "hours": 6,
-            "minutes": 53,
-            "seconds": 47
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2DLqbl",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2DLqbl-default.jpg"
-    },
     "EUROPE DISCOGRAPHY": {
         "duration": {
             "days": 0,
@@ -6898,6 +6918,16 @@
         },
         "url": "https://open.spotify.com/playlist/7jMxWW4N1PfMmCvU8d7S6t",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0224ddbedf766f53752b78899cab67616d00001e0236122588977528b25dc12fdaab67616d00001e02782565cbfb9906de2fa526eeab67616d00001e02f5e30500f0eec7d92b159eae"
+    },
+    "This Is Bob Ostertag": {
+        "duration": {
+            "days": 0,
+            "hours": 6,
+            "minutes": 51,
+            "seconds": 5
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2DLqbl",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2DLqbl-default.jpg"
     },
     "AGNOSTIC FRONT - The Complete Discography": {
         "duration": {
@@ -6934,7 +6964,7 @@
             "days": 0,
             "hours": 6,
             "minutes": 50,
-            "seconds": 3
+            "seconds": 29
         },
         "url": "https://open.spotify.com/playlist/37i9dQZF1DX6ThddIjWuGT",
         "image": "https://i.scdn.co/image/ab67706f00000002e64e20487187cdc3378f12bd"
@@ -6947,7 +6977,7 @@
             "seconds": 3
         },
         "url": "https://open.spotify.com/playlist/4bpDFJNxCJwmKflH0ZYZv7",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cf864df896c203ac5b8c535d0"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f864df896c203ac5b8c535d0"
     },
     "New Wave Greatest Hits": {
         "duration": {
@@ -6957,7 +6987,7 @@
             "seconds": 42
         },
         "url": "https://open.spotify.com/playlist/138Y71gfTriqBjwqoHXL5l",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbfaa288af732ad5446014b15"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bfaa288af732ad5446014b15"
     },
     "Cryptopsy - Discography ": {
         "duration": {
@@ -7117,7 +7147,7 @@
             "seconds": 29
         },
         "url": "https://open.spotify.com/playlist/4ID0kdoL9HcsL0lLNcAyIV",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b7f334458e62c2b011e27e84"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b7f334458e62c2b011e27e84"
     },
     "Mortuary Drape discography 2": {
         "duration": {
@@ -7197,7 +7227,7 @@
             "seconds": 21
         },
         "url": "https://open.spotify.com/playlist/5GDGKXaFVPXGvs80kDcrd1",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8454c809db9b18fce24631488f"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8454c809db9b18fce24631488f"
     },
     "Your Top Songs 2022": {
         "duration": {
@@ -7327,7 +7357,7 @@
             "seconds": 16
         },
         "url": "https://open.spotify.com/playlist/5vg9py1Cegh0NYuFmIaNUl",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8423112e4cc5859de7ff4f5d9d"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8423112e4cc5859de7ff4f5d9d"
     },
     "Gorillaz": {
         "duration": {
@@ -7467,7 +7497,7 @@
             "seconds": 54
         },
         "url": "https://open.spotify.com/playlist/6hhO7IsnUnFSYqw9O17xKV",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8402c7fb98e83fdb3532f94d92"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8402c7fb98e83fdb3532f94d92"
     },
     "Motionless in White (Full Discography)": {
         "duration": {
@@ -7508,6 +7538,16 @@
         },
         "url": "https://open.spotify.com/playlist/1IHAuPixltjgIP4G5PP1df",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02781369aabc39c792cc55604fab67616d00001e0282298636c94b8167c4793db2ab67616d00001e02ca41a947c13b78749c4953b1ab67616d00001e02dce45359981d62e087a29e6f"
+    },
+    "Baja mali knindza": {
+        "duration": {
+            "days": 0,
+            "hours": 6,
+            "minutes": 24,
+            "seconds": 36
+        },
+        "url": "https://open.spotify.com/playlist/73ZwWJ9MdtTppGR6TkcxMT",
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84135a473041b8111befc81256"
     },
     "Javiera Mena discografía": {
         "duration": {
@@ -7587,7 +7627,7 @@
             "seconds": 59
         },
         "url": "https://open.spotify.com/playlist/2KHknBiTg6TJOv2kzXUk6M",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84518f4057be6023b82d103136"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84518f4057be6023b82d103136"
     },
     "Mastodon Discography": {
         "duration": {
@@ -7638,16 +7678,6 @@
         },
         "url": "https://open.spotify.com/playlist/6fL5SVONychO4vPEJf8VCi",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0203630b521c08ec8a82c5bcf0ab67616d00001e023e02c0dcf729dc64ae7bece0ab67616d00001e02b2395ac1a0d4a1b4cf584e1aab67616d00001e02dc4564d02f91c2392b73c6fb"
-    },
-    "Dark & Gothic": {
-        "duration": {
-            "days": 0,
-            "hours": 6,
-            "minutes": 14,
-            "seconds": 46
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DX0Nb1cyWS6Tq",
-        "image": "https://i.scdn.co/image/ab67706f0000000263e8260615d2f70cd0eb3fe4"
     },
     "DarkFuneral": {
         "duration": {
@@ -7708,6 +7738,16 @@
         },
         "url": "https://open.spotify.com/playlist/3jrfjgW1yxb31DIWYZvYnp",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841726a4044bd1059db4217ffa"
+    },
+    "Dark & Gothic": {
+        "duration": {
+            "days": 0,
+            "hours": 6,
+            "minutes": 11,
+            "seconds": 20
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DX0Nb1cyWS6Tq",
+        "image": "https://i.scdn.co/image/ab67706f0000000263e8260615d2f70cd0eb3fe4"
     },
     "Tinariwen": {
         "duration": {
@@ -7839,6 +7879,16 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DX9FSYmdU9mbT",
         "image": "https://i.scdn.co/image/ab67706f000000024f91660b3ccf7f6d72ae8c0f"
     },
+    "Big in Japan": {
+        "duration": {
+            "days": 0,
+            "hours": 6,
+            "minutes": 3,
+            "seconds": 8
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DXbR32Ldau7WM",
+        "image": "https://i.scdn.co/image/ab67706f00000002321401b80667d29ad486649f"
+    },
     "Sum 41 – Discography": {
         "duration": {
             "days": 0,
@@ -7848,16 +7898,6 @@
         },
         "url": "https://open.spotify.com/playlist/7loITa7xjlsJYMqfjCNYhj",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0220445015e7a7737c4f7226daab67616d00001e029a482180e6a306229bff49dcab67616d00001e02d6176a711e031d6522840c52ab67616d00001e02f9c71a9d542bf0923f47b274"
-    },
-    "Big in Japan": {
-        "duration": {
-            "days": 0,
-            "hours": 6,
-            "minutes": 2,
-            "seconds": 22
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DXbR32Ldau7WM",
-        "image": "https://i.scdn.co/image/ab67706f00000002321401b80667d29ad486649f"
     },
     "Killswitch Engage (Expanded Edition) [2004 Remaster]": {
         "duration": {
@@ -7897,7 +7937,7 @@
             "seconds": 12
         },
         "url": "https://open.spotify.com/playlist/0z1FO7RO5E4gq4vqYfbDeX",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c3d03395ed5343578eca40429"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da843d03395ed5343578eca40429"
     },
     "OurLadyPeace": {
         "duration": {
@@ -7908,6 +7948,16 @@
         },
         "url": "https://open.spotify.com/playlist/0O3et0JQlMZTVMpLg8ZhEe",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0220dcd3144ef06a0d02ffff98ab67616d00001e02a5ca1f760b26177d9d38bdd0ab67616d00001e02ece93d0422d37c02d86479daab67616d00001e02ff8a8ccc97c77d15c81441eb"
+    },
+    "Disco Blondie en tu casa": {
+        "duration": {
+            "days": 0,
+            "hours": 5,
+            "minutes": 59,
+            "seconds": 38
+        },
+        "url": "https://open.spotify.com/playlist/45h3HqfJDv7hFLb2NwjYD4",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e0257f627f712e7060d287dd732ab67616d00001e026affdd29d6ee84a298746ef7ab67616d00001e02786b44c75ebf915866523f5bab67616d00001e02a09b231129ab1cb1a6efc57f"
     },
     "Metric Discography": {
         "duration": {
@@ -7949,6 +7999,16 @@
         "url": "https://open.spotify.com/playlist/0yS7fmQapIaPBJioqan8r6",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0247c32ef536a860ee9e7c4997ab67616d00001e025a46b42ce4f43dae3d637be1ab67616d00001e0272981a5a20e4a59255cbf850ab67616d00001e028bbbcbeb416711b45bd55a7a"
     },
+    "Blondie discoteque hits ": {
+        "duration": {
+            "days": 0,
+            "hours": 5,
+            "minutes": 58,
+            "seconds": 10
+        },
+        "url": "https://open.spotify.com/playlist/1XiOdEcLaURvnLWrGZqrxB",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e0234cbf7013afccc7df67fa43fab67616d00001e02409373691d3c2025c7d5f846ab67616d00001e02ada101c2e9e97feb8fae37a9ab67616d00001e02cd9d8bc9ef04014b6e90e182"
+    },
     "Massive Attack Discography": {
         "duration": {
             "days": 0,
@@ -7968,16 +8028,6 @@
         },
         "url": "https://open.spotify.com/playlist/2ubFU2SbEUP0cR7sRrRNDU",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e024c0fd38bb5708d6c50abf0cdab67616d00001e02c1e9186f5c35b37901022e00ab67616d00001e02c1ea91fde153b13383f33f1aab67616d00001e02f1483a1e7961f3ad472a099a"
-    },
-    "Stay with me/Plastic Love/Japanese CityPop✨": {
-        "duration": {
-            "days": 0,
-            "hours": 5,
-            "minutes": 57,
-            "seconds": 18
-        },
-        "url": "https://open.spotify.com/playlist/70feEwUBVhjA8Z2ru9sZ0v",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cb7cd41367f911fa8a4a3be68"
     },
     "Within Temptation Discography": {
         "duration": {
@@ -8049,6 +8099,16 @@
         "url": "https://open.spotify.com/playlist/3PD41iYey4mxuM5nejjdys",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0236398f1846814deffed9f138ab67616d00001e023b9211139eb247b12f6ba6c5ab67616d00001e0244fc111787f221cf5629a2b9ab67616d00001e02624927252564ef4625307897"
     },
+    "Stay with me/Plastic Love/Japanese CityPop✨": {
+        "duration": {
+            "days": 0,
+            "hours": 5,
+            "minutes": 53,
+            "seconds": 53
+        },
+        "url": "https://open.spotify.com/playlist/70feEwUBVhjA8Z2ru9sZ0v",
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b7cd41367f911fa8a4a3be68"
+    },
     "Rob Zombie Discography": {
         "duration": {
             "days": 0,
@@ -8057,7 +8117,7 @@
             "seconds": 9
         },
         "url": "https://open.spotify.com/playlist/2tnsBxwalyGkUftmZUCmV1",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e2658440d485495d54a51dbf"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e2658440d485495d54a51dbf"
     },
     "loona discography": {
         "duration": {
@@ -8199,6 +8259,16 @@
         "url": "https://open.spotify.com/playlist/5YgOo9Pm8F6gne4BqGUqcY",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02151df423da2f9c6777ab5d01ab67616d00001e02533dbd037289e685ff5c49dfab67616d00001e027fe081b61eea562abea43309ab67616d00001e02af96933b125a7538cea71bad"
     },
+    "MortaSkuld": {
+        "duration": {
+            "days": 0,
+            "hours": 5,
+            "minutes": 47,
+            "seconds": 4
+        },
+        "url": "https://open.spotify.com/playlist/31IIS8Pw2IvbrUGRvhICr3",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e0248090760abf26ea5c31a85a2ab67616d00001e0282aed201317ea260a3483bd2ab67616d00001e02ec1bef697dfc4d2ec2ff8cd2ab67616d00001e02ff428548b667e5f44a30197e"
+    },
     "Los pericos Lo mejor de la discografia": {
         "duration": {
             "days": 0,
@@ -8228,6 +8298,16 @@
         },
         "url": "https://open.spotify.com/playlist/2wKHf98fBJhj830bw8dZWt",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0240747ffba7d78248c88c153fab67616d00001e0282dd876ebbec34f8f690ee67ab67616d00001e0294c4e0ab8edfd97b070f82d7ab67616d00001e02dc4d4192e500b2aa04f8f3cb"
+    },
+    "This Is The Ruins Of Beverast": {
+        "duration": {
+            "days": 0,
+            "hours": 5,
+            "minutes": 45,
+            "seconds": 28
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO130JC9",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO130JC9-default.jpg"
     },
     "Darkwave": {
         "duration": {
@@ -8369,16 +8449,6 @@
         "url": "https://open.spotify.com/playlist/5RX9w0mwb01BBYEm6TE7KH",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02517b9730770732337af6053dab67616d00001e02907b2e938070e70c15e8224cab67616d00001e0296142da8c5603782f4fce1b0ab67616d00001e02bef8071d49bc25504a5d2fa9"
     },
-    "This Is The Ruins Of Beverast": {
-        "duration": {
-            "days": 0,
-            "hours": 5,
-            "minutes": 37,
-            "seconds": 27
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO130JC9",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO130JC9-default.jpg"
-    },
     "Pagan'sMind": {
         "duration": {
             "days": 0,
@@ -8417,7 +8487,7 @@
             "seconds": 16
         },
         "url": "https://open.spotify.com/playlist/4ZskEuIVRtXvQxG2RMXXNU",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e2092e747c3e8958207b5062"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e2092e747c3e8958207b5062"
     },
     "Como Asesinar a Felipes": {
         "duration": {
@@ -8447,7 +8517,7 @@
             "seconds": 35
         },
         "url": "https://open.spotify.com/playlist/5HwRzMJOCahRtugQ0ugKJO",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8492223cb6a4bea624c0db662d"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8492223cb6a4bea624c0db662d"
     },
     "Harakiri for the Sky": {
         "duration": {
@@ -8557,7 +8627,7 @@
             "seconds": 56
         },
         "url": "https://open.spotify.com/playlist/1W6c8qXcijyX9kXa07zFFT",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84409232f599f1e49ec9a97547"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84409232f599f1e49ec9a97547"
     },
     "DeathGrips": {
         "duration": {
@@ -8638,16 +8708,6 @@
         },
         "url": "https://open.spotify.com/playlist/2hb9Z2H5jzEgJyWRwUCBTG",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e020320444aecd5b107f64d1883ab67616d00001e022e2a9f6fa6bdceed2dfe5783ab67616d00001e02ccf6a5f7d4d634db40a2d911ab67616d00001e02e1448a1b9fd38e8634ec92e0"
-    },
-    "Baja mali knindza": {
-        "duration": {
-            "days": 0,
-            "hours": 5,
-            "minutes": 22,
-            "seconds": 5
-        },
-        "url": "https://open.spotify.com/playlist/73ZwWJ9MdtTppGR6TkcxMT",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84135a473041b8111befc81256"
     },
     "Undercroft": {
         "duration": {
@@ -8777,7 +8837,7 @@
             "seconds": 25
         },
         "url": "https://open.spotify.com/playlist/3RVLA92AaUHkzxdsgXoMWp",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84eb9e438f3b2b907752b0f004"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84eb9e438f3b2b907752b0f004"
     },
     "The Devil Makes Three Discography": {
         "duration": {
@@ -8798,16 +8858,6 @@
         },
         "url": "https://open.spotify.com/playlist/5HLbseqmpSgCIoqX8Y3DkR",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0216dfd7ee411d1e8be9ba13ccab67616d00001e0259f101b0e8613a72867bffbeab67616d00001e02c41a6c1c7eac45402ea90864ab67616d00001e02d5442a92d494c743dab3db79"
-    },
-    "The Essential Ska": {
-        "duration": {
-            "days": 0,
-            "hours": 5,
-            "minutes": 15,
-            "seconds": 10
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DX7WJ4yDmRK8R",
-        "image": "https://i.scdn.co/image/ab67706f0000000221a8ee758eaed79ef205c37b"
     },
     "LosBunkers": {
         "duration": {
@@ -8887,7 +8937,7 @@
             "seconds": 18
         },
         "url": "https://open.spotify.com/playlist/23SoOeTzrdlbITbJ2BDIDT",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d8b1c5af1505e39abc3340a7"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d8b1c5af1505e39abc3340a7"
     },
     "PibesChorros": {
         "duration": {
@@ -8958,6 +9008,16 @@
         },
         "url": "https://open.spotify.com/playlist/31k8LVFGElsPTSYJ1uwEIy",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e024a6f5598c41e77ae78cab725ab67616d00001e0282cf3a9e2e2b6b1b3f994d38ab67616d00001e028fd9b16eb6bdd20c95717258ab67616d00001e02e28947f6ad2f100af9c1965a"
+    },
+    "The Essential Ska": {
+        "duration": {
+            "days": 0,
+            "hours": 5,
+            "minutes": 8,
+            "seconds": 11
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DX7WJ4yDmRK8R",
+        "image": "https://i.scdn.co/image/ab67706f0000000221a8ee758eaed79ef205c37b"
     },
     "The Metallica Blacklist": {
         "duration": {
@@ -9067,7 +9127,7 @@
             "seconds": 54
         },
         "url": "https://open.spotify.com/playlist/5703DA70Vz27fWMp9l8ikJ",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8472bdc34d819a17d759c8c56e"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8472bdc34d819a17d759c8c56e"
     },
     "Sin Bandera Discografía": {
         "duration": {
@@ -9137,7 +9197,7 @@
             "seconds": 58
         },
         "url": "https://open.spotify.com/playlist/1sqLI72VqTrYvkl6bScZUF",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84747c3b62de264d6a2c02e901"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84747c3b62de264d6a2c02e901"
     },
     "UnleashTheArchers": {
         "duration": {
@@ -9189,6 +9249,16 @@
         "url": "https://open.spotify.com/playlist/2kaUkZ2ziS2vq7vOtj0oYI",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0292ab1a91cd141bcbc2a37693ab67616d00001e02b1a4cfe1167a71c165483782ab67616d00001e02c9d078b963bf1205f26eb90bab67616d00001e02d886bd2ad58e16bc834ad9eb"
     },
+    "This Is Infected Mushroom": {
+        "duration": {
+            "days": 0,
+            "hours": 5,
+            "minutes": 2,
+            "seconds": 5
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO43Sibe",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO43Sibe-default.jpg"
+    },
     "Noel Gallagher's High Flying Birds: Discography Playlist": {
         "duration": {
             "days": 0,
@@ -9197,7 +9267,7 @@
             "seconds": 43
         },
         "url": "https://open.spotify.com/playlist/5mvTEHP28vuOqPWgqQuiZy",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849794ac12c9b08ba7c1d7fae0"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da849794ac12c9b08ba7c1d7fae0"
     },
     "While She Sleeps Discography": {
         "duration": {
@@ -9249,16 +9319,6 @@
         "url": "https://open.spotify.com/playlist/3YQYML6way4nxuXvlO9xle",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0250806a56aecac0a49128cc83ab67616d00001e026f862c491bf43e4c885f9264ab67616d00001e02b8ede80be8d0c9e733f96108ab67616d00001e02e458b13342bbe52aef3079ed"
     },
-    "This Is Infected Mushroom": {
-        "duration": {
-            "days": 0,
-            "hours": 4,
-            "minutes": 59,
-            "seconds": 36
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO43Sibe",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO43Sibe-default.jpg"
-    },
     "Buckethead for Studying": {
         "duration": {
             "days": 0,
@@ -9267,7 +9327,7 @@
             "seconds": 19
         },
         "url": "https://open.spotify.com/playlist/0y3aPmVpFBDckYqLTsgS74",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844e88c99dcd9285383bbf0e1b"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da844e88c99dcd9285383bbf0e1b"
     },
     "DOOM": {
         "duration": {
@@ -9319,15 +9379,15 @@
         "url": "https://open.spotify.com/playlist/3cyQ3Tor03FScmdfcP0VQY",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02063ab0c33c2f8c4ca60dc140ab67616d00001e0242b38cbb710a9685b8fcd8a7ab67616d00001e026deca216db1e0d153255a70fab67616d00001e02e5122bc4a86b8640898902ae"
     },
-    "This Is Alton Ellis": {
+    "City and Colour Discography": {
         "duration": {
             "days": 0,
             "hours": 4,
             "minutes": 57,
-            "seconds": 43
+            "seconds": 32
         },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3bmuzg",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3bmuzg-default.jpg"
+        "url": "https://open.spotify.com/playlist/2XSjWjaOhxmfkDGYTDb44A",
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8446e580c7892fe35f7e3090e5"
     },
     "SNOW STRIPPERS": {
         "duration": {
@@ -9339,6 +9399,16 @@
         "url": "https://open.spotify.com/playlist/30p3XJA3MQXOTDLFPIogty",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842c47542f18ea44f6b1b84a0c"
     },
+    "This Is Alton Ellis": {
+        "duration": {
+            "days": 0,
+            "hours": 4,
+            "minutes": 56,
+            "seconds": 36
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3bmuzg",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3bmuzg-default.jpg"
+    },
     "IC3PEAK DISCOGRAPHY": {
         "duration": {
             "days": 0,
@@ -9347,7 +9417,7 @@
             "seconds": 12
         },
         "url": "https://open.spotify.com/playlist/1HN6DLIMT917wESp8k0TUC",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da847d4c004828acd86d615fb1a0"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847d4c004828acd86d615fb1a0"
     },
     "LebanonHanover": {
         "duration": {
@@ -9439,16 +9509,6 @@
         "url": "https://open.spotify.com/playlist/5FqcHrvJYcbHWIShc3Ro0Y",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84120ba561c8fe9ac2e8b6ce78"
     },
-    "Disco High Energy": {
-        "duration": {
-            "days": 0,
-            "hours": 4,
-            "minutes": 52,
-            "seconds": 11
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DX6eVMzZ9dfKv",
-        "image": "https://i.scdn.co/image/ab67706f00000002687376cf02942ffbf203f5d2"
-    },
     "Poppy's ACTUAL Complete Collection": {
         "duration": {
             "days": 0,
@@ -9457,7 +9517,7 @@
             "seconds": 50
         },
         "url": "https://open.spotify.com/playlist/45Y0AH5CQK9ubj4uKoQ7Xl",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e0414bc056c94efd96cdbd12"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e0414bc056c94efd96cdbd12"
     },
     "Molotov": {
         "duration": {
@@ -9559,6 +9619,16 @@
         "url": "https://open.spotify.com/playlist/43DVvs2CGATbyWOH7vYJkk",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e020bbac17c6887623005fff4d4ab67616d00001e022aaa9372a6922e6e3575d828ab67616d00001e0256da8bed1dffded53834d515ab67616d00001e027ffe7e57259e70a74ba91efe"
     },
+    "Disco High Energy": {
+        "duration": {
+            "days": 0,
+            "hours": 4,
+            "minutes": 48,
+            "seconds": 46
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DX6eVMzZ9dfKv",
+        "image": "https://i.scdn.co/image/ab67706f00000002687376cf02942ffbf203f5d2"
+    },
     "Pavement Discography": {
         "duration": {
             "days": 0,
@@ -9567,7 +9637,7 @@
             "seconds": 18
         },
         "url": "https://open.spotify.com/playlist/2tKlcrFVidONdM3uOrjIVb",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b5fb0898325235db563d6c77"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b5fb0898325235db563d6c77"
     },
     "crywank discography": {
         "duration": {
@@ -9577,7 +9647,7 @@
             "seconds": 55
         },
         "url": "https://open.spotify.com/playlist/6v5rYwxZSkCEyPjnng6M96",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844673665e4b167394cdd0c2c2"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da844673665e4b167394cdd0c2c2"
     },
     "Kraftwerk": {
         "duration": {
@@ -9597,7 +9667,7 @@
             "seconds": 27
         },
         "url": "https://open.spotify.com/playlist/3T7sHf7bAi0ssxdiUNJgCl",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c7ad59f5079278fed84d7d457"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847ad59f5079278fed84d7d457"
     },
     "Yamete Kudasai": {
         "duration": {
@@ -9767,7 +9837,7 @@
             "seconds": 8
         },
         "url": "https://open.spotify.com/playlist/5SG3nNkGhTcRHu2VUm0tiB",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845d92a7b01b100d7eab6a1d0f"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845d92a7b01b100d7eab6a1d0f"
     },
     "SEAL Discography": {
         "duration": {
@@ -9789,26 +9859,6 @@
         "url": "https://open.spotify.com/playlist/0swYQ1MKxTKJC8ukEs8PPZ",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02312e9fbc0580a1f9b05721b5ab67616d00001e023c93df33fdc7664bd151899dab67616d00001e02ce0d46399b062a9b9a292e5cab67616d00001e02fd158995b34a86609061af9e"
     },
-    "This Is Tarja": {
-        "duration": {
-            "days": 0,
-            "hours": 4,
-            "minutes": 36,
-            "seconds": 31
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3n34y5",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3n34y5-default.jpg"
-    },
-    "This Is Diamanda Galás": {
-        "duration": {
-            "days": 0,
-            "hours": 4,
-            "minutes": 35,
-            "seconds": 47
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2mjjBT",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2mjjBT-default.jpg"
-    },
     "Hate Eternal Discog": {
         "duration": {
             "days": 0,
@@ -9818,16 +9868,6 @@
         },
         "url": "https://open.spotify.com/playlist/2WVtvOOUzqPwPYDPT4zPG5",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e020e2f8200cfb0ac3d52971ef5ab67616d00001e027902c88605bd723b1de81e7dab67616d00001e028b64d626ffab9051defda378ab67616d00001e02a58a06979de64de0e035b5f3"
-    },
-    "Alexisonfire discography": {
-        "duration": {
-            "days": 0,
-            "hours": 4,
-            "minutes": 34,
-            "seconds": 20
-        },
-        "url": "https://open.spotify.com/playlist/2yoi6nUMOaTuqVgjkn7xbd",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e0248a530da393aaa1ad196277fab67616d00001e026ba44db50ec9ea858b3895ceab67616d00001e02a9b56477790a1465d963194aab67616d00001e02bc44af9aa44cf751fc6f18e1"
     },
     "Florence and the Machine: Complete Discography": {
         "duration": {
@@ -9939,6 +9979,16 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0dMTYp",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0dMTYp-default.jpg"
     },
+    "This Is Diamanda Galás": {
+        "duration": {
+            "days": 0,
+            "hours": 4,
+            "minutes": 31,
+            "seconds": 11
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2mjjBT",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2mjjBT-default.jpg"
+    },
     "TwistedSister": {
         "duration": {
             "days": 0,
@@ -9957,7 +10007,7 @@
             "seconds": 32
         },
         "url": "https://open.spotify.com/playlist/2o87VhxRyBH8O4yMUeHO5K",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846bc79dac6d3e8a4ff098aa25"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da846bc79dac6d3e8a4ff098aa25"
     },
     "RATM": {
         "duration": {
@@ -10119,16 +10169,6 @@
         "url": "https://open.spotify.com/playlist/3ubFVBb9XJpCGHBWJgZCZB",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e023113cdd470192a81a40e6b9dab67616d00001e025f1922f94cc117c54a972213ab67616d00001e02d0a1e54b305c0ea8d6f04ca9ab67616d00001e02fc14ce593852e822eb562740"
     },
-    "This Is Gong": {
-        "duration": {
-            "days": 0,
-            "hours": 4,
-            "minutes": 22,
-            "seconds": 0
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2pigaW",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2pigaW-default.jpg"
-    },
     "The Stone Roses": {
         "duration": {
             "days": 0,
@@ -10203,8 +10243,8 @@
         "duration": {
             "days": 0,
             "hours": 4,
-            "minutes": 19,
-            "seconds": 56
+            "minutes": 17,
+            "seconds": 35
         },
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4B7lt1",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4B7lt1-default.jpg"
@@ -10218,6 +10258,16 @@
         },
         "url": "https://open.spotify.com/playlist/7BYWbiJWV1olkq1bnNjRo0",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e021de1b47950a1c57ab49a1106ab67616d00001e0276f44eb1e4d607e026817d72ab67616d00001e02ac07b1a59cb1963af2451c1fab67616d00001e02c4196f9571ddb43b7bb4c7d1"
+    },
+    "SinDios": {
+        "duration": {
+            "days": 0,
+            "hours": 4,
+            "minutes": 17,
+            "seconds": 14
+        },
+        "url": "https://open.spotify.com/playlist/1lBYy1oD0zHc854Ac63xw9",
+        "image": "https://i.scdn.co/image/ab67616d00001e0236ac39e09bbc66e461552515"
     },
     "mitski discography + live tracks": {
         "duration": {
@@ -10419,6 +10469,16 @@
         "url": "https://open.spotify.com/playlist/5rqBywL9u2Q8s91Z6pNWjj",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e021fbd0739e5c4c9dcd59792edab67616d00001e024f9ae64ee6922a3040d49756ab67616d00001e02978788ffe5bea2d88052b0baab67616d00001e02c9de2af61a0ec41e8a708d3a"
     },
+    "This Is Gong": {
+        "duration": {
+            "days": 0,
+            "hours": 4,
+            "minutes": 9,
+            "seconds": 6
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2pigaW",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2pigaW-default.jpg"
+    },
     "Garras de Amor - Exitos ": {
         "duration": {
             "days": 0,
@@ -10427,7 +10487,7 @@
             "seconds": 50
         },
         "url": "https://open.spotify.com/playlist/5RevdNmwPpSNqNG8TnyUSr",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c27c52964012539939500646a"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8427c52964012539939500646a"
     },
     "The Police Discography": {
         "duration": {
@@ -10478,6 +10538,16 @@
         },
         "url": "https://open.spotify.com/playlist/7kn5xVQi4SbIMlDe1ueJkR",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0203e25546d8e218d474e65cbbab67616d00001e025dae83e410f6679193f579dcab67616d00001e0278a7ec0e5a91cb30e7d17d17ab67616d00001e02efc5a6cc5c53eec3fc56feda"
+    },
+    "Alexisonfire discography": {
+        "duration": {
+            "days": 0,
+            "hours": 4,
+            "minutes": 5,
+            "seconds": 23
+        },
+        "url": "https://open.spotify.com/playlist/2yoi6nUMOaTuqVgjkn7xbd",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e0248a530da393aaa1ad196277fab67616d00001e026ba44db50ec9ea858b3895ceab67616d00001e02a9b56477790a1465d963194aab67616d00001e02bc44af9aa44cf751fc6f18e1"
     },
     "FRED AGAIN.. // DISCOGRAPHY": {
         "duration": {
@@ -10587,7 +10657,7 @@
             "seconds": 31
         },
         "url": "https://open.spotify.com/playlist/5WdiSzV3FBYm6MFHxCf8PH",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da844da0e85a73f5788af3f5ef9b"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da844da0e85a73f5788af3f5ef9b"
     },
     "frank ocean discography  ": {
         "duration": {
@@ -10608,6 +10678,16 @@
         },
         "url": "https://open.spotify.com/playlist/2axCszkpee2HUIaMKdqZoR",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0253fbe1a51610e72665fc2a2eab67616d00001e0262da6d3e2598e9441996c7aeab67616d00001e02924513aa1ec01d2807787863ab67616d00001e02a2153d0fa6c58842d6fde59a"
+    },
+    "skramz/emo violence ": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 59,
+            "seconds": 53
+        },
+        "url": "https://open.spotify.com/playlist/2L5ME6YOhkTIVhHGEzxSvp",
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c5e52e9566bb7a6483b55ba02"
     },
     "Ignite Full Discography": {
         "duration": {
@@ -10779,6 +10859,16 @@
         "url": "https://open.spotify.com/playlist/3kzeRwDUZKIB76eCu8SxW0",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e022bcb70cbaad60a33f05b639aab67616d00001e0236bc8733de02e749124bf779ab67616d00001e02597dc0064f4907ba09be04fbab67616d00001e02cfc17eece25ee60f42536898"
     },
+    "This Is Mountain": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 54,
+            "seconds": 34
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4BjFyq",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4BjFyq-default.jpg"
+    },
     "ArcadeFire": {
         "duration": {
             "days": 0,
@@ -10797,17 +10887,17 @@
             "seconds": 31
         },
         "url": "https://open.spotify.com/playlist/3Q49SXG28nLtBibIX0uVti",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa3ba94a7e3bdd3c5860b831336"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ba94a7e3bdd3c5860b831336"
     },
-    "This Is Mountain": {
+    "This Is Brainbombs": {
         "duration": {
             "days": 0,
             "hours": 3,
             "minutes": 54,
-            "seconds": 5
+            "seconds": 16
         },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4BjFyq",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4BjFyq-default.jpg"
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1n0MSM",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1n0MSM-default.jpg"
     },
     "Sticky Fingers Complete Discography": {
         "duration": {
@@ -10838,16 +10928,6 @@
         },
         "url": "https://open.spotify.com/playlist/1WQYP6D4rgeNvNk1SDKHEq",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d0e18b60dc20d2190c031c0f"
-    },
-    "This Is Brainbombs": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 52,
-            "seconds": 12
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1n0MSM",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1n0MSM-default.jpg"
     },
     "The All American Rejects Discography": {
         "duration": {
@@ -11069,6 +11149,16 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4cid0s",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4cid0s-default.jpg"
     },
+    "This Is Laibach": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 43,
+            "seconds": 23
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4lltoT",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4lltoT-default.jpg"
+    },
     "This Is: Pavarotti": {
         "duration": {
             "days": 0,
@@ -11089,16 +11179,6 @@
         "url": "https://open.spotify.com/playlist/1VgvIrH2Phrt9mkhi2wj27",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0201b5dac9be0506ecf6259510ab67616d00001e020b790b6ef519d2d22e79dac3ab67616d00001e021bf65117923cc74003994827ab67616d00001e0267504f9068aa806902d14ae5"
     },
-    "This Is Laibach": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 41,
-            "seconds": 56
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4lltoT",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4lltoT-default.jpg"
-    },
     "hanatarash": {
         "duration": {
             "days": 0,
@@ -11107,7 +11187,7 @@
             "seconds": 12
         },
         "url": "https://open.spotify.com/playlist/1YfB4E4MbqZcnXfGhjjReW",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cfcb80efa4d1360fbf868e783"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84fcb80efa4d1360fbf868e783"
     },
     "After The Burial Discography": {
         "duration": {
@@ -11157,7 +11237,7 @@
             "seconds": 52
         },
         "url": "https://open.spotify.com/playlist/4Wbh0mxaZ2Z7ceRVIuFeMF",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d0b9aeb56f4636947118e895"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d0b9aeb56f4636947118e895"
     },
     "StrawberryAlarmClock": {
         "duration": {
@@ -11217,7 +11297,7 @@
             "seconds": 52
         },
         "url": "https://open.spotify.com/playlist/0O3NMz7IEQJCLtO6tXLaq1",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cce061092fc81c9af438e5838"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84ce061092fc81c9af438e5838"
     },
     "This Is the peggies": {
         "duration": {
@@ -11239,6 +11319,16 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2fooUc",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2fooUc-default.jpg"
     },
+    "This Is Sinister": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 35,
+            "seconds": 32
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3O3daf",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3O3daf-default.jpg"
+    },
     "This Is Congreso": {
         "duration": {
             "days": 0,
@@ -11248,16 +11338,6 @@
         },
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0s5oJF",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0s5oJF-default.jpg"
-    },
-    "This Is Sinister": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 34,
-            "seconds": 59
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3O3daf",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3O3daf-default.jpg"
     },
     "songs, ideas, we forgot": {
         "duration": {
@@ -11308,16 +11388,6 @@
         },
         "url": "https://open.spotify.com/playlist/2H4dQLsGvaYmQxrV0R2Ted",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0217e6df9c478817fe55e0f10aab67616d00001e0222f160c6d1bf2b733b7b40ddab67616d00001e023866b2baf0391b5acd67dff2ab67616d00001e02977d67a13f0803b795c1c4cc"
-    },
-    "Grandes Cuecas": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 31,
-            "seconds": 30
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DWXaZJOMuCt9q",
-        "image": "https://i.scdn.co/image/ab67706f000000025de442c2b05e8ff59218a171"
     },
     "DiavolStrain": {
         "duration": {
@@ -11387,7 +11457,7 @@
             "seconds": 8
         },
         "url": "https://open.spotify.com/playlist/5q3C0mJdZypmkuzQ3QZoCy",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84faf56ddfb1124965121730ed"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84faf56ddfb1124965121730ed"
     },
     "龍が如く -Yakuza: Like a Dragon-": {
         "duration": {
@@ -11438,6 +11508,16 @@
         },
         "url": "https://open.spotify.com/playlist/580Wn8SatcgXbbKjsvZWCR",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02380381d633bf3b5a8357f17fab67616d00001e0251adf6c40da8c3e2635893e9ab67616d00001e02edf4dcdd6ce73d43e4a562e6ab67616d00001e02f49930db4bdd901e372a9e68"
+    },
+    "And One Mix": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 27,
+            "seconds": 35
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1EIX7Q836AfCZa",
+        "image": "https://seed-mix-image.spotifycdn.com/v6/img/artist/6OAueBADydAjR5lP5NqTvv/en/default"
     },
     "The Smiths vs The Cure Dance Party": {
         "duration": {
@@ -11497,7 +11577,7 @@
             "seconds": 40
         },
         "url": "https://open.spotify.com/playlist/1TvfURxxwFcODw8c0kHYZR",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84d472b20ec0e0116b80388f76"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84d472b20ec0e0116b80388f76"
     },
     "Deafheaven": {
         "duration": {
@@ -11557,7 +11637,7 @@
             "seconds": 5
         },
         "url": "https://open.spotify.com/playlist/1wGmfx0lrCCSGeAhBLAIu0",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849fc5c636580c51880524d8f5"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da849fc5c636580c51880524d8f5"
     },
     "This Is Dark Tranquillity": {
         "duration": {
@@ -11569,6 +11649,26 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3kxI3K",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3kxI3K-default.jpg"
     },
+    "Grandes Cuecas": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 25,
+            "seconds": 25
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DWXaZJOMuCt9q",
+        "image": "https://i.scdn.co/image/ab67706f000000025de442c2b05e8ff59218a171"
+    },
+    "This Is ZAQ": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 25,
+            "seconds": 13
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO30cD0B",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO30cD0B-default.jpg"
+    },
     "Torturer": {
         "duration": {
             "days": 0,
@@ -11578,16 +11678,6 @@
         },
         "url": "https://open.spotify.com/playlist/633eG5OI9lq3DZ7hp1kx5t",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e025eae3a9ee8ddeeddaf4d4638ab67616d00001e028e51e88bbaf7fd97f706c9d3ab67616d00001e0297775d3110c608dcffcd0ac4ab67616d00001e02f70c5f54645589ebab77ff47"
-    },
-    "This Is ZAQ": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 24,
-            "seconds": 59
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO30cD0B",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO30cD0B-default.jpg"
     },
     "CamilaDiscografía": {
         "duration": {
@@ -11638,16 +11728,6 @@
         },
         "url": "https://open.spotify.com/playlist/1dN1mnU1t9Z7HkitrnhwEf",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c11afea40e5d8adbbfaa2ea1"
-    },
-    "And One Mix": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 22,
-            "seconds": 19
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1EIX7Q836AfCZa",
-        "image": "https://seed-mix-image.spotifycdn.com/v6/img/artist/6OAueBADydAjR5lP5NqTvv/en/default"
     },
     "The Winery Dogs": {
         "duration": {
@@ -11767,7 +11847,7 @@
             "seconds": 4
         },
         "url": "https://open.spotify.com/playlist/04V6CUoZlatwgkfjT7YmjT",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c0d9d9d02af7a71afe4bbc5ef"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840d9d9d02af7a71afe4bbc5ef"
     },
     "alex anwandter en teatro caupolicán": {
         "duration": {
@@ -11779,6 +11859,16 @@
         "url": "https://open.spotify.com/playlist/4beBnSihQjqvb58EkRc2GF",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84dfb93eac2e46d12fa7c02e30"
     },
+    "This Is Keane": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 19,
+            "seconds": 43
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2YcT04",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2YcT04-default.jpg"
+    },
     "Tijoux": {
         "duration": {
             "days": 0,
@@ -11788,16 +11878,6 @@
         },
         "url": "https://open.spotify.com/playlist/510xBPDjZTAjJE9JiZ39iz",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e021a143d7aa9a8034a8b60a907ab67616d00001e023e1783d25840e34ccf2455d1ab67616d00001e024df623fbd5de762b73ee9a03ab67616d00001e0298b322d7bc50bcd98490c9e7"
-    },
-    "Metal del Nuestro": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 18,
-            "seconds": 41
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DX3gzwlIik99M",
-        "image": "https://i.scdn.co/image/ab67706f00000002a81df653f0e2f82cb05d79be"
     },
     "KingKrule": {
         "duration": {
@@ -11829,15 +11909,15 @@
         "url": "https://open.spotify.com/playlist/24Q6kPaWq0XbZBbTPBORBc",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e022197de36cc2370ec14645696ab67616d00001e022cfe831d2608a8e39bc0a401ab67616d00001e0271d2b84602d5042537b23824ab67616d00001e028dcac1f202d3625077c11aad"
     },
-    "This Is Keane": {
+    "Metal del Nuestro": {
         "duration": {
             "days": 0,
             "hours": 3,
             "minutes": 18,
-            "seconds": 2
+            "seconds": 3
         },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2YcT04",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2YcT04-default.jpg"
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DX3gzwlIik99M",
+        "image": "https://i.scdn.co/image/ab67706f00000002a81df653f0e2f82cb05d79be"
     },
     "StickMen": {
         "duration": {
@@ -11884,7 +11964,7 @@
             "days": 0,
             "hours": 3,
             "minutes": 16,
-            "seconds": 40
+            "seconds": 33
         },
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3nMr04",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3nMr04-default.jpg"
@@ -11907,7 +11987,7 @@
             "seconds": 27
         },
         "url": "https://open.spotify.com/playlist/1aLOirrNm2Lp4DkW9PwtGq",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b5f35a4ef099ed0deba8eb9f"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cb5f35a4ef099ed0deba8eb9f"
     },
     "No, THIS is Deftones": {
         "duration": {
@@ -11917,7 +11997,7 @@
             "seconds": 18
         },
         "url": "https://open.spotify.com/playlist/4Z1uAVUlfnmygaoYQsCxWn",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841c78d6faf8654b61859c6882"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da841c78d6faf8654b61859c6882"
     },
     "(Sexy Indie) Taking my clothes off for an indie boy (dark pop, alt.metal,r&b...)": {
         "duration": {
@@ -11927,7 +12007,7 @@
             "seconds": 17
         },
         "url": "https://open.spotify.com/playlist/6JPKGwYpEMpQ2XF44A1sfo",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8434f9ced64d93eb0e98e4f3c7"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8434f9ced64d93eb0e98e4f3c7"
     },
     "This Is Tigran Hamasyan": {
         "duration": {
@@ -11969,16 +12049,6 @@
         "url": "https://open.spotify.com/playlist/2rCtixYX5dSwE10Y9HCR3r",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02161a09f031116877c3db8579ab67616d00001e026afc19da3f2a77ec9e9eda47ab67616d00001e0280aee3216dbae96c8d21c452ab67616d00001e028c1fadcc997a65384f34d694"
     },
-    "This Is Die Antwoord": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 15,
-            "seconds": 17
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3PFNzW",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3PFNzW-default.jpg"
-    },
     "TheStrokes": {
         "duration": {
             "days": 0,
@@ -11988,6 +12058,16 @@
         },
         "url": "https://open.spotify.com/playlist/2cLKJW49InPOrsbUfis2rX",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e020f35726025e0f025da4c688fab67616d00001e02397d02cfe1aab2923f9d1697ab67616d00001e026898a982ff3c6049ba52586cab67616d00001e02a388a3f20d1bf2123249cc79"
+    },
+    "This Is Die Antwoord": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 14,
+            "seconds": 53
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3PFNzW",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3PFNzW-default.jpg"
     },
     "GonzalezYLosAsistentes": {
         "duration": {
@@ -12019,6 +12099,16 @@
         "url": "https://open.spotify.com/playlist/5KAezHQqy0nytjJ0RBfxxh",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e020eb8446114de240bae4d9af4ab67616d00001e029d2de0f2bdeb0551bbc373e0ab67616d00001e02bb06a7621b529eb6a0ba0a3bab67616d00001e02f326cac36eb70d0de16680d1"
     },
+    "Radio de ASIAN KUNG-FU GENERATION": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 13,
+            "seconds": 22
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1E4FglUPTpwhdA",
+        "image": "https://seeded-session-images.scdn.co/v2/img/540/r/artist/0MK8l3nURwwQIjafvXoJJt/es-419"
+    },
     "Blank Banshee Discography": {
         "duration": {
             "days": 0,
@@ -12048,16 +12138,6 @@
         },
         "url": "https://open.spotify.com/playlist/7yPywv4OQIjbcmpZRTrsFS",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e024e9cf8752605f183fee811c4ab67616d00001e0295573008c4a242f0ecb59befab67616d00001e02a1964aef78ea716d72e1a603ab67616d00001e02a49b3e2274555d468855442a"
-    },
-    "This Is Morta Skuld": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 11,
-            "seconds": 58
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3RQguL",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3RQguL-default.jpg"
     },
     "Cynic studio discography": {
         "duration": {
@@ -12139,6 +12219,16 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2HpO5O",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2HpO5O-default.jpg"
     },
+    "This Is Leo Sayer": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 9,
+            "seconds": 40
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evNZYovSU",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evNZYovSU-default.jpg"
+    },
     "Starset": {
         "duration": {
             "days": 0,
@@ -12148,6 +12238,16 @@
         },
         "url": "https://open.spotify.com/playlist/4vgGEbTx8RyRGr6gJgkR3M",
         "image": "https://i.scdn.co/image/ab67616d00001e02e9cfbebbdfc182c1adc73da6"
+    },
+    "This Is Malevolent Creation": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 9,
+            "seconds": 3
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO10zNNa",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO10zNNa-default.jpg"
     },
     "Panchiko Discography": {
         "duration": {
@@ -12159,16 +12259,6 @@
         "url": "https://open.spotify.com/playlist/08L9bb5mMUzWNiJ5A5qOl4",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da841ad528794a44a4df8af306c8"
     },
-    "ꋊ꒐ꉧ + sami + Mandy + Aspergeira": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 8,
-            "seconds": 39
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1EJLqI72D3r0Jx",
-        "image": "https://blend-playlist-covers.spotifycdn.com/group-blends-v1/group-blend-blue-2-DEFAULT-en.jpg"
-    },
     "PlebeianGrandstand": {
         "duration": {
             "days": 0,
@@ -12178,16 +12268,6 @@
         },
         "url": "https://open.spotify.com/playlist/3iXsgD2XMcXlFmz9Y69ony",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02277037ab805635175c3f81e8ab67616d00001e027b0014c3fc94c1c67205a8ebab67616d00001e02aab390edd98373f01e2b9ec2ab67616d00001e02e9c987b9123bc6d4ee75322c"
-    },
-    "This Is Malevolent Creation": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 8,
-            "seconds": 24
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO10zNNa",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO10zNNa-default.jpg"
     },
     "David Bowie Dance Party": {
         "duration": {
@@ -12219,26 +12299,6 @@
         "url": "https://open.spotify.com/playlist/5VVCYBn0THwKR0RuUJVFOw",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0208380790b68fce084badc3a8ab67616d00001e024a8871695f3ccf3d5a836e94ab67616d00001e0288c3224ef95aab7a900fabd1ab67616d00001e02ee211358d5156a05f41c250a"
     },
-    "Radio de ASIAN KUNG-FU GENERATION": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 7,
-            "seconds": 25
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1E4FglUPTpwhdA",
-        "image": "https://seeded-session-images.scdn.co/v2/img/540/r/artist/0MK8l3nURwwQIjafvXoJJt/es-419"
-    },
-    "This Is Leo Sayer": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 7,
-            "seconds": 24
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evNZYovSU",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evNZYovSU-default.jpg"
-    },
     "Bruno Mars - Complete discography": {
         "duration": {
             "days": 0,
@@ -12248,16 +12308,6 @@
         },
         "url": "https://open.spotify.com/playlist/5rrtvjKTwUue6M9zk6UC0b",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02232711f7d66a1e19e89e28c5ab67616d00001e02926f43e7cce571e62720fd46ab67616d00001e02dec2e6bae5062b94fc4eeb84ab67616d00001e02f60070dce96a2c1b70cf6ff0"
-    },
-    "This Is Samael": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 6,
-            "seconds": 57
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO16iOnw",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO16iOnw-default.jpg"
     },
     "MCR": {
         "duration": {
@@ -12304,7 +12354,7 @@
             "days": 0,
             "hours": 3,
             "minutes": 5,
-            "seconds": 34
+            "seconds": 18
         },
         "url": "https://open.spotify.com/playlist/37i9dQZF1DWSXAHZTiX76o",
         "image": "https://i.scdn.co/image/ab67706f00000002219a2cbcdc7b0daf0b48478f"
@@ -12347,7 +12397,7 @@
             "seconds": 37
         },
         "url": "https://open.spotify.com/playlist/17JXdKQTKf1TM7flvQTKQL",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84fa134a7572f7a558d61ef417"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84fa134a7572f7a558d61ef417"
     },
     "Skyharbor": {
         "duration": {
@@ -12359,6 +12409,16 @@
         "url": "https://open.spotify.com/playlist/5OjsjAQP54a6o6FRNJ7QDi",
         "image": "https://i.scdn.co/image/ab67616d00001e02050cae73ed5ce8d8188c7290"
     },
+    "This Is Morta Skuld": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 4,
+            "seconds": 13
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3RQguL",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3RQguL-default.jpg"
+    },
     "Raras tocatas pencas": {
         "duration": {
             "days": 0,
@@ -12368,16 +12428,6 @@
         },
         "url": "https://open.spotify.com/playlist/03eW8hOHC0kkZHqSUNJnRD",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e022896f1db8d7a12192eb30f05ab67616d00001e026dc13f9fd3eb5ea6629191c7ab67616d00001e02b16e88eb80bf4f7b837d0bd9ab67616d00001e02e6127bcdd385315cfe1a0c9d"
-    },
-    "This Is Gorillaz": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 3,
-            "seconds": 53
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO25rXbO",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO25rXbO-default.jpg"
     },
     "MAXIMUM": {
         "duration": {
@@ -12398,16 +12448,6 @@
         },
         "url": "https://open.spotify.com/playlist/2ceR4XnBwOxIDZ3zY0Qj7i",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e021848e869a32bd164ae883bdeab67616d00001e022ea6fdcc576b4a5fa44c5398ab67616d00001e0272cf99d4f7717436911e55ceab67616d00001e02978b0fdf54700c206eca844c"
-    },
-    "Radar de Novedades": {
-        "duration": {
-            "days": 0,
-            "hours": 3,
-            "minutes": 3,
-            "seconds": 49
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZEVXbeERiH2L41RE",
-        "image": "https://newjams-images.scdn.co/image/ab67647800003f8a/dt/v3/release-radar/ab6761610000e5ebd78916fae1a00d7d939738a4/es-419"
     },
     "Yugoslavian Funk & Jazz-Funk": {
         "duration": {
@@ -12437,7 +12477,7 @@
             "seconds": 37
         },
         "url": "https://open.spotify.com/playlist/5GK6nqHO5KCZXJJro2u76G",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840689eebf65c14db2e1414985"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da840689eebf65c14db2e1414985"
     },
     "MunicipalWaste": {
         "duration": {
@@ -12459,15 +12499,15 @@
         "url": "https://open.spotify.com/playlist/0dmhTJcFJS1qXW0otD2L6V",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0259d73555219a8c348bf471a1ab67616d00001e02653c86f8800ee6985e0dab54ab67616d00001e02a199522d76e5d272b4cf42f2ab67616d00001e02c89ce0bbd398244d59e7eb68"
     },
-    "This Is Blondie": {
+    "ꋊ꒐ꉧ + sami + Mandy + Aspergeira": {
         "duration": {
             "days": 0,
             "hours": 3,
-            "minutes": 2,
-            "seconds": 33
+            "minutes": 3,
+            "seconds": 16
         },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2CrP3O",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2CrP3O-default.jpg"
+        "url": "https://open.spotify.com/playlist/37i9dQZF1EJLqI72D3r0Jx",
+        "image": "https://blend-playlist-covers.spotifycdn.com/group-blends-v1/group-blend-blue-2-DEFAULT-en.jpg"
     },
     "This Is Kase.O": {
         "duration": {
@@ -12478,6 +12518,26 @@
         },
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4y9S7u",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4y9S7u-default.jpg"
+    },
+    "This Is Blondie": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 2,
+            "seconds": 10
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2CrP3O",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2CrP3O-default.jpg"
+    },
+    "Release Radar": {
+        "duration": {
+            "days": 0,
+            "hours": 3,
+            "minutes": 2,
+            "seconds": 7
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZEVXbeERiH2L41RE",
+        "image": "https://newjams-images.scdn.co/image/ab67647800003f8a/dt/v3/release-radar/ab6761610000e5ebd78916fae1a00d7d939738a4/en"
     },
     "Loathe Discography": {
         "duration": {
@@ -12574,20 +12634,10 @@
             "days": 0,
             "hours": 3,
             "minutes": 0,
-            "seconds": 23
+            "seconds": 26
         },
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1HAP7i",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1HAP7i-default.jpg"
-    },
-    "This Is Loggins & Messina": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 59,
-            "seconds": 57
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4hjjO4",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4hjjO4-default.jpg"
     },
     "This Is 青葉市子": {
         "duration": {
@@ -12668,6 +12718,16 @@
         },
         "url": "https://open.spotify.com/playlist/6DD3wD9owM7CtebeZ28kuW",
         "image": "https://i.scdn.co/image/ab67616d00001e02a54f2b401501b3569990c256"
+    },
+    "This Is Loggins & Messina": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 57,
+            "seconds": 58
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4hjjO4",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4hjjO4-default.jpg"
     },
     "BOY HARSHER - Albums": {
         "duration": {
@@ -12859,16 +12919,6 @@
         "url": "https://open.spotify.com/playlist/4qyymqfSNfGNWnDnMYF5MN",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0233cb57472169e921c9a2eafeab67616d00001e024658ba9e8aa9f9be1b7eda94ab67616d00001e02b311c944ccacf99f914cf39cab67616d00001e02c3d6a8b56ec1844b061a5b23"
     },
-    "This Is Avril Lavigne": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 51,
-            "seconds": 41
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0aBNIs",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0aBNIs-default.jpg"
-    },
     "This Is Gentleman": {
         "duration": {
             "days": 0,
@@ -12939,6 +12989,16 @@
         "url": "https://open.spotify.com/playlist/54jKCgeK8ykIUHHxNKGdsw",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84468b3f3fc5e0acc04f7168eb"
     },
+    "This Is Avril Lavigne": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 50,
+            "seconds": 48
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0aBNIs",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0aBNIs-default.jpg"
+    },
     "DivisiónMinúscula": {
         "duration": {
             "days": 0,
@@ -12958,6 +13018,16 @@
         },
         "url": "https://open.spotify.com/playlist/47YCa4XOVWBxA1TfCxb0cA",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e022e7a7894dbd2e1c3ff6ecf46ab67616d00001e024fc195e841322e67caffefffab67616d00001e025b115933dfaffdaa3b893e64ab67616d00001e02d99d6946e7f9f3dd2d358966"
+    },
+    "This Is Television": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 50,
+            "seconds": 17
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0s5MvC",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0s5MvC-default.jpg"
     },
     "Worst": {
         "duration": {
@@ -13014,7 +13084,7 @@
             "days": 0,
             "hours": 2,
             "minutes": 47,
-            "seconds": 40
+            "seconds": 36
         },
         "url": "https://open.spotify.com/playlist/37i9dQZF1DX2v91v1834Ky",
         "image": "https://i.scdn.co/image/ab67706f00000002987c51ce823ea9ec68fe1fc8"
@@ -13109,16 +13179,6 @@
         "url": "https://open.spotify.com/playlist/5kKqf9VUlc9Hzeu62kSgi2",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0251b824c858d107445a1fc607ab67616d00001e0291181540da19cdf2e23b0f33ab67616d00001e02b70e3a7aac2025e9d84fd3e5ab67616d00001e02cab59a407637e0d4cbcee13c"
     },
-    "This Is Television": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 45,
-            "seconds": 31
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0s5MvC",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0s5MvC-default.jpg"
-    },
     "KnockedLoose": {
         "duration": {
             "days": 0,
@@ -13167,7 +13227,7 @@
             "seconds": 54
         },
         "url": "https://open.spotify.com/playlist/1bvtqh9qSpMsHBh3isgwoC",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8427bb56c1b52dab962cda3621"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8427bb56c1b52dab962cda3621"
     },
     "Cigarettes After Sex: Complete Discography": {
         "duration": {
@@ -13177,7 +13237,7 @@
             "seconds": 53
         },
         "url": "https://open.spotify.com/playlist/0dDj6l6mhSTi2HjDB8jbdg",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da847e5e9d95ace7232df493e2cd"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847e5e9d95ace7232df493e2cd"
     },
     "DawnOfDemise": {
         "duration": {
@@ -13357,7 +13417,7 @@
             "seconds": 40
         },
         "url": "https://open.spotify.com/playlist/7J26cA9wnnxaYRW8W2ElQS",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84586f6323485bd9b3e44f7d48"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84586f6323485bd9b3e44f7d48"
     },
     "Lamb of God Setlist - 2023 UK / European Tour": {
         "duration": {
@@ -13377,17 +13437,7 @@
             "seconds": 24
         },
         "url": "https://open.spotify.com/playlist/4dk89IVvLO4YiS39VtT3WG",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84353a769a036723747b51761a"
-    },
-    "This Is Iron Butterfly": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 36,
-            "seconds": 23
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1QNghF",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1QNghF-default.jpg"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84353a769a036723747b51761a"
     },
     "Los Vásquez Discografía": {
         "duration": {
@@ -13469,6 +13519,16 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO03TBE2",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO03TBE2-default.jpg"
     },
+    "ElephantGym": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 33,
+            "seconds": 28
+        },
+        "url": "https://open.spotify.com/playlist/1QQRrP3h2L2woa9jSMigoG",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e023544c47cad1a684b94a639f9ab67616d00001e0240727ee66e6383048f092d3cab67616d00001e0250e12276644a9b4044876c6bab67616d00001e02906c3e8111a1c7d5c33b14dc"
+    },
     "Tagadance": {
         "duration": {
             "days": 0,
@@ -13478,16 +13538,6 @@
         },
         "url": "https://open.spotify.com/playlist/2Im3H9A47EDnCkG22VQCbt",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0226b65044d82b81a249e396f5ab67616d00001e024fca44463bbcbcde7676acfdab67616d00001e0268558b6342a59f92f86d7b17ab67616d00001e02f94b2a29ccc364e8faedce10"
-    },
-    "This Is Atahualpa Yupanqui": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 33,
-            "seconds": 9
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3XRrhD",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3XRrhD-default.jpg"
     },
     "Beyond Creation Discography": {
         "duration": {
@@ -13529,6 +13579,16 @@
         "url": "https://open.spotify.com/playlist/3TvhobqjoxOW91HMkBvPs3",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e026d79c6a1b7e13ec8dcbce1a1ab67616d00001e0273de7831df40d62d579dd277ab67616d00001e029fc6334eb8dc6f23e2957b33ab67616d00001e02d1d67dd51d64db70f4b5636a"
     },
+    "This Is Atahualpa Yupanqui": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 31,
+            "seconds": 41
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3XRrhD",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3XRrhD-default.jpg"
+    },
     "This Is Havok": {
         "duration": {
             "days": 0,
@@ -13557,7 +13617,7 @@
             "seconds": 20
         },
         "url": "https://open.spotify.com/playlist/5y1ZoCVUZBcLIB1bAQNPOo",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84de072d055e626ef8cd1fecdf"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84de072d055e626ef8cd1fecdf"
     },
     "Netra": {
         "duration": {
@@ -13599,6 +13659,16 @@
         "url": "https://open.spotify.com/playlist/1clK6pVoUTeJ10Bqu7AhYl",
         "image": "https://i.scdn.co/image/ab67616d00001e02352b74f2b8f53839ed9b823b"
     },
+    "This Is Pestilence": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 28,
+            "seconds": 29
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3YyCaB",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3YyCaB-default.jpg"
+    },
     "Bane": {
         "duration": {
             "days": 0,
@@ -13639,6 +13709,16 @@
         "url": "https://open.spotify.com/playlist/333zOhG8EAkcc5KFdOKcwq",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e023f60a09d42321378e4bea8d0ab67616d00001e02796d18ef5544ed83990e8d79ab67616d00001e02c65dc088e3dac29031e4959dab67616d00001e02cd7384db88ba695ee9b6a3c7"
     },
+    "Arab Metal": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 27,
+            "seconds": 56
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DXaqykGqi6KX8",
+        "image": "https://i.scdn.co/image/ab67706f00000002e255a7162960a614bf3933f9"
+    },
     "Mysterain": {
         "duration": {
             "days": 0,
@@ -13659,16 +13739,6 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4xlPdC",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4xlPdC-default.jpg"
     },
-    "Arab Metal": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 27,
-            "seconds": 19
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DXaqykGqi6KX8",
-        "image": "https://i.scdn.co/image/ab67706f00000002e255a7162960a614bf3933f9"
-    },
     "SetList Porcupine Tree 2022": {
         "duration": {
             "days": 0,
@@ -13678,6 +13748,16 @@
         },
         "url": "https://open.spotify.com/playlist/4qVetiR3mIYrhfKhueb0VE",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e021cd301bd6b8b56816ba81e46ab67616d00001e021fa55cf010db247948b8cd4fab67616d00001e028e53b9eb8dbdafd5ff46b500ab67616d00001e02cdaddbe366580d699aefbf84"
+    },
+    "This Is Gorguts": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 26,
+            "seconds": 45
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0qR3RG",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0qR3RG-default.jpg"
     },
     "EmirKusturica": {
         "duration": {
@@ -13709,26 +13789,6 @@
         "url": "https://open.spotify.com/playlist/6V1fpc1RWhRE6b5tRA2tDh",
         "image": "https://i.scdn.co/image/ab67616d00001e02e746429b6da1cea98babff69"
     },
-    "This Is Gorguts": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 25,
-            "seconds": 42
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0qR3RG",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0qR3RG-default.jpg"
-    },
-    "This Is Pestilence": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 25,
-            "seconds": 32
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3YyCaB",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3YyCaB-default.jpg"
-    },
     "GretaVanFleet": {
         "duration": {
             "days": 0,
@@ -13748,6 +13808,16 @@
         },
         "url": "https://open.spotify.com/playlist/4ATR6VGWJrro8edQgI7mh2",
         "image": "https://i.scdn.co/image/ab67616d00001e02867ac89ddac23e512e3830c9"
+    },
+    "This Is The Smiths": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 24,
+            "seconds": 59
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO24u0wM",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO24u0wM-default.jpg"
     },
     "A-ha: The best of": {
         "duration": {
@@ -13829,6 +13899,16 @@
         "url": "https://open.spotify.com/playlist/5kefONAmRqOabDwRyNAGg6",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840526e67744b73e8af4eb24d3"
     },
+    "This Is Rolie Polie Guacamole": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 23,
+            "seconds": 18
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3ioAcY",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3ioAcY-default.jpg"
+    },
     "Human Tetris - EP": {
         "duration": {
             "days": 0,
@@ -13867,17 +13947,7 @@
             "seconds": 1
         },
         "url": "https://open.spotify.com/playlist/1kcbzktSY2Xcla3VRmUIZM",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8479d365a294dcd54e542ea5a2"
-    },
-    "This Is The Smiths": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 21,
-            "seconds": 46
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO24u0wM",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO24u0wM-default.jpg"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8479d365a294dcd54e542ea5a2"
     },
     "This Is Bread": {
         "duration": {
@@ -13909,6 +13979,16 @@
         "url": "https://open.spotify.com/playlist/4Anq8eB3Y064ogdxXP38nD",
         "image": "https://i.scdn.co/image/ab67616d00001e026ea51d351b48aa68f2111ccc"
     },
+    "This Is Sacred Reich": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 20,
+            "seconds": 29
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0tmTcl",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0tmTcl-default.jpg"
+    },
     "KublaiKhanTX": {
         "duration": {
             "days": 0,
@@ -13919,6 +13999,16 @@
         "url": "https://open.spotify.com/playlist/7sJrspBxZRYumqPCt7CgSf",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0251f32f5ccaf997d451c7d776ab67616d00001e026f1ef7c5161565e029f8c77cab67616d00001e02cb6f8bdd784d5b56a6247810ab67616d00001e02d00f14a553739b78983cddc3"
     },
+    "Blondie En Tu Casa - La Tipica Pista Indie": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 19,
+            "seconds": 59
+        },
+        "url": "https://open.spotify.com/playlist/7MAfuO96uuKR39TR1SLvUN",
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84075978ec9cbb222432b2591e"
+    },
     "TwinTribes": {
         "duration": {
             "days": 0,
@@ -13928,16 +14018,6 @@
         },
         "url": "https://open.spotify.com/playlist/47boLBe488RJcfjOrI9USv",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0201359faff130402aac62369cab67616d00001e02788c1d07f9f945344999df8bab67616d00001e028ab75a958135ac64533dcc8cab67616d00001e02b4ffbe3d72088458fe225ac7"
-    },
-    "Radio de Sonora": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 19,
-            "seconds": 28
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1E4xpHiBhyHvj8",
-        "image": "https://seeded-session-images.scdn.co/v2/img/540/r/artist/0HJ5UFXvI8hZwLdinDR6M2/es-419"
     },
     "Violator": {
         "duration": {
@@ -13969,16 +14049,6 @@
         "url": "https://open.spotify.com/playlist/5O86RmigfqDPHyC6XPrGZM",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02077cac00c2d9075e6f742570ab67616d00001e025eae69bbe37d5f382155e387ab67616d00001e02c4c6620bbbd9ac63c09d2f3bab67616d00001e02d2d0137c32938ae8cb44e0ca"
     },
-    "This Is Sacred Reich": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 18,
-            "seconds": 17
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO0tmTcl",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0tmTcl-default.jpg"
-    },
     "ArtificialBrain": {
         "duration": {
             "days": 0,
@@ -13989,6 +14059,16 @@
         "url": "https://open.spotify.com/playlist/4c4gNlV7V21SsKfVCG6jYI",
         "image": "https://i.scdn.co/image/ab67616d00001e02134e3b5635f427bc90ad9569"
     },
+    "This Is Iron Butterfly": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 17,
+            "seconds": 52
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1QNghF",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1QNghF-default.jpg"
+    },
     "BEST OF HEAVEN SHALL BURN🤟": {
         "duration": {
             "days": 0,
@@ -13997,7 +14077,17 @@
             "seconds": 49
         },
         "url": "https://open.spotify.com/playlist/5Xxg2kiNEnBWoKc25QXwuQ",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84e7bd7fd8347ce8554ea46ced"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e7bd7fd8347ce8554ea46ced"
+    },
+    "Radio de Sonora": {
+        "duration": {
+            "days": 0,
+            "hours": 2,
+            "minutes": 17,
+            "seconds": 24
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1E4xpHiBhyHvj8",
+        "image": "https://seeded-session-images.scdn.co/v2/img/540/r/artist/0HJ5UFXvI8hZwLdinDR6M2/es-419"
     },
     "Glup! 1999": {
         "duration": {
@@ -14038,16 +14128,6 @@
         },
         "url": "https://open.spotify.com/playlist/23nZGi2N05eWguefbZycfV",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e023e378f6f76942740e239df0dab67616d00001e0242e8f448155ec2e5dd0f4315ab67616d00001e02a62d30fc92faea8408869ce8ab67616d00001e02a719fe9a49c07280d6c75830"
-    },
-    "This Is Elephant Gym": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 15,
-            "seconds": 55
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1oDP8s",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1oDP8s-default.jpg"
     },
     "Slash & Myles Kennedy (Gilby Clarke) - Chile 2024": {
         "duration": {
@@ -14129,16 +14209,6 @@
         "url": "https://open.spotify.com/playlist/3I0GOZUUITpe9K3GX8BU9t",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e02528b070b4e8d242708fbc708ab67616d00001e025e0ed375228365b9c1b7f1dbab67616d00001e02eb01eb12a97b746336528757ab67616d00001e02edbd58f4c5c7e1c8e588c48c"
     },
-    "This Is Rolie Polie Guacamole": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 14,
-            "seconds": 7
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3ioAcY",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3ioAcY-default.jpg"
-    },
     "EinarSolberg": {
         "duration": {
             "days": 0,
@@ -14197,7 +14267,7 @@
             "seconds": 2
         },
         "url": "https://open.spotify.com/playlist/37i9dQZEVXcCdvI1mEwKt3",
-        "image": "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/EP_Kg6ghCglIc8jNXuvc4W9VdgG_vAgbOmSdycSrP2Bk2tK2ZwoKJGLrAqDaEo5lbVFZ_fT8vHNCxTMy5-Umn4Wv5iWmWrmhoevbvuyW5ZGJBqp2SR9jE3trhCR_pTf5/NjM6OTA6MTFUNzItNjAtNA=="
+        "image": "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/BeV-vnRzLDtyLXkTUnmjwVRS6CjO6ReNuP2VA9QXg3BfjSL0MJiEnRXxJucPBnqOlxWkndkkI_Ks9MUqz1zOcVX1DoNxkqXkK0W9KjgJz0Y=/NjM6NTI6MDFUNzItNjAtNA=="
     },
     "Vio-Lence": {
         "duration": {
@@ -14308,16 +14378,6 @@
         },
         "url": "https://open.spotify.com/playlist/2IDsv0UoWs1xheSZjVgXq3",
         "image": "https://i.scdn.co/image/ab67616d00001e0244bb51ac96f2a7bafab65577"
-    },
-    "Orphaned Land - Setlist 2024": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 9,
-            "seconds": 43
-        },
-        "url": "https://open.spotify.com/playlist/6LO5GvyVkSULXm0ABf6sh0",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e028e54e8c33a8cf80efc97d678ab67616d00001e02954929043d98c16d924221f6ab67616d00001e0297209a18a5ade360948c58fdab67616d00001e029ac44e48cfbe63de2abf58d3"
     },
     "stlst4": {
         "duration": {
@@ -14537,7 +14597,7 @@
             "seconds": 55
         },
         "url": "https://open.spotify.com/playlist/3b8UmnYJaQzvdRS5pvLsMc",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b7ecfe9886c8120699dc2ea1"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84b7ecfe9886c8120699dc2ea1"
     },
     "This Is Mariya Takeuchi": {
         "duration": {
@@ -14567,7 +14627,7 @@
             "seconds": 0
         },
         "url": "https://open.spotify.com/playlist/4kHlC7I6TiKwYAF35ivdIU",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da848eff0faef953069801635ffa"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c8eff0faef953069801635ffa"
     },
     "Deus Deceptor": {
         "duration": {
@@ -14578,16 +14638,6 @@
         },
         "url": "https://open.spotify.com/playlist/0VuTx0baFRZ8GcUSE0fLBz",
         "image": "https://i.scdn.co/image/ab67616d00001e02a19cbd41ca579ff5eb3e94d8"
-    },
-    "This Is Nelson Schwenke": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 3,
-            "seconds": 38
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3SLbCo",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3SLbCo-default.jpg"
     },
     "MatanSA": {
         "duration": {
@@ -14629,16 +14679,6 @@
         "url": "https://open.spotify.com/playlist/32woO9FBBLRq9UCo2viXAj",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0209cd3af1ecc0e0c3c67019c8ab67616d00001e02191411b60f6b164e7a1c13ddab67616d00001e029f7029942467fa752e6066b4ab67616d00001e02e73850dae852c28780431dc2"
     },
-    "This Is Biohazard": {
-        "duration": {
-            "days": 0,
-            "hours": 2,
-            "minutes": 2,
-            "seconds": 16
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1XrV8J",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1XrV8J-default.jpg"
-    },
     "Dream Theater - 40th Anniversary Tour 2024-2025": {
         "duration": {
             "days": 0,
@@ -14647,7 +14687,7 @@
             "seconds": 2
         },
         "url": "https://open.spotify.com/playlist/4zFNrW0JV3isvcEG2xnBCU",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84750b43b0cf90b384ccb7ebde"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84750b43b0cf90b384ccb7ebde"
     },
     "SonicDragolgo": {
         "duration": {
@@ -14678,6 +14718,16 @@
         },
         "url": "https://open.spotify.com/playlist/7wKiapPhrOZxbRw5vS270D",
         "image": "https://i.scdn.co/image/ab67616d00001e02d3787ad6b12125ea2f7df512"
+    },
+    "This Is Nelson Schwenke": {
+        "duration": {
+            "days": 0,
+            "hours": 1,
+            "minutes": 59,
+            "seconds": 20
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO3SLbCo",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3SLbCo-default.jpg"
     },
     "Folkheim": {
         "duration": {
@@ -14877,7 +14927,7 @@
             "seconds": 28
         },
         "url": "https://open.spotify.com/playlist/0LWNOkcz5n2CFC3rElXw6y",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8488eafada11c69611243f7bb1"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8488eafada11c69611243f7bb1"
     },
     "Gorillaz Setlist 2022": {
         "duration": {
@@ -15169,6 +15219,16 @@
         "url": "https://open.spotify.com/playlist/2jij813XV40XfXs86Rzk2G",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84dc1dabb588c7511fa996127e"
     },
+    "On Repeat": {
+        "duration": {
+            "days": 0,
+            "hours": 1,
+            "minutes": 45,
+            "seconds": 39
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1Eppm9To3zllUf",
+        "image": "https://daily-mix.scdn.co/covers/on_repeat/PZN_On_Repeat2_DEFAULT-en.jpg"
+    },
     "pwolfaarth": {
         "duration": {
             "days": 0,
@@ -15279,16 +15339,6 @@
         "url": "https://open.spotify.com/playlist/4KagbsPWHsFyry1VlVlq8s",
         "image": "https://i.scdn.co/image/ab67616d00001e02533644c194069d80a08109cf"
     },
-    "Repeat Rewind": {
-        "duration": {
-            "days": 0,
-            "hours": 1,
-            "minutes": 43,
-            "seconds": 27
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1EpB0CZqzIKbEv",
-        "image": "https://daily-mix.scdn.co/covers/backtracks/PZN_Repeat_Rewind2_DEFAULT-en.jpg"
-    },
     "Éntomos": {
         "duration": {
             "days": 0,
@@ -15369,6 +15419,16 @@
         "url": "https://open.spotify.com/playlist/0eW9gECG2rkI44ME10eWP5",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e022e6076455577629b6d8c05b4ab67616d00001e0261538881835cce6adf80181bab67616d00001e02817a9af094d11b2b6936f0baab67616d00001e02d448db84bb273b6a8620f1f9"
     },
+    "Repeat Rewind": {
+        "duration": {
+            "days": 0,
+            "hours": 1,
+            "minutes": 41,
+            "seconds": 21
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1EpB0CZqzIKbEv",
+        "image": "https://daily-mix.scdn.co/covers/backtracks/PZN_Repeat_Rewind2_DEFAULT-en.jpg"
+    },
     "PollaSetlist(?": {
         "duration": {
             "days": 0,
@@ -15427,7 +15487,7 @@
             "seconds": 23
         },
         "url": "https://open.spotify.com/playlist/2Z8AzkhIxEwhSD8XDKPykv",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da847d6709e4a094961c5fd8a975"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da847d6709e4a094961c5fd8a975"
     },
     "NonExist": {
         "duration": {
@@ -15579,16 +15639,6 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1fhSZr",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1fhSZr-default.jpg"
     },
-    "On Repeat": {
-        "duration": {
-            "days": 0,
-            "hours": 1,
-            "minutes": 37,
-            "seconds": 13
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1Eppm9To3zllUf",
-        "image": "https://daily-mix.scdn.co/covers/on_repeat/PZN_On_Repeat2_DEFAULT-en.jpg"
-    },
     "Beach House - Tour 2022 Setlist": {
         "duration": {
             "days": 0,
@@ -15647,7 +15697,7 @@
             "seconds": 11
         },
         "url": "https://open.spotify.com/playlist/4WQZWCz875SuWssgeXMdSm",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da842a6a642f5312b72664d7111a"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842a6a642f5312b72664d7111a"
     },
     "Chances": {
         "duration": {
@@ -15727,7 +15777,7 @@
             "seconds": 43
         },
         "url": "https://open.spotify.com/playlist/3bZhOtzXu0nYssRx7Y8Kk6",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ce7344b0884af6d717cfdcad"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84ce7344b0884af6d717cfdcad"
     },
     "Elke": {
         "duration": {
@@ -15787,7 +15837,7 @@
             "seconds": 54
         },
         "url": "https://open.spotify.com/playlist/65UrUqvyVLTNlfdLjkOFmN",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84506aa5ab8baaa5dca4799e49"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84506aa5ab8baaa5dca4799e49"
     },
     "LosAntiguos": {
         "duration": {
@@ -15879,6 +15929,16 @@
         "url": "https://open.spotify.com/playlist/5VStwAczb1dd5fdFC42XKC",
         "image": "https://i.scdn.co/image/ab67616d00001e02a340e2ebe071ebaa2e06d9ff"
     },
+    "This Is Difuntos Correa": {
+        "duration": {
+            "days": 0,
+            "hours": 1,
+            "minutes": 30,
+            "seconds": 33
+        },
+        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1yMHZg",
+        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1yMHZg-default.jpg"
+    },
     "ChanchoNewSet": {
         "duration": {
             "days": 0,
@@ -15917,7 +15977,7 @@
             "seconds": 58
         },
         "url": "https://open.spotify.com/playlist/16BlZ3UEmmSffmoovQmz9K",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa3ecf3a27b539936e8a41c2404"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84ecf3a27b539936e8a41c2404"
     },
     "StormtroopersOfDeath": {
         "duration": {
@@ -15937,7 +15997,7 @@
             "seconds": 45
         },
         "url": "https://open.spotify.com/playlist/5iL1wYdUwS7HrF0SkaxY0P",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cfe48cc24e39f2f0e71c6443d"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84fe48cc24e39f2f0e71c6443d"
     },
     "the smiths songs to dance to": {
         "duration": {
@@ -16009,16 +16069,6 @@
         "url": "https://open.spotify.com/playlist/1E50q6DjWBdl5dAoZEZUKS",
         "image": "https://i.scdn.co/image/ab67616d00001e02e050f866e835612d360f4490"
     },
-    "This Is Difuntos Correa": {
-        "duration": {
-            "days": 0,
-            "hours": 1,
-            "minutes": 28,
-            "seconds": 59
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO1yMHZg",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1yMHZg-default.jpg"
-    },
     "The hottest arctic monkeys songs ": {
         "duration": {
             "days": 0,
@@ -16027,7 +16077,7 @@
             "seconds": 57
         },
         "url": "https://open.spotify.com/playlist/2CGp15nCEaVfFe5gnTosHo",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f3602ed5831336a166f3bb96"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84f3602ed5831336a166f3bb96"
     },
     "SkaP2023": {
         "duration": {
@@ -16127,7 +16177,7 @@
             "seconds": 38
         },
         "url": "https://open.spotify.com/playlist/1BJA76zqs5efamEeBlWl7h",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840c1d965c08681323cbeefad4"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c0c1d965c08681323cbeefad4"
     },
     "Where'sMyBible": {
         "duration": {
@@ -16148,16 +16198,6 @@
         },
         "url": "https://open.spotify.com/playlist/3El4nsHJYPKJS6M7lF5Xv5",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e023138a37a1f6c307a10bc266aab67616d00001e02bb453e17b6bb7ff819a523fdab67616d00001e02d3e0debd8f8886d2f8cb3757ab67616d00001e02ff9b13c943d80c1565cc88da"
-    },
-    "953": {
-        "duration": {
-            "days": 0,
-            "hours": 1,
-            "minutes": 26,
-            "seconds": 54
-        },
-        "url": "https://open.spotify.com/playlist/35dmuZCRL4jYDNp9jbyHqf",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e02079bc2bd9ea16956274efc24ab67616d00001e025793e42fe185d26820e2ad9bab67616d00001e0259332a8db76d2ee8fbc7d782ab67616d00001e029f0a9474c47a841c6f03e990"
     },
     "KillersSET": {
         "duration": {
@@ -16197,7 +16237,7 @@
             "seconds": 23
         },
         "url": "https://open.spotify.com/playlist/7lMjWMBB4wkX2zmaL3SDqi",
-        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da843d0a4d08dc63912cd6a57247"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843d0a4d08dc63912cd6a57247"
     },
     "This Is Da Skate": {
         "duration": {
@@ -16287,7 +16327,7 @@
             "seconds": 8
         },
         "url": "https://open.spotify.com/playlist/3zgVKObBfIPa1hHIY2Qe18",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c88266458f64e05edd5b94f6b"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8488266458f64e05edd5b94f6b"
     },
     "SOEN2023": {
         "duration": {
@@ -16579,26 +16619,6 @@
         "url": "https://open.spotify.com/playlist/14iCxCW0oXtqlljlsFwfag",
         "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84fc8b911af38b3fc304ab06fc"
     },
-    "Chivo Orphaned Land 2024": {
-        "duration": {
-            "days": 0,
-            "hours": 1,
-            "minutes": 21,
-            "seconds": 15
-        },
-        "url": "https://open.spotify.com/playlist/4eGGLJv5wDuvIfyP07HTNi",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e028e54e8c33a8cf80efc97d678ab67616d00001e02954929043d98c16d924221f6ab67616d00001e0297209a18a5ade360948c58fdab67616d00001e029ac44e48cfbe63de2abf58d3"
-    },
-    "Tops": {
-        "duration": {
-            "days": 0,
-            "hours": 1,
-            "minutes": 21,
-            "seconds": 10
-        },
-        "url": "https://open.spotify.com/playlist/6eRUBtF6c6pk02P8LEOlMv",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e0215350aa1c89e23a5fa6c0de1ab67616d00001e0234ed4cd1a4a9658d94eab9e6ab67616d00001e024751364e07fb7c2229937a8aab67616d00001e02fee079615e41899b497a7dda"
-    },
     "stlst6": {
         "duration": {
             "days": 0,
@@ -16757,7 +16777,7 @@
             "seconds": 38
         },
         "url": "https://open.spotify.com/playlist/66z6Gt3pASJwdbkeckoYJ6",
-        "image": "https://i2o.scdn.co/image/ab67706c0000cfa3670eed3962d147013d9b4b42"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84670eed3962d147013d9b4b42"
     },
     "ThePowerOfThePudú": {
         "duration": {
@@ -16989,16 +17009,6 @@
         "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2OZck2",
         "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2OZck2-default.jpg"
     },
-    "This Is Curasbun": {
-        "duration": {
-            "days": 0,
-            "hours": 1,
-            "minutes": 16,
-            "seconds": 24
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO2pAEhi",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2pAEhi-default.jpg"
-    },
     "AFCCxd": {
         "duration": {
             "days": 0,
@@ -17117,7 +17127,7 @@
             "seconds": 41
         },
         "url": "https://open.spotify.com/playlist/0l0kvcoSlO1ms5sfrjI5Er",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84152ffcc2f076e452c94554c2"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84152ffcc2f076e452c94554c2"
     },
     "Venegas2022": {
         "duration": {
@@ -17367,7 +17377,7 @@
             "seconds": 50
         },
         "url": "https://open.spotify.com/playlist/4EzPCf0Wp9hVxFGOUyW7xz",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8425c05f3b01f72afe2b9a6886"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8425c05f3b01f72afe2b9a6886"
     },
     "Sora The Troll's MUSIC": {
         "duration": {
@@ -17429,16 +17439,6 @@
         "url": "https://open.spotify.com/playlist/1KmzRMcpnT7j1ivLpeXMVv",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e020bb880ad32244d9e42c0fc8eab67616d00001e0218e7309c4665285c354004bfab67616d00001e022bc093a8ca0f760f116870f4ab67616d00001e02f186de1423cb383e282ff2c9"
     },
-    "This Is Machuca": {
-        "duration": {
-            "days": 0,
-            "hours": 1,
-            "minutes": 10,
-            "seconds": 51
-        },
-        "url": "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4l1nfW",
-        "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4l1nfW-default.jpg"
-    },
     "SetList Vola 2024": {
         "duration": {
             "days": 0,
@@ -17458,6 +17458,16 @@
         },
         "url": "https://open.spotify.com/playlist/4MF2gu5fFDaysbtIeSvRRe",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e021e5ec25bb09eac0adee001fdab67616d00001e0256c7b6d25ebfa1b6178584e4ab67616d00001e02614bdf1119b73ddaa9c6ba65ab67616d00001e02b5ac0738b808070a0786b001"
+    },
+    "ELNUEVEONCE": {
+        "duration": {
+            "days": 0,
+            "hours": 1,
+            "minutes": 10,
+            "seconds": 32
+        },
+        "url": "https://open.spotify.com/playlist/3ktQtU4Ct5XDVfK6a4kzV7",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e027314bc6de8f430218b5ee446ab67616d00001e027c0072f67bf5cafa19d61c17ab67616d00001e02a4c314259c097471621be59bab67616d00001e02ba4ffdacc5e90d337e6375c1"
     },
     "KREATOR2023DEF": {
         "duration": {
@@ -17547,7 +17557,7 @@
             "seconds": 8
         },
         "url": "https://open.spotify.com/playlist/5HabdkwCBE8BIvH5rLexVP",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843dbe25a939b31a923b240ca1"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c3dbe25a939b31a923b240ca1"
     },
     "BjorkSetlist": {
         "duration": {
@@ -18067,7 +18077,7 @@
             "seconds": 33
         },
         "url": "https://open.spotify.com/playlist/7eiCUwYvrTpwk5BVy8HzBp",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da843c9cac5f5dc2d4451aabde4f"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da843c9cac5f5dc2d4451aabde4f"
     },
     "AsiaMenor": {
         "duration": {
@@ -18107,7 +18117,7 @@
             "seconds": 52
         },
         "url": "https://open.spotify.com/playlist/49fDIBYVExS7rBgxqyYYne",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8405cfe03e94e8731bfbd887d9"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c05cfe03e94e8731bfbd887d9"
     },
     "Boy Harsher Setlist 2022": {
         "duration": {
@@ -18137,7 +18147,7 @@
             "seconds": 14
         },
         "url": "https://open.spotify.com/playlist/6W9SBQXWBBPJyjxmVy6kf0",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848da4056f0246e1c5b9f85aa1"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da848da4056f0246e1c5b9f85aa1"
     },
     "Napalm Death Setlist 2023": {
         "duration": {
@@ -18297,7 +18307,7 @@
             "seconds": 5
         },
         "url": "https://open.spotify.com/playlist/0ijN1qbAz8WZQiNGm5lLxD",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c3d9c9db0958b3d61a2f695fe"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da843d9c9db0958b3d61a2f695fe"
     },
     "CloseAsFar": {
         "duration": {
@@ -18347,7 +18357,7 @@
             "seconds": 12
         },
         "url": "https://open.spotify.com/playlist/7CcvSTUgVvMHvc2diEfWCo",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8482ee713764039537d878241b"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8482ee713764039537d878241b"
     },
     "Parkway Drive Setlist 2023": {
         "duration": {
@@ -18587,7 +18597,7 @@
             "seconds": 59
         },
         "url": "https://open.spotify.com/playlist/26sXITO5rXLI2pan042s1f",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8463fb09d7a6600dc0a8755332"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8463fb09d7a6600dc0a8755332"
     },
     "RaavenAge": {
         "duration": {
@@ -18618,6 +18628,16 @@
         },
         "url": "https://open.spotify.com/playlist/336VJIyCAOswg2AtaPXrQZ",
         "image": "https://i.scdn.co/image/ab67616d00001e02d8986b801fa5b7f843f5c29f"
+    },
+    "CidadaoMal": {
+        "duration": {
+            "days": 0,
+            "hours": 0,
+            "minutes": 49,
+            "seconds": 4
+        },
+        "url": "https://open.spotify.com/playlist/3RTnoZP3UntIsyhXtESB8R",
+        "image": "https://mosaic.scdn.co/640/ab67616d00001e029bcde6ae2dacb6acfd4044a2ab67616d00001e02c0ec20825e03f28f3e610065ab67616d00001e02c184ae413ac23686a7e5ae73ab67616d00001e02d25176b865c5c22587250d25"
     },
     "SurrenderOfDivinity": {
         "duration": {
@@ -18787,7 +18807,7 @@
             "seconds": 31
         },
         "url": "https://open.spotify.com/playlist/0UJ1kadHMK5ycgSyr2Ngxa",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84abcc1d120d9a9d25e1c9adb9"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84abcc1d120d9a9d25e1c9adb9"
     },
     "Lo mejor de duo kie": {
         "duration": {
@@ -18847,7 +18867,7 @@
             "seconds": 39
         },
         "url": "https://open.spotify.com/playlist/2rHYSXwhJclq8bIinU8zYM",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848d69bea242fbe48f4b8941dd"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c8d69bea242fbe48f4b8941dd"
     },
     "Coda Live at AEX Santiago 04.Feb 2024": {
         "duration": {
@@ -18937,7 +18957,7 @@
             "seconds": 19
         },
         "url": "https://open.spotify.com/playlist/5pZcHtWdkyZid2zVALcJGZ",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cb746225dcd20d4a10deea9f2"
+        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84b746225dcd20d4a10deea9f2"
     },
     "RawC": {
         "duration": {
@@ -18967,7 +18987,7 @@
             "seconds": 17
         },
         "url": "https://open.spotify.com/playlist/6RlU84vrjFDkzbL5RMtc34",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84034782f33558b616f927c3b0"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84034782f33558b616f927c3b0"
     },
     "HATEBEAK": {
         "duration": {
@@ -19047,7 +19067,7 @@
             "seconds": 17
         },
         "url": "https://open.spotify.com/playlist/3zJXgrTJd8u7DIHd3nN0SO",
-        "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f60d3cc089e25e156efc8d87"
+        "image": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84f60d3cc089e25e156efc8d87"
     },
     "Comeback Kid Setlist 2023": {
         "duration": {
@@ -19279,16 +19299,6 @@
         "url": "https://open.spotify.com/playlist/23xAlN5wgkmAg71rvEqJgp",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e020496583c9e1cd9bbdf4c52dfab67616d00001e02051cc757970a3ae39b0c14fcab67616d00001e02cae1333e42dd796fff11d03fab67616d00001e02e6504856702abd30062f12c3"
     },
-    "Tops2019uwu": {
-        "duration": {
-            "days": 0,
-            "hours": 0,
-            "minutes": 29,
-            "seconds": 31
-        },
-        "url": "https://open.spotify.com/playlist/3u6a5dSlaPoT7vXv0wVSuh",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e0209e2ec500166cf2d5ac21050ab67616d00001e020da53e8f58e59f28a79c10c7ab67616d00001e02da7b326bd7ffa7b6b95b0660ab67616d00001e02e4c3295cd6464ed5bc0f6c2c"
-    },
     "Χ Ξ Σ - 666": {
         "duration": {
             "days": 0,
@@ -19319,16 +19329,6 @@
         "url": "https://open.spotify.com/playlist/4D75NKLZ3KpD5VQhakqHPE",
         "image": "https://mosaic.scdn.co/640/ab67616d00001e0220e3b8f2b044117fe02790e1ab67616d00001e0254ab617bc2d4974ab6ffbeceab67616d00001e028c4e95986c803791125e8991ab67616d00001e02b1f8da74f225fa1225cdface"
     },
-    "Tops2020": {
-        "duration": {
-            "days": 0,
-            "hours": 0,
-            "minutes": 27,
-            "seconds": 30
-        },
-        "url": "https://open.spotify.com/playlist/2BIQzi6YimG12MpdKyR3Gr",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e0255a21bacb7082eff509ed279ab67616d00001e0259332a8db76d2ee8fbc7d782ab67616d00001e02b1f8da74f225fa1225cdfaceab67616d00001e02c0c12d83c0488024b66c9739"
-    },
     "SugarWounds": {
         "duration": {
             "days": 0,
@@ -19338,16 +19338,6 @@
         },
         "url": "https://open.spotify.com/playlist/4YO2YK2CGkVuYJuByz7kAb",
         "image": "https://i.scdn.co/image/ab67616d00001e0298dac9440459999d46256bd1"
-    },
-    "Canciones pa levantar hueás de fierro y generar dopamina": {
-        "duration": {
-            "days": 0,
-            "hours": 0,
-            "minutes": 26,
-            "seconds": 38
-        },
-        "url": "https://open.spotify.com/playlist/43OvSFGeUatqdPduujAO8L",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e023b27e1cd8a6bc6804c2e5fd2ab67616d00001e023eb3d09afc2829a9706f891eab67616d00001e024e1f02a5827fca55f289c398ab67616d00001e02be66d919d8f0cfdff51d1775"
     },
     "This Is Fantomas": {
         "duration": {
@@ -19519,15 +19509,15 @@
         "url": "https://open.spotify.com/playlist/3YRbOc6bDFNXL2BgouWxJ2",
         "image": "https://i.scdn.co/image/ab67616d00001e0293943d37a38227ab9a6f3d51"
     },
-    "TopsES": {
+    "Relampagos": {
         "duration": {
             "days": 0,
             "hours": 0,
-            "minutes": 18,
-            "seconds": 59
+            "minutes": 20,
+            "seconds": 4
         },
-        "url": "https://open.spotify.com/playlist/7ukzBUoGNwFRDsR5Bzwz7w",
-        "image": "https://mosaic.scdn.co/640/ab67616d00001e021cf84979a6b7d69db35773ecab67616d00001e0223fdfcd4a391d32bc6b777aeab67616d00001e0233e30ec6e739abca49962634ab67616d00001e0285043aee35906b4ae5810d65"
+        "url": "https://open.spotify.com/playlist/6iIud81NFCzrxMwOvevFkj",
+        "image": "https://i.scdn.co/image/ab67616d00001e02ce58e74a28eea6ef7366fc1f"
     },
     "WATM": {
         "duration": {
@@ -19548,16 +19538,6 @@
         },
         "url": "https://open.spotify.com/playlist/2WGv74AfXhGq3oI0j14611",
         "image": "https://i.scdn.co/image/ab67616d00001e022c0ee78a0ad680d1c77451e6"
-    },
-    "Test": {
-        "duration": {
-            "days": 0,
-            "hours": 0,
-            "minutes": 16,
-            "seconds": 25
-        },
-        "url": "https://open.spotify.com/playlist/5P0GkoSjVDAEjhhQ6UOY9d",
-        "image": "https://i.scdn.co/image/ab67616d00001e02170ed376007c55d48289649c"
     },
     "Eminem vs Machine Gun Kelly": {
         "duration": {
@@ -19599,36 +19579,6 @@
         "url": "https://open.spotify.com/playlist/4FmPsYZjsTlqamNHdwE3Im",
         "image": "https://i.scdn.co/image/ab67616d00001e02ae43fb926798caa93f2cda75"
     },
-    "Dfg": {
-        "duration": {
-            "days": 0,
-            "hours": 0,
-            "minutes": 8,
-            "seconds": 32
-        },
-        "url": "https://open.spotify.com/playlist/17pxHawmQivKtnS2k4mk71",
-        "image": "https://i.scdn.co/image/ab67616d00001e0285043aee35906b4ae5810d65"
-    },
-    "DRUMS": {
-        "duration": {
-            "days": 0,
-            "hours": 0,
-            "minutes": 8,
-            "seconds": 5
-        },
-        "url": "https://open.spotify.com/playlist/1fOonV9qsPhsebnSewTP4Q",
-        "image": "https://i.scdn.co/image/ab67616d00001e029c0b2d74cfb910735ca55317"
-    },
-    "Compartidas": {
-        "duration": {
-            "days": 0,
-            "hours": 0,
-            "minutes": 5,
-            "seconds": 15
-        },
-        "url": "https://open.spotify.com/playlist/0WREdzMoHeLnB6is2JEfMB",
-        "image": "https://i.scdn.co/image/ab67616d00001e0234ed4cd1a4a9658d94eab9e6"
-    },
     "EnDiscusión": {
         "duration": {
             "days": 0,
@@ -19648,25 +19598,5 @@
         },
         "url": "https://open.spotify.com/playlist/5kZqexnTgosozVze7RgnSS",
         "image": "https://i.scdn.co/image/ab67616d00001e02f8407e6ca48c141585045ed6"
-    },
-    "Everything [MPL] [MPL]": {
-        "duration": {
-            "days": 0,
-            "hours": 0,
-            "minutes": 0,
-            "seconds": 0
-        },
-        "url": "https://open.spotify.com/playlist/4QSvCy9jcfaRVCKB8l7O3y",
-        "image": null
-    },
-    "Aaaaaa": {
-        "duration": {
-            "days": 0,
-            "hours": 0,
-            "minutes": 0,
-            "seconds": 0
-        },
-        "url": "https://open.spotify.com/playlist/6cLULHL5f4ZA534JaYA3Mf",
-        "image": null
     }
 }

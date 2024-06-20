@@ -26,6 +26,9 @@ importers:
       bootstrap-icons:
         specifier: ^1.11.3
         version: 1.11.3
+      query-string:
+        specifier: ^9.0.0
+        version: 9.0.0
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -41,6 +44,9 @@ importers:
       react-scripts:
         specifier: 5.0.1
         version: 5.0.1(@babel/plugin-syntax-flow@7.24.7(@babel/core@7.24.7))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.7))(@types/babel__core@7.20.5)(eslint@8.57.0)(react@18.3.1)(type-fest@0.21.3)(typescript@4.9.5)
+      spotify-web-api-js:
+        specifier: ^1.5.2
+        version: 1.5.2
       web-vitals:
         specifier: ^2.1.4
         version: 2.1.4
@@ -2252,6 +2258,10 @@ packages:
   decimal.js@10.4.3:
     resolution: {integrity: sha512-VBBaLc1MgL5XpzgIP7ny5Z6Nx3UrRkIViUkPUdtl9aya5amy3De1gsUUSB1g3+3sExYNjCAsAznmukyxCb1GRA==}
 
+  decode-uri-component@0.4.1:
+    resolution: {integrity: sha512-+8VxcR21HhTy8nOt6jf20w0c9CADrw1O8d+VZ/YzzCt4bJ3uBjw+D1q2osAB8RnpwwaeYBxy0HyKQxD5JBMuuQ==}
+    engines: {node: '>=14.16'}
+
   dedent@0.7.0:
     resolution: {integrity: sha512-Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==}
 
@@ -2750,6 +2760,10 @@ packages:
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
+
+  filter-obj@5.1.0:
+    resolution: {integrity: sha512-qWeTREPoT7I0bifpPUXtxkZJ1XJzxWtfoWWkdVGqa+eCr3SHW/Ocp89o8vLvbUuQnadybJpjOKu4V+RwO6sGng==}
+    engines: {node: '>=14.16'}
 
   finalhandler@1.2.0:
     resolution: {integrity: sha512-5uXcUVftlQMFnWC9qu/svkWv3GTd2PfUhK/3PLkYNAe7FbqJMt3515HaxE6eRL74GdsriiwujiawdaB1BpEISg==}
@@ -4574,6 +4588,10 @@ packages:
     resolution: {integrity: sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==}
     engines: {node: '>=0.6'}
 
+  query-string@9.0.0:
+    resolution: {integrity: sha512-4EWwcRGsO2H+yzq6ddHcVqkCQ2EFUSfDMEjF8ryp8ReymyZhIuaFRGLomeOQLkrzacMHoyky2HW0Qe30UbzkKw==}
+    engines: {node: '>=18'}
+
   querystringify@2.2.0:
     resolution: {integrity: sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==}
 
@@ -5002,6 +5020,13 @@ packages:
   spdy@4.0.2:
     resolution: {integrity: sha512-r46gZQZQV+Kl9oItvl1JZZqJKGr+oEkB08A6BzkiR7593/7IbtuncXHd2YoYeTsG4157ZssMu9KYvUHLcjcDoA==}
     engines: {node: '>=6.0.0'}
+
+  split-on-first@3.0.0:
+    resolution: {integrity: sha512-qxQJTx2ryR0Dw0ITYyekNQWpz6f8dGd7vffGNflQQ3Iqj9NJ6qiZ7ELpZsJ/QBhIVAiDfXdag3+Gp8RvWa62AA==}
+    engines: {node: '>=12'}
+
+  spotify-web-api-js@1.5.2:
+    resolution: {integrity: sha512-ie1gbg1wCabfobIkXTIBLUMyULS/hMCpF44Cdx2pAO0/+FrjhNSDjlDzcwCEDy+ZIo3Fscs+Gkg/GTeQ/ijo+Q==}
 
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
@@ -8413,6 +8438,8 @@ snapshots:
 
   decimal.js@10.4.3: {}
 
+  decode-uri-component@0.4.1: {}
+
   dedent@0.7.0: {}
 
   deep-equal@2.2.3:
@@ -9095,6 +9122,8 @@ snapshots:
   fill-range@7.1.1:
     dependencies:
       to-regex-range: 5.0.1
+
+  filter-obj@5.1.0: {}
 
   finalhandler@1.2.0:
     dependencies:
@@ -11171,6 +11200,12 @@ snapshots:
     dependencies:
       side-channel: 1.0.6
 
+  query-string@9.0.0:
+    dependencies:
+      decode-uri-component: 0.4.1
+      filter-obj: 5.1.0
+      split-on-first: 3.0.0
+
   querystringify@2.2.0: {}
 
   queue-microtask@1.2.3: {}
@@ -11750,6 +11785,10 @@ snapshots:
       spdy-transport: 3.0.0
     transitivePeerDependencies:
       - supports-color
+
+  split-on-first@3.0.0: {}
+
+  spotify-web-api-js@1.5.2: {}
 
   sprintf-js@1.0.3: {}
 
