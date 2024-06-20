@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 from flask_cors import CORS
 from spotipy.oauth2 import SpotifyOAuth
 import spotipy
@@ -6,8 +6,15 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 from dotenv import load_dotenv
 import json
+import time
 
 app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Hello, World!"
+
+
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
 load_dotenv()
 
@@ -17,8 +24,9 @@ auth_manager = SpotifyOAuth(client_id=os.getenv('REACT_APP_CLIENT_ID'),
                             redirect_uri=os.getenv('REACT_APP_REDIRECT_URI'),
                             scope=os.getenv('REACT_APP_SCOPE'))
 sp = spotipy.Spotify(auth_manager=auth_manager)
-def convertir_miliseconds(miliseconds):
-    seconds = miliseconds / 1000
+
+def convertir_milliseconds(milliseconds):
+    seconds = milliseconds / 1000
     minutes, seconds = divmod(seconds, 60)
     hours, minutes = divmod(minutes, 60)
     days, hours = divmod(hours, 24)
@@ -31,7 +39,6 @@ def convertir_miliseconds(miliseconds):
 
 def get_playlist_tracks(playlist):
     # Reutiliza la instancia de spotipy.Spotify existente
-    #print(f'Obteniendo canciones de la playlist: {playlist["name"]}...')
     tracks = []
     track_results = sp.playlist_items(playlist['id'], fields='items.track.duration_ms, next')
     tracks.extend(track_results['items'])
@@ -39,49 +46,53 @@ def get_playlist_tracks(playlist):
         track_results = sp.next(track_results)
         tracks.extend(track_results['items'])
 
-   # Agrega la recuperación de la URL y la foto de la playlist
+    # Agrega la recuperación de la URL y la foto de la playlist
     playlist_url = playlist['external_urls']['spotify']
     playlist_image = playlist['images'][0]['url'] if playlist['images'] else None
 
     total_duration_ms = sum(track['track']['duration_ms'] for track in tracks if track['track'] is not None)
-    total_duration_formatted = convertir_miliseconds(total_duration_ms)
+    total_duration_formatted = convertir_milliseconds(total_duration_ms)
 
-    # Modifica el return para incluir la URL y la foto
-    final_return = playlist['name'], total_duration_formatted, playlist_url, playlist_image
-    print(final_return)
-    return final_return
+    # Retorna un diccionario con la información relevante de la playlist
+    return {
+        'name': playlist['name'],
+        'total_duration': total_duration_formatted,
+        'url': playlist_url,
+        'image': playlist_image
+    }
 
+@app.route('/api/invert-playlists', methods=['POST'])
+def invert_playlists():
+    data = request.json
+    playlists = data['playlists']
+    orden = int(data['orden'])
 
-@app.route('/playlists', methods=['GET'])
-def get_playlists():
-    # Agrega una entrada de usuario para determinar el orden de las playlists
-    orden = input("Ingrese '0' para ordenar de la más corta a la más larga, o '1' para ordenar de la más larga a la más corta: ")
-    orden = int(orden)  # Convierte la entrada a un entero
+    # Obtener las duraciones de todas las playlists usando multithreading
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        playlist_info = list(executor.map(get_playlist_tracks, playlists))
 
-    username = 'wenam8'
-    results = sp.user_playlists(username)
-    playlists = results['items'] if results else []
-
-    # Utiliza ThreadPoolExecutor para procesar las playlists en paralelo
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        playlist_durations = list(executor.map(get_playlist_tracks, playlists))
-
-    # Crea un diccionario con los nombres de las playlists como claves e incluye la URL y la foto
-    playlist_durations_dict = {name: {'duration': duration, 'url': url, 'image': image} for name, duration, url, image in playlist_durations}
-
-    # Ordena el diccionario por la duración total en miliseconds
+    # Ordenar las playlists según la opción seleccionada
     if orden == 0:
-        playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['duration']['days']*86400000 + x[1]['duration']['hours']*3600000 + x[1]['duration']['minutes']*60000 + x[1]['duration']['seconds']*1000)
+        sorted_playlists = sorted(playlist_info, key=lambda x: x['total_duration']['days']*86400000 +
+                                x['total_duration']['hours']*3600000 +
+                                x['total_duration']['minutes']*60000 +
+                                x['total_duration']['seconds']*1000)
     else:
-        playlist_durations_sorted = sorted(playlist_durations_dict.items(), key=lambda x: x[1]['duration']['days']*86400000 + x[1]['duration']['hours']*3600000 + x[1]['duration']['minutes']*60000 + x[1]['duration']['seconds']*1000, reverse=True)
-    playlist_durations_dict_sorted = {name: duration for name, duration in playlist_durations_sorted}
+        sorted_playlists = sorted(playlist_info, key=lambda x: x['total_duration']['days']*86400000 +
+                                x['total_duration']['hours']*3600000 +
+                                x['total_duration']['minutes']*60000 +
+                                x['total_duration']['seconds']*1000, reverse=True)
 
-    ruta_completa = '/src/results.json'
+    # Retornar las playlists ordenadas al frontend
+    return jsonify({'sorted_playlists': sorted_playlists})
+# Después de guardar el archivo 'results.json', agregar esta ruta en Flask
 
-
-    # Guarda el resultado en 'results.json'
-    with open(ruta_completa, 'w', encoding='utf-8') as f:
-        json.dump(playlist_durations_dict_sorted, f, ensure_ascii=False, indent=4)
+@app.route('/api/playlists-sorted', methods=['GET'])
+def get_sorted_playlists():
+    ruta_completa = 'src/results.json'
+    with open(ruta_completa, 'r', encoding='utf-8') as f:
+        playlists_sorted = json.load(f)
+    return jsonify(playlists_sorted)
 
 if __name__ == '__main__':
     app.run(debug=True)

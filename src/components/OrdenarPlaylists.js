@@ -1,23 +1,31 @@
-// OrdenarPlaylists.js
-import React, { useState } from 'react';
+import React from 'react';
+import axios from 'axios';
 
-function OrdenarPlaylists({ playlists }) {
-  const [reversedPlaylists, setReversedPlaylists] = useState([]);
+const OrdenarPlaylists = ({ playlists, setPlaylists }) => {
+  const [isAnimating, setIsAnimating] = React.useState(false);
 
-  // Función para invertir el orden de las playlists
-  const invertPlaylists = () => {
-    // Crea una copia de las playlists y reviértela
-    const reversed = [...playlists].reverse();
-    setReversedPlaylists(reversed);
+  const invertPlaylists = async (orden) => {
+    setIsAnimating(true);
+    try {
+      const response = await axios.post('http://localhost:5000/api/invert-playlists', {
+        playlists: playlists,
+        orden: orden
+      });
+      const sortedPlaylists = response.data.sorted_playlists;
+      setPlaylists(sortedPlaylists);
+    } catch (error) {
+      console.error('Error al obtener playlists ordenadas:', error);
+    } finally {
+      setIsAnimating(false);
+    }
   };
 
   return (
     <div>
-      {/* Botón para invertir las playlists */}
-      <button onClick={invertPlaylists}>Invertir Playlists</button>
-      {/* Resto de tu lógica para mostrar las playlists */}
+      <button onClick={() => invertPlaylists(0)}>Ordenar de menor a mayor duración</button>
+      <button onClick={() => invertPlaylists(1)}>Ordenar de mayor a menor duración</button>
     </div>
   );
-}
+};
 
 export default OrdenarPlaylists;
