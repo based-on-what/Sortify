@@ -2,11 +2,10 @@ const express = require('express');
 const SpotifyWebApi = require('spotify-web-api-node');
 const dotenv = require('dotenv');
 const fs = require('fs');
-const { promisify } = require('util');
-const { ThreadPoolExecutor } = require('promised-executor');
+const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000; // Cambiado a 4000 para evitar conflicto con frontend
 
 // Configura dotenv para cargar las variables de entorno desde un archivo .env
 dotenv.config();
@@ -17,6 +16,9 @@ const spotifyApi = new SpotifyWebApi({
   clientSecret: process.env.REACT_APP_CLIENT_SECRET,
   redirectUri: process.env.REACT_APP_REDIRECT_URI,
 });
+
+// Middleware CORS
+app.use(cors());
 
 // Función para convertir milisegundos a un formato de tiempo más legible
 function convertMilliseconds(milliseconds) {
@@ -73,7 +75,14 @@ async function getPlaylistTracks(playlist) {
 app.get('/playlists', async (req, res) => {
   try {
     const order = req.query.order === 'asc' ? 1 : -1;
+
+    // Verificar y actualizar el token de acceso
+    const data = await spotifyApi.clientCredentialsGrant();
+    console.log(data);
+    spotifyApi.setAccessToken(data.body['access_token']);
+
     const user = await spotifyApi.getMe();
+    console.log(`Usuario autenticado: ${user.body.display_name || user.body.id}`);
     console.log(`Obteniendo playlists de ${user.body.id}...`);
 
     const emergencyFilePath = 'src/playlists.json';
@@ -99,8 +108,7 @@ app.get('/playlists', async (req, res) => {
 
     console.log('Usando promesas para obtener canciones de cada playlist...');
 
-    const executor = new ThreadPoolExecutor({ maxWorkers: 20 });
-    const playlistDurations = await executor.map(playlists, getPlaylistTracks);
+    const playlistDurations = await Promise.all(playlists.map(getPlaylistTracks));
 
     console.log('Ordenando playlists...');
 

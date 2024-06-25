@@ -33,6 +33,12 @@ auth_manager = SpotifyOAuth(client_id=os.getenv('REACT_APP_CLIENT_ID'),
                             scope=os.getenv('REACT_APP_SCOPE'))
 sp = spotipy.Spotify(auth_manager=auth_manager, requests_session=http)
 
+aux_user = '31jihp4mwpbb2igjlfkyzrkzcjlm'
+sp_aux_user = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=os.getenv('REACT_APP_CLIENT_ID'),
+                                                        client_secret=os.getenv('REACT_APP_CLIENT_SECRET'),
+                                                        redirect_uri=os.getenv('REACT_APP_REDIRECT_URI'),
+                                                        scope=os.getenv('REACT_APP_SCOPE')))
+
 def convertir_miliseconds(miliseconds):
     seconds = miliseconds / 1000
     minutes, seconds = divmod(seconds, 60)
@@ -49,11 +55,15 @@ def convertir_miliseconds(miliseconds):
 def get_playlist_tracks(playlist):
     logging.info('Accediendo a la función get_playlist_tracks')
     tracks = []
-    track_results = sp.playlist_items(playlist['id'], fields='items.track.duration_ms, next')
-    tracks.extend(track_results['items'])
-    while track_results['next']:
-        track_results = sp.next(track_results)
+    try:
+        track_results = sp_aux_user.playlist_items(playlist['id'], fields='items.track.duration_ms, next')
         tracks.extend(track_results['items'])
+        while track_results['next']:
+            track_results = sp_aux_user.next(track_results)
+            tracks.extend(track_results['items'])
+    except SpotifyException as e:
+        logging.error(f"Error al obtener pistas de la lista de reproducción {playlist['id']}: {e}")
+        raise e
 
     playlist_url = playlist['external_urls']['spotify']
     playlist_image = playlist['images'][0]['url'] if playlist['images'] else None
@@ -77,12 +87,11 @@ def home():
 def fetch_playlists():
     logging.info('Accediendo a la función fetch_playlists')
     orden = request.args.get('orden', type=int, default=0)  # Obtiene el parámetro 'orden' de la solicitud GET
-    username = sp.me()['id']
-    playlists = get_playlists_data(username)
+    playlists = get_playlists_data()
     sorted_playlists = sort_playlists(playlists, orden)
     return jsonify(sorted_playlists)
 
-def get_playlists_data(username):
+def get_playlists_data():
     logging.info('Accediendo a la función get_playlists_data')
     ruta_emergencia = 'src/playlists.json'
 
@@ -93,12 +102,19 @@ def get_playlists_data(username):
         playlists = []
         offset = 0
         while True:
-            results = sp.user_playlists(username, offset=offset)
-            if results['items']:
-                playlists.extend(results['items'])
-                offset += len(results['items'])
-            else:
-                break
+            try:
+                results = sp_aux_user.user_playlists(aux_user, offset=offset)
+                if results['items']:
+                    playlists.extend(results['items'])
+                    offset += len(results['items'])
+                else:
+                    break
+            except SpotifyException as e:
+                logging.error(f"Error al obtener listas de reproducción del usuario {aux_user}: {e}")
+                raise e
+            
+            time.sleep(1)  # Retardo de 1 segundo entre las solicitudes
+
         with open(ruta_emergencia, 'w', encoding='utf-8') as f:
             json.dump(playlists, f, ensure_ascii=False, indent=4)
     
@@ -106,7 +122,7 @@ def get_playlists_data(username):
 
 def sort_playlists(playlists, orden):
     logging.info('Accediendo a la función sort_playlists')
-    with ThreadPoolExecutor(max_workers=5) as executor:  # Reduce el número de trabajadores
+    with ThreadPoolExecutor(max_workers=5) as executor:
         playlist_durations = list(executor.map(get_playlist_tracks, playlists))
 
     if orden == 0:
@@ -118,3 +134,4 @@ def sort_playlists(playlists, orden):
 
 if __name__ == '__main__':
     app.run(debug=True)
+

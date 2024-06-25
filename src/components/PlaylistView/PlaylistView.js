@@ -23,7 +23,7 @@ const PlaylistView = ({ playlists, isAnimating }) => {
             {playlist.name}
           </div>
           <div className="playlist-duration">
-            {`${playlist.total_duration.days} days, ${playlist.total_duration.hours} hours, ${playlist.total_duration.minutes} minutes, ${playlist.total_duration.seconds} seconds`}
+            {`${playlist.duration.days} days, ${playlist.duration.hours} hours, ${playlist.duration.minutes} minutes, ${playlist.duration.seconds} seconds`}
           </div>
         </div>
       ))}
