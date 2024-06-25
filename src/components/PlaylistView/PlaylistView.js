@@ -1,6 +1,7 @@
 import React from 'react';
 import './PlaylistView.css'; 
 import './../../theme.css'; // Importa tu archivo de estilos
+
 const handlePlaylistClick = (url) => {
   window.open(url, '_blank');
 };
@@ -8,9 +9,9 @@ const handlePlaylistClick = (url) => {
 const PlaylistView = ({ playlists, isAnimating }) => {
   return (
     <div className={`playlist-grid ${isAnimating ? 'animate-reverse' : ''}`}>
-      {playlists.map((playlist) => (
+      {playlists.map((playlist, index) => (
         <div 
-          key={playlist.id} 
+          key={index} 
           className={`playlist-item border`} 
           style={{ cursor: 'pointer' }} 
           onClick={() => handlePlaylistClick(playlist.url)}
@@ -22,7 +23,7 @@ const PlaylistView = ({ playlists, isAnimating }) => {
             {playlist.name}
           </div>
           <div className="playlist-duration">
-            {`${playlist.duration.days} days, ${playlist.duration.hours} hours, ${playlist.duration.minutes} minutes, ${playlist.duration.seconds} seconds`}
+            {`${playlist.total_duration.days} days, ${playlist.total_duration.hours} hours, ${playlist.total_duration.minutes} minutes, ${playlist.total_duration.seconds} seconds`}
           </div>
         </div>
       ))}

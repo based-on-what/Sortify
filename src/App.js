@@ -15,8 +15,6 @@ import { getAuthUrl } from './utils/auth';
 const spotifyApi = new SpotifyWebApi();
 
 function App() {
-
-  console.log(getAuthUrl());
   const [accessToken, setAccessToken] = useState(null);
   const location = useLocation();
   const navigate = useNavigate();
@@ -24,7 +22,8 @@ function App() {
   const [playlists, setPlaylists] = useState([]);
   const [isAnimating, setIsAnimating] = useState(false);
   const { theme, toggleTheme } = useContext(ThemeContext);
-  const [showScrollButton, setShowScrollButton] = useState(false);
+  const [showScrollTopButton, setShowScrollTopButton] = useState(false);
+  const [showScrollBottomButton, setShowScrollBottomButton] = useState(false);
 
   const invertPlaylists = () => {
     setIsAnimating(true);
@@ -62,11 +61,15 @@ function App() {
   }, [theme]);
 
   const handleScroll = () => {
-    if (window.scrollY > 200) {
-      setShowScrollButton(true);
-    } else {
-      setShowScrollButton(false);
-    }
+    const scrollY = window.scrollY;
+    const innerHeight = window.innerHeight;
+    const bodyOffsetHeight = document.body.offsetHeight;
+
+    // Mostrar botón de scroll hacia arriba cuando el scroll es mayor a 200px
+    setShowScrollTopButton(scrollY > 200);
+
+    // Mostrar botón de scroll hacia abajo cuando el scroll está cerca del final de la página
+    setShowScrollBottomButton(scrollY + innerHeight >= bodyOffsetHeight - 200);
   };
 
   useEffect(() => {
@@ -83,6 +86,22 @@ function App() {
     });
   };
 
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: 'smooth',
+    });
+  };
+
+  const handleLogin = () => {
+    window.location.href = getAuthUrl();
+  };
+
+  useEffect(() => {
+    // Agregar un evento de scroll inicial para determinar si se deben mostrar los botones
+    handleScroll();
+  }, []); // Se ejecuta solo una vez al inicio
+
   return (
     <div className="App">
       <ThemeSwitch
@@ -95,30 +114,30 @@ function App() {
         <div className={`App ${theme}-theme`} />
         <h1>Welcome to Sortify</h1>
         <p>Sortify is an app that allows you to sort your Spotify playlists.</p>
-        {!isLoggedIn && (
-          <a className="App-link" href={getAuthUrl()} target="_self">
-            Spotify Login
-          </a>
-        )}
-        <br />
         <button className="btn btn-primary btn-lg" onClick={invertPlaylists}>Reverse Playlists</button>
+        <button className="btn btn-primary btn-lg" onClick={handleLogin}>Spotify Login</button>
         {isLoggedIn && (
           <Link to="/ordenar-playlists">
             <button className="btn btn-secondary btn-lg">Sort Playlists</button>
           </Link>
         )}
+        {showScrollTopButton && (
+          <button className="btn btn-primary scroll-top-button" onClick={scrollToTop}>
+            <i className="bi bi-arrow-up-short"></i>
+          </button>
+        )}
+        {showScrollBottomButton && (
+          <button className="btn btn-primary scroll-bottom-button" onClick={scrollToBottom}>
+            <i className="bi bi-arrow-down-short"></i>
+          </button>
+        )}
       </header>
       <Routes>
         <Route path="/" element={<PlaylistView playlists={playlists} isAnimating={isAnimating} />} />
         <Route path="/Sortify" element={<PlaylistView playlists={playlists} isAnimating={isAnimating} />} />
-        <Route path="/ordenar-playlists" element={<OrdenarPlaylists />} />
+        <Route path="/ordenar-playlists" element={<OrdenarPlaylists setPlaylists={setPlaylists} />} />
         <Route path="/Sortify/callback" element={<div>Loading...</div>} /> {/* Ruta para manejar el callback */}
       </Routes>
-      {showScrollButton && (
-        <button className="btn btn-primary scroll-top-button" onClick={scrollToTop}>
-          <i className="bi bi-arrow-up-short"></i>
-        </button>
-      )}
     </div>
   );
 }
