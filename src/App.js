@@ -21,7 +21,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [playlists, setPlaylists] = useState([]);
   const [isAnimating, setIsAnimating] = useState(false);
-  const { theme, toggleTheme } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
   const [showScrollTopButton, setShowScrollTopButton] = useState(false);
   const [showScrollBottomButton, setShowScrollBottomButton] = useState(false);
 
@@ -49,7 +49,7 @@ function App() {
       setAccessToken(token);
       spotifyApi.setAccessToken(token);
       setIsLoggedIn(true);
-      navigate('/ordenar-playlists'); // Asegúrate de redirigir a la ruta correcta
+      navigate('/ordenar-playlists'); // Redirige a la página de ordenar playlists después de iniciar sesión
     }
   }, [location.hash, accessToken, navigate]);
 
@@ -94,7 +94,7 @@ function App() {
   };
 
   const handleLogin = () => {
-    window.location.href = getAuthUrl();
+    window.location.href = getAuthUrl(); // Redirige a la URL de autorización de Spotify
   };
 
   useEffect(() => {
