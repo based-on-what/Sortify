@@ -81,7 +81,7 @@ app.get('/', (req, res) => {
   res.send('El servidor de Sortify está corriendo');
 });
 
-// Ruta para obtener las playlists y guardar los resultados
+// Ruta para obtener las playlists y ordenar los resultados
 app.get('/playlists', async (req, res) => {
   try {
     const authHeader = req.headers.authorization;
@@ -135,11 +135,15 @@ app.get('/playlists', async (req, res) => {
     res.json(sortedPlaylists);
   } catch (error) {
     console.error('Error en la ruta /playlists:', error);
-    res.status(500).json({ error: 'Ocurrió un error al procesar la solicitud', details: error.message });
+    res.status(500).json({ error: 'Ocurrió un error al procesar la solicitud', details: error });
   }
 });
 
+
 app.post('/store-token', (req, res) => {
+
+  console.log(req.body);
+  console.log(req.headers);
   const { token } = req.body; // Destructura el token desde req.body
 
   if (!token) {

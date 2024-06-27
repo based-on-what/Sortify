@@ -6,43 +6,45 @@ const OrdenarPlaylists = ({ setPlaylists }) => {
 
   const fetchSortedPlaylists = async (order) => {
     setIsAnimating(true);
-
-    console.log('SE ESTÁ INTENTANDO ORDENAR');
-    
     const token = localStorage.getItem('spotify_access_token');
     if (!token) {
       console.error('Token de acceso no disponible');
       setIsAnimating(false);
       return;
     }
-
-    try {
-      const response = await axios.get(`http://localhost:4000/playlists?order=${order}`, {
-        headers: {
-          Authorization: `Bearer ${token}`
+  
+    console.log('Token de acceso:', token);
+    console.log('Orden:', order);
+  
+    let retries = 3; // Intentar hasta 3 veces en caso de error 429 u otro error
+    while (retries > 0) {
+      try {
+        const response = await axios.get(`http://localhost:4000/playlists?order=${order}`, {
+          headers: {
+            Authorization: `Bearer ${token}`,
+            'Content-Type': 'application/json',
+          },
+        });
+        const sortedPlaylists = response.data;
+        console.log('Playlists ordenadas:', sortedPlaylists);
+        setPlaylists(sortedPlaylists);
+        setIsAnimating(false);
+        return; // Salir del bucle si la solicitud fue exitosa
+      } catch (error) {
+        if (error.response && error.response.status === 429) {
+          console.warn('Demasiadas solicitudes. Reintentando...');
+          retries--;
+          await new Promise(resolve => setTimeout(resolve, 1000)); // Esperar 1 segundo antes de reintentar
+        } else {
+          console.error('Error al realizar la solicitud:', error.message);
+          setIsAnimating(false);
+          return;
         }
-      });
-      const sortedPlaylists = response.data;
-      console.log('Playlists ordenadas:', sortedPlaylists);
-      setPlaylists(sortedPlaylists);
-    } catch (error) {
-      if (error.response) {
-        // El servidor respondió con un estado fuera del rango 2xx
-        console.error('Error en la respuesta del servidor:', error.response.data);
-        console.error('Código de estado:', error.response.status);
-        console.error('Headers:', error.response.headers);
-      } else if (error.request) {
-        // La solicitud fue hecha pero no se recibió respuesta
-        console.error('No se recibió respuesta a la solicitud:', error.request);
-      } else {
-        // Algo pasó al configurar la solicitud
-        console.error('Error al configurar la solicitud:', error.message);
       }
-      console.error('Config:', error.config);
-    } finally {
-      setIsAnimating(false);
     }
+    console.error('Se alcanzó el máximo de reintentos sin éxito.');
   };
+  
 
   return (
     <div>

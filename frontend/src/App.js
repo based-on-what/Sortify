@@ -43,12 +43,12 @@ const App = () => {
       const response = await axios.post('http://localhost:4000/store-token', { token }, {
         headers: {
           'Authorization': `Bearer ${token}`,
-          'Content-Type': 'application/json', // Asegúrate de incluir el Content-Type
+          'Content-Type': 'application/json', 
         },
       });
       console.log('Respuesta del servidor:', response.data);
     } catch (error) {
-      console.log('Detalles del error:', error.response); // Para obtener más detalles del error
+      console.log('Detalles del error:', error.response); 
     }
   };
   
