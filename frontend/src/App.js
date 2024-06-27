@@ -11,10 +11,11 @@ import ThemeSwitch from './components/ThemeSwitch/ThemeSwitch';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { getAuthUrl } from './utils/auth';
+import axios from 'axios'; // Asegúrate de importar axios
 
 const spotifyApi = new SpotifyWebApi();
 
-function App() {
+const App = () => {
   const [accessToken, setAccessToken] = useState(null);
   const location = useLocation();
   const navigate = useNavigate();
@@ -36,6 +37,23 @@ function App() {
     }, 100);
   };
 
+  const sendTokenToBackend = async (token) => {
+    try {
+      console.log('Enviando token:', token);
+      const response = await axios.post('http://localhost:4000/store-token', { token }, {
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Content-Type': 'application/json', // Asegúrate de incluir el Content-Type
+        },
+      });
+      console.log('Respuesta del servidor:', response.data);
+    } catch (error) {
+      console.log('Detalles del error:', error.response); // Para obtener más detalles del error
+    }
+  };
+  
+  
+  
   useEffect(() => {
     const playlistsArray = Object.keys(resultsData).map((key) => ({
       name: key,
@@ -45,13 +63,23 @@ function App() {
 
     const hash = new URLSearchParams(location.hash.replace('#', ''));
     const token = hash.get('access_token');
-    if (token && !accessToken) {
+
+    if (token) {
       setAccessToken(token);
       spotifyApi.setAccessToken(token);
+      localStorage.setItem('spotify_access_token', token);
       setIsLoggedIn(true);
-      navigate('/ordenar-playlists'); // Redirige a la página de ordenar playlists después de iniciar sesión
-    }
-  }, [location.hash, accessToken, navigate]);
+      navigate('/ordenar-playlists');
+      sendTokenToBackend(token); // Envía el token al backend
+    } else {
+      const savedToken = localStorage.getItem('spotify_access_token');
+      if (savedToken) {
+        setAccessToken(savedToken);
+        spotifyApi.setAccessToken(savedToken);
+        setIsLoggedIn(true);
+      }
+    }    
+  }, [location.hash, navigate]);
 
   useEffect(() => {
     document.body.classList.add(`${theme}-theme`);
@@ -65,10 +93,7 @@ function App() {
     const innerHeight = window.innerHeight;
     const bodyOffsetHeight = document.body.offsetHeight;
 
-    // Mostrar botón de scroll hacia arriba cuando el scroll es mayor a 200px
     setShowScrollTopButton(scrollY > 200);
-
-    // Mostrar botón de scroll hacia abajo cuando el scroll está cerca del final de la página
     setShowScrollBottomButton(scrollY + innerHeight >= bodyOffsetHeight - 200);
   };
 
@@ -98,9 +123,8 @@ function App() {
   };
 
   useEffect(() => {
-    // Agregar un evento de scroll inicial para determinar si se deben mostrar los botones
     handleScroll();
-  }, []); // Se ejecuta solo una vez al inicio
+  }, []);
 
   return (
     <div className="App">
@@ -140,7 +164,7 @@ function App() {
       </Routes>
     </div>
   );
-}
+};
 
 export default () => (
   <ThemeProvider>

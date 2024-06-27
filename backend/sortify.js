@@ -5,7 +5,7 @@ const fs = require('fs');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 4000; // Cambiado a 4000 para evitar conflicto con frontend
+const PORT = process.env.PORT || 4000;
 
 // Configura dotenv para cargar las variables de entorno desde un archivo .env
 dotenv.config();
@@ -23,6 +23,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+app.use(express.json()); // Middleware para parsear JSON
 
 // Función para convertir milisegundos a un formato de tiempo más legible
 function convertMilliseconds(milliseconds) {
@@ -75,25 +76,27 @@ async function getPlaylistTracks(playlist) {
   }
 }
 
+// Ruta por defecto para mostrar que el servidor está corriendo
+app.get('/', (req, res) => {
+  res.send('El servidor de Sortify está corriendo');
+});
+
 // Ruta para obtener las playlists y guardar los resultados
 app.get('/playlists', async (req, res) => {
   try {
-    const order = req.query.order === 'asc' ? 1 : -1;
+    const authHeader = req.headers.authorization;
+    if (!authHeader) {
+      return res.status(401).json({ error: 'Autorización no proporcionada' });
+    }
 
-    // Verificar y actualizar el token de acceso
-    const data = await spotifyApi.clientCredentialsGrant();
-    console.log(data);
-    spotifyApi.setAccessToken(data.body['access_token']);
+    const token = authHeader.split(' ')[1];
+    spotifyApi.setAccessToken(token);
 
     const user = await spotifyApi.getMe();
-    console.log(`Usuario autenticado: ${user.body.display_name || user.body.id}`);
-    console.log(`Obteniendo playlists de ${user.body.id}...`);
-
     const emergencyFilePath = 'src/playlists.json';
     let playlists;
 
     if (fs.existsSync(emergencyFilePath)) {
-      console.log(`Archivo ${emergencyFilePath} encontrado. Cargando datos...`);
       playlists = JSON.parse(fs.readFileSync(emergencyFilePath, 'utf-8'));
     } else {
       playlists = [];
@@ -104,22 +107,17 @@ app.get('/playlists', async (req, res) => {
         results = await spotifyApi.getUserPlaylists(user.body.id, { limit: 50, offset });
         playlists.push(...results.body.items);
         offset += results.body.items.length;
-        console.log(`Obteniendo playlists... ${offset} playlists obtenidas hasta ahora.`);
       } while (results.body.next);
 
       fs.writeFileSync(emergencyFilePath, JSON.stringify(playlists, null, 4), 'utf-8');
     }
 
-    console.log('Usando promesas para obtener canciones de cada playlist...');
-
     const playlistDurations = await Promise.all(playlists.map(getPlaylistTracks));
-
-    console.log('Ordenando playlists...');
 
     playlistDurations.sort((a, b) => {
       const durationA = a.duration.days * 86400000 + a.duration.hours * 3600000 + a.duration.minutes * 60000 + a.duration.seconds * 1000;
       const durationB = b.duration.days * 86400000 + b.duration.hours * 3600000 + b.duration.minutes * 60000 + b.duration.seconds * 1000;
-      return (durationA - durationB) * order;
+      return (durationA - durationB) * (req.query.order === 'asc' ? 1 : -1);
     });
 
     const sortedPlaylists = playlistDurations.reduce((acc, playlist) => {
@@ -137,9 +135,35 @@ app.get('/playlists', async (req, res) => {
     res.json(sortedPlaylists);
   } catch (error) {
     console.error('Error en la ruta /playlists:', error);
-    res.status(500).json({ error: 'Ocurrió un error al procesar la solicitud' });
+    res.status(500).json({ error: 'Ocurrió un error al procesar la solicitud', details: error.message });
   }
 });
+
+app.post('/store-token', (req, res) => {
+  const { token } = req.body; // Destructura el token desde req.body
+
+  if (!token) {
+    return res.status(400).send('Token no proporcionado');
+  }
+
+  console.log('Token recibido:', token);
+
+  // Aquí podrías almacenar el token en una base de datos o realizar otras acciones
+  res.status(200).send('Token almacenado exitosamente');
+});
+
+
+
+// Ruta para obtener el token almacenado
+app.get('/get-token', (req, res) => {
+  const token = localStorage.getItem('spotify_access_token');
+  if (token) {
+    res.status(200).json({ token });
+  } else {
+    res.status(404).json({ error: 'Token no encontrado' });
+  }
+});
+
 
 // Inicializa la aplicación para escuchar en el puerto definido
 app.listen(PORT, () => {
